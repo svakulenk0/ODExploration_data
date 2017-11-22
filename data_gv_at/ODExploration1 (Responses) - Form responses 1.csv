@@ -1,0 +1,1083 @@
+How many datasets does data.gv.at portal contain?	Do you need to pay for the datasets from data.gv.at portal?	What are the data formats available on data.gv.at portal? (can be more than one correct answer)	What kind of data does data.gv.at portal contains? (can be more than one correct answer)	Copy-paste the transcript of your conversation about the content of data.gv.at	Are there datasets in the portal that contain information about the mumok collection?	Are there datasets in the portal that contain information about the Ottakringer brewery?	What is the most popular data format in the portal?
+2475	no	pdf, csv, svg	addresses of the kindergartens, hunting statistics	"Hi?
+
+    hello
+
+data.gv.at is the open data portal from the austrian government
+    it has many different datasets for the whole region of austria
+
+    alright is it free?
+
+yes thats the best thing about it, it is completely free!
+    which datasets are you interested in?
+
+    I should find the most popular names of newborns in Engerwitzdorf
+    could you help me with that?
+
+yes i can help you with that. i need to now how many courses there were at the summer semester 2017
+    can you help me with that?
+
+    yes of course i will look for that in the opendataportal.at
+    its also absolutely free
+    do you mean the courses from wu?
+
+yes i need to know how many of them there were
+
+    okay, give me a second
+
+do you want to know the most popular names of male or female newborns?
+
+    in the dataset for courses are 1000 records
+
+or both?
+
+    the most popular names of both genders
+    oh actually there are 2576 courses
+    sorry
+
+ok for the male newborns for the year 2011 the most popular name were alexander, elias, felix, jakob, robin and simon
+    with 2 entries
+    the most popular female name for a newborn was jasmin
+    also from the year 2011 and with a count of 2
+
+    okay, thank you for your help
+
+thank you for your help"	No	No	CSV
+2475	no	pdf, csv, svg	addresses of the kindergartens, hunting statistics	"hello
+    can you tell me something about a free austrian data portal
+
+hello
+    yes, there is a portal called data.gv.at
+    its from the austrian government and completely free
+    are you interested in specific data?
+
+    oh nice, yes I would like to know something about playgrounds
+
+okay, can you be a little bit more specific? in which Bundesland are these playgrounds you want to know about?
+
+    Oberösterreich would be interesting
+    Maybe the ones in Linz
+
+okay ill look into it
+    do you other open data portals?
+
+    I'm using the opendataportal.at
+    It's absolutely free and contains more than 417 data sets
+
+is there data about universities in there?
+
+    it's really nice to use because you can select by data format
+
+and i have the data about playgrounds in Oberösterreich
+
+    Yes, we have a lot of data about universities, especially about WU
+
+oh thats very nice
+
+    do you want to have some data about WU?
+
+since i am a student at wu i am interested in how many courses there are at wu
+
+    from which semester would you like to have them?
+
+i want to have the latest data possible
+
+    okay, I'll have a look
+    can you tell me about your playground data set?
+
+yes what do you want to know about playgrounds?
+
+    where are the most playgrounds located?
+    Alright, I found your desired data set about SS17, what do you want to know about it?
+
+in this data set i found there is only the number of how many were approved in the year 2016
+    i want to know the total number of courses which are listed at the university
+
+    yes, that would be also interesting to me
+    There have been 2576 courses at WU in the SS17
+
+in total there were 45 playgrounds approved in 2016 the district Wels has the highest number with 15
+    ok thank you thats exactly what i was looking for
+
+really interesting, thank you for your help"	Yes	No	CSV
+2475	no	csv, gif, png, svg	mountainbike paths in land Salzburg, addresses of the kindergartens, hunting statistics	"or english is better for the sake of the experiment I think, so which portal do you have and how would you describe their content? 
+    you sure? goo.gl is just a link shortener, wasn't your portal data.gv.at?
+    my portal was opendataportal.at 
+oh yeah you are right sorry
+    what was your contant
+
+    okay so how would you describe their content?my conent is really local, so to speak. Many datasets contain information about local businesses, products, administration etc.
+    also most of the sets are in csv
+    I just saw that there are many data sets about the WU and the course organisation
+
+oh cool do you think there is a data set about our courses in wu
+    maybe from last semester
+
+    probably, the last one is from SS17
+
+i would be know how much courses we have in a semester
+
+    I don't know whether this is the number of the cources but in this csv I found Ihave 2577 course_ids
+
+oh ok can you describe it more
+
+    It essentially is a list with two columns, one course_id and one org_id
+    course_id starts with 4001 and org_id with 3798
+    there are double entries, so neither of these two is unique
+
+it could be the right one
+
+    okay good - regarding a completely different matter, I am interested in names of young people in a communal called engerwitzdorf
+    ?
+
+i found two different list with man and woman names in engerwitzdorf sorted after ages
+
+    did you find anything about new names, maybe newborns or so?
+    or is it possible to find out which names are the most popular, in relation to their age?
+
+born dates are from 2011
+
+    okay and what is the most popular name in this category?
+
+Alexander 2 Elias 2 Felix 2 Jakob 2 Robin 2 Simon by men
+    Jasmin 2 Alina by women
+
+    okay and one last question, how would you describe the content of data.gv.at?
+
+the content in data.gv.at are about austria
+    my conent is really local, too
+
+    is it based on csv of other formats?
+
+this portal use many data formats
+
+    okay good, I think I got everything i needed
+
+for example csv, png
+
+    do you have any questions left?
+
+no
+
+good I'm gonna click weiter"	No	Yes	CSV
+2475	some of them	pdf, csv, gif, png, svg	mountainbike paths in land Salzburg, addresses of the kindergartens	"    and what about your portal?
+
+My portal was data.gv.at, an open data site for austria
+
+    what kind of data can you find there?
+
+You can search for all kinds of datasets, from economics to the political area but also everything regarded tot he life in austria education, sports, culture etc
+
+    what exactly do you mean life in austria? what is it all about?
+
+Statistics about birthrates for example but also things like everyday aspects of life in Austria, where the kindergartens are, what you can do in the city
+    Including public transport for exaple
+
+    that sounds nice, the topic of birtrates and kind of things interests me a lot, do you have any information about this in my hometown, in Engerwitzdorf?
+    and also , what other data do you have , related to child births is Engerwitzdorf
+
+Well, I did not find exactly what you search, but I can tell you statistics about the places where newborn live or the names they get
+
+    that sounds all right, im curious about the names, which is the most popular?
+
+Men or women? Or overall?
+
+    overall
+    or both
+
+Well girls got the Jasmin most often, and boys have Alexander, Elias, Felix, Jakob, Robin, Simon on the first rank
+
+    thank you "	Yes	No	CSV
+2475	no	pdf, csv, gif, png, svg	mountainbike paths in land Salzburg, addresses of the kindergartens, hunting statistics	"A:What kind of data would you be interested in?
+    or better asked, what kind of topic is interesting for you?
+
+  B:  I'm interested in data about Vienna or generally about Austria
+    Does your platform provide some data about this?
+
+A: Yes it does!
+    Would you be interested in the Deaths in vienna?
+    or the births?
+    we got also the migrations with origincountry since 2002 in vienna
+
+   B: Yes that sounds interesting
+
+A: here you can download this dataset: https://www.data.gv.at/kata...
+  B:  Interesting, lets go for another data set
+    I'm interested for the location Engerwitzdorf
+    Can you provide me with some data sets from his specific location?
+    this*
+
+A:We got the dumpdisposalplaces of Engerwitzdorf!
+    and 137 other datasets which refer to Engerwitzdorf.
+
+   B: Maybe also some others? I'm getting father soon and i don't know about how i should name my child..
+
+A:Is it a boy or a girl?
+    Because we got the Names of males and females in Engerwitzdorf.
+
+   B: I'll let me surprise
+    So it would be great to get some names for both genders
+
+A: here you can download the datasets for both genders: https://www.data.gv.at/such...
+B: Thank you, this will help me a lot :)"	Not discussed	Not discussed	CSV
+2475	no	pdf, csv, gif, png, svg	mountainbike paths in land Salzburg, addresses of the kindergartens, hunting statistics	"Hey could you give me brief introduction on what I can find on your webpage
+    hallo?
+
+Sure. its a great website, we have a lot of different, and very interesting datasets.
+
+    Great
+    what kind of datasets do you offer?
+
+What types of data are you interested in?
+    we offer a variety of data on many topics, just tell me what interests you
+
+    alright
+    do you have data on the population of specific areas?
+
+of course we have.
+
+    great
+
+we have a current data sets, as well as the predictions for the future
+
+    wow, really?
+
+and the past data aswell
+
+    do you have population data on specific regions in austria?
+
+yes, we do, what regoiin are you interested in ?
+
+    I am actually not quite sure in which area it is
+    but the place I am looking for is callled Engerwitzdorf
+
+sure
+    just let me have a look
+    Engerwitzdorf, its in upper Austria
+    we have a plenty of datasets concerning this region
+
+    great
+    ya what kind of data do you have?
+
+do you wish to recive past , actuall or predicted data
+    we talked about the opopulation statistics before
+
+    current data
+
+are you still interested in this topic ?
+
+    yes still interested in this topic but in a specific part of that topic
+    what options do you have?
+
+we have population data concerning Families and demografic data
+    i mean either families or demografic seta
+    which one do you wish to see?
+
+    I think this is actually not what I am looking for
+
+what is taht you are looking for then ?
+
+    I am looking for data concerning new borns in that area
+
+i think i may have something interesting for you
+
+    great
+
+yes, i have fond it
+    there you are, it is a great, clean dataset concerning new borns in that area
+    https://www.data.gv.at/kata...
+    is tehre anything more that i can do for you ? 
+    perfect!
+    thanks a lot !!
+
+you are welcome
+
+    do you want to know something about my website?
+
+sure, i would love to
+    what kind of website is it?
+
+    so we offer datasets on various topics
+    but only regarding austria
+
+cool, do you have datasets regarding higher education institutes in Vienna?
+
+    we have data for: work, population, education, environment, etc
+    oh yes of course
+    give me a second 
+    we have data on lectures, courses, on the wu, libraries, etc
+    is there anything in there for you?
+    also for the different semesters
+
+oh great, yeah i would be interested in the courses
+
+    courses?
+    alright just give me a second
+    are you interested in a particular semester?
+    unfortunately I think we only have data on WU Vienna
+    is that fine?
+
+actually, yes, in Summer semmester 2017
+    yes, Wu is what im looking for
+
+    great
+    1 second
+    are you interested in all courses during the ss17 at wu vienna?
+
+yes
+
+    http://data.opendataportal....
+    here you go
+
+Thang you a lot
+
+    is that what you are looking for?
+
+yes
+
+    great
+
+have a nice afternoon
+
+    yes you too
+    bye bye"	Yes	Yes	Not discussed
+2475	yes	pdf, csv, gif, png, svg	addresses of the kindergartens, hunting statistics	"1st Conversation (I provided the source):
+
+Hi! How can I help you?
+
+What kind of data does your website contain?
+
+It is an open Data Source that contains Data about various fields:work, culture, education, finances, geography, social stuff, healthcare, population, agriculture, ecology, politics, economics in Austria
+
+What would interest you the most ?
+
+Population
+
+Okay, is there a specific region or city in austria from which you would like the Dataset( Steiermark, vorarlberg, Wien etc.) ? 
+   
+I'm interested in the population of upper-austria.
+
+Perfect: Now what exactly are you looking for? Citizenship, Age, sex, names, wealth, general development, death rates or birth rates?
+
+Names sound interesting
+
+Perfect! I opened it as csv just now and would like to provide you with some further information: The dataset contains years, sex, rankings, the name and the number of people that had that name in that particular year
+    It goes from 2015 until 2015
+    is there a specific ranking, name or year that you want me to research for you?               e.g. most/second popular male name in 20XX? 
+   
+Is it possible to get the names of specific villages?
+
+Unfortunately not
+    It is all AT31
+
+Ok well then...that would be all
+_______________________________________________________________________________
+2nd conversation (My peer provided the source):"	Yes	No	Not discussed
+2475	no	pdf, csv, gif, png, svg	mountainbike paths in land Salzburg, addresses of the kindergartens, hunting statistics	"Hello, do you have any questions about our data portal?
+-Hi 
+Do you have any questions? 
+-What datasets do you have? 
+Ok, we can offer a lot of datasets. There are about 2500 datasets! 
+-Do you have categories? 
+All our datasets are about Austria. There are sets about public services, geography, arts, sports, environment,...
+So, yes we have 14 categories, which could be used to filter. You will find the set you need!
+-I guess the dataset I need is in the category public services in upper austria 
+I can offer a dataset about playgrounds and sports facilities in Linz
+Is that what you need? 
+-No 
+For what specific topic in Upper Austria and Public services are you looking for? 
+-newborns 
+Ok, I have a set about newborns in Upper Austria from the federal state. CSV format, last update 09/2017 
+-But I need a dataset for a special town
+-The town starts with E 
+Thats no problem.. as city is an attribute you can filter in the file and just take the city you need. 
+-Ok the town in Engerwitzdorf
+-Please send me the link 
+https://www.data.gv.at/kata...
+Here is the link. I am glad I was able to help you!"	Not discussed	Not discussed	Not discussed
+2475	no	pdf, csv, gif, png, svg	mountainbike paths in land Salzburg, addresses of the kindergartens, hunting statistics	"wu_experiment_4
+
+    hallo?
+
+    ready?
+
+    yes
+
+    ready too
+    would you like to start?
+    @Thomas : hallo?
+
+yes
+    hey
+    now it works i think
+
+    perfect
+
+your name is also thomas ?
+
+    yep
+
+understand
+    how are you ? ^^
+
+    little in a hurry
+    shall we start?
+
+yes please
+    just ask
+
+    should we ask questions?
+
+well I guess so
+
+    so i should ask you anything about the data set?
+
+i would like to get to know your first
+    you attend wu right now right?
+
+    yes
+    you?
+
+me too
+    do you like the courses there?
+
+    yeah its ok
+    how do you like it?
+
+i think theyre pretty ok
+    as well
+    do you know how many there are?
+
+    in my course?
+    30
+
+I had always wanted to knor
+    how many courses at wu?
+
+    don't know exactly
+    but, lets get back to the task if is ok?
+
+ok
+
+    we shouldn't ask direct quesions of the data set
+
+just conversation ^^
+    i was intersted
+
+    yeah, but i think its okay to tell you that my task has somehting to do with names
+
+thats interesting
+
+    popular names
+
+tell me more
+    what kind of popular
+
+    and its about a city in austria i have never heard of
+    thats all i can tell you
+
+well there are a lot of cities
+
+    yeah i know
+
+your task is about cities?
+
+    let be more specific
+
+please be
+
+    its about a city in upper austria
+    thats all i can say
+
+interesting
+
+    maybe you should browse your open data website and tell me what you find
+
+and you have never heard of it or been there before
+
+    now, tell me what youre looking for
+    no, haven't head of the city before
+    think it's rahter small
+    that's maybe a little help
+    tell me what you have to do
+
+there are a lot of small cities in upper austria I guess
+
+    i know
+
+is it in a rather remote area?
+
+    yes i think so
+    near linz
+    just checked on google maps
+    whats your task?
+
+well i cant tell you about my task explicitly I guess
+    but it has something to do with universities
+
+    ok. go on
+    in austria?
+
+yes
+
+    can you tell me which uni?
+
+well not explicitly
+    but I let you guess 3 times
+
+    about lectures?
+    grades?
+    how long students study maybe?
+    give me some hints
+
+well you arlready named it actually
+
+    how long students in austria study?
+
+You know, different univeristies offer different courses
+    and these might be interesting
+    just a tip
+
+    ok, so it has something to do with courses
+
+probably
+
+    which courses are offered at austrian unis?
+
+you are getting closer
+
+    or how many courses are offered by unis?
+    or many studends attend those courses?
+    maybe some hint
+
+its about lecutes yes
+    these are offered by universities at different times
+    maybe semesters?
+
+    how many lectures an average students takes per semester?
+
+stay away from students
+    just about univeristies
+
+    how many lectures are offered per semester by an university in austria?
+
+thats nearly correct
+    its about a specific univeristie
+    y
+    actually
+
+    how many lectures are offered per semester by WU on average?
+
+Imagine you are a student in 8th class and want to attend univeristy
+
+    which courses are offered in the first semester at wu
+
+so you start browsing the internet and might want to find out which courses are offered at a university
+
+    or how many lectures there are to attend in the first semester at wu
+
+and typically you might want to know what was offered in the last semester i guess
+    alll courses
+    because you would probably want to know what courses you could attend in the future
+
+    oh okay
+
+what is your guess?
+
+    maybe somehing like the wu lehveranstalungsverzeichnis
+
+good guess
+
+    where you can look at all courses, but also in specific at which semester to take which course
+
+yeah
+
+    yes!
+    ok, now back to my data set
+
+alright
+
+    the city is in the west of linz
+    its rather small, say under 10.000 inhabitans
+    sorry, in the east of linz
+    it is near gallneunkirchen, i think i am allowed to say that
+    just check google maps an tell me which city you see
+
+i did
+    engerwitzdorf?
+
+    yes
+
+well great
+    thank a lot
+    nice talk"	Not discussed	Not discussed	CSV
+2475	some of them	csv	mountainbike paths in land Salzburg, hunting statistics	"Landes- und bundesbezogene Daten
+
+    Landesbezogen
+
+Brauchst du etwas über öffentliche Einrichtungen?
+
+    Weiß ich nicht - was genau hast du denn über öffentliche Einrichtungen?
+
+Über welches Bundesland willst du etwas wissen?
+    Ich hab alle 9
+
+    OÖ
+
+Hier hätt ich was über Gebäude, das Klima, Vereine/Organisationen. Ist da was für dich dabei?
+
+    Nein leider
+    was hast du sonst noch für Daten über OÖ?
+
+Grundwasser, Forstdienste, Viertelgrenzen, Wahlen
+    Ist es was politisches?
+    oder etwas geografisches? 
+    Geografisch ist es nicht
+    eher Demografisch
+
+Was über die Bevölkerung?
+
+    ja genau
+    was hast du da alles?
+
+Brauchst du hier aktuelle Daten, also aus dem Jahr 2017?
+
+    ich weiß nicht von welchem Jahr ich die Daten brauche
+
+Interessieren dich Daten einer Volkszählung?
+
+    damit hat es was zu tun aber ich bin mir nicht sicher ob die daten die ich brauche da dabei sind
+
+Brauchst du was über die Herkunft, Geschlecht/Alter/Staatsangehörigkeit, Vornamen, Geburten oder Sterbefälle?
+
+    was mit vornamen und Geburten
+
+brauchst Statistik der beliebtesten Vornamen für Neugeborene in Oberösterreich seit 2010
+
+    Bisschen spezifischer noch
+    Oberösterreich ist bisschen zu viel
+    Hast du noch was genaueres?
+
+Beliebteste Vornamen in Linz
+    Hast du alle Gemeinden aus OÖ?
+    ??
+
+Vornamen männlich Engerwitzdorf hätt ich noch im Angebot
+
+    Perfekt!
+    Nehm ich 
+
+Was gibt es bei dir alles zu finden?
+
+    Ich hab Sachen über Kunst, die WU, Sachen von der Wirtschaftskammer, Verwaltungsdaten und noch ein paar wirtschaftliche Sachen
+
+Oh die WU hört sich super an
+
+    hab da viel über Kurse
+    Sommer oder Wintersemester?
+    bzw. Winter oder Sommeruni hab ich auch noch
+
+Sommersemester würd mich interessieren
+
+    Welches Jahr? Hab alles zwischen 2000 und jetzt
+
+ok, da würd ich mal 2017 nehmen
+
+    bzw. ziemlich viel
+    irgendwas zu einem bestimmten Kurs=
+    ?
+
+hmm nein eigentlich keinen bestimmten kurs
+
+    Okay also eher Generell
+    was von den Fakultäten?
+
+nein. Ich bleib da eher generell, also gesamte WU und gesamte Kurse
+
+    Achso ja
+    also ich hab eine Datenbank zu allen Kursen auf der WU
+    vom SS17
+
+Super. Die ist perfekt.
+
+    Nimmst du die?
+
+Ja die nehm ich
+
+Perfekt 
+
+Vielen Dank fürs richtige Datenset"	Not discussed	Not discussed	Not discussed
+2475	no	pdf, csv, gif, png, svg	mountainbike paths in land Salzburg, addresses of the kindergartens, hunting statistics	"So, what can you offer? 
+
+	I have a lot of data sets, i could give you categories
+    	or categorize them by format 
+
+not by format
+
+	so do you want to hear some categories?
+    
+Exactly 
+
+	I have Arbeit, Bevölkerung, Bildung&Forschung, Finanzen, Geographie, Gesellshaft, 		Gesundheit
+    	and more 
+
+Let's try Bevölkerung 
+
+	i can sort by Bundesland
+    	would that help 
+
+Well it surely will but I need it even more precisely
+Ok, Bundesland is also good 
+
+	Wien Salzburg innsbruck linz tirol burenland vorarlberg OÖ or NÖ
+
+OÖ
+
+	OK 
+	Is it about money 
+
+    No
+
+education
+
+    No
+
+	family related, death or birth
+
+	Yes, birth
+		i could offer a dataset with all births since 1970
+
+No, thanks, that will be too much
+
+	the most popular first names
+
+YES! 
+
+	Do you want the whole dataset or some information on it
+
+Is there only one dataset about first names in OÖ?
+
+	Linz is also possible
+No, I mean OÖ is large, is the dataset about the whole OÖ or some particular cities?
+
+	I have oÖ as a whole
+    	and linz
+    	and engerwitzdorf
+
+The last one is exaclty what i need
+
+	female or male 
+
+Both
+
+	ok
+    	some information or just the sets? 
+
+Well, if you could describe the datasets, that would be nice
+
+	it is a txt file
+
+Good
+What are the columns?
+
+	rank and name
+
+Fine, send me a link and we're finished
+
+	OK beep boop sending file: https://www.data.gv.at/kata...
+    	https://www.data.gv.at/kata..."	Not discussed	Not discussed	Not discussed
+2475	no	pdf, csv, gif, png, svg	mountainbike paths in land Salzburg, addresses of the kindergartens, hunting statistics	"jangoo (me): 
+Ok, which one of us should start as the dataset-offering side?
+
+Luke (other participant): 
+you can start
+
+jangoo: 
+Alright then
+I can offer you datasets from data.gv.at
+You have 14 categories to choose from:
+
+- Arbeit
+- Bevölkerung
+- Bildung & Forschung
+- Finanzen & Rechnungswesen
+- Geographie & Planung
+- Gesellschaft & Soziales
+- Gesundheit
+- Kunst & Kultur
+- Land & Forstwirtschaft
+- Sport & Freizeit
+- Umwelt
+- Verkehr
+- Verwaltung & Politik
+- Wirtschaft & Tourismus
+
+Which one do you need information from?
+
+Luke:
+I will take ""Bevölkerung"" 
+
+jangoo:
+Alright, do you need information about a specific state or about a specific town?
+
+Luke:
+Yes, it will be a town called ""Engerwitzdorf""
+
+jangoo:
+Ok, so you need information about a town in Upper Austria
+Du you need information about age, gender, ""Erwerbsstatus"", ""Wanderungen"", ""Familien"", ""Geburten"" or ""Sterbefälle""?
+
+Luke:
+I hope its either in Familien or Geburten
+
+jangoo:
+Ok, I found entries for Engerwitzdorf in family data
+Do you need the amount of families in total, the amount of families without children, or similar?
+
+Luke:
+Not really an amount, more a statistic about the names of the newbornes
+
+jangoo:
+Alright, there's a seperate dataset for this
+So you need the most used first name for Engerwitzdorf?
+
+Luke:
+correct
+
+jangoo:
+male or female?
+and for what year?
+
+Luke:
+nothing that exact, i need more of an overview
+
+jangoo:
+ok, there are two datasets published by Engerwitzdorf
+One for male and one for female 
+Both contain the information for the year 2011
+
+Luke:
+OK i just need the most popular names
+
+jangoo:
+Starting with the female dataset, there was only one name used more than once, which is ""Jasmin""
+All other names in the data set were used exactly once
+
+Luke:
+oke, that was exactly what i needed, thanks!
+
+jangoo:
+For the males, 6 names were used twice: Alexander, Elias, Felix, Jakob, Robin, Simon
+All other names were used only once
+
+Luke:
+Thanks!
+
+--- Part 2 ---
+Luke:
+I can offer you a dataset from opendataportal.at
+it has the same categories as yours, what do you need?
+
+jangoo:
+i need education information
+So ""Bildung"" is probably the right category
+
+Luke:
+any specific town?
+
+jangoo:
+Vienna
+
+Luke:
+a specific university?
+
+jangoo:
+The WU Wien
+
+Luke:
+Do you ned information about their courses?
+
+jangoo:
+Exactly, I need information about the amount of listed courses
+
+Luke:
+of a specific semester?
+
+jangoo:
+Summer Semester 2017
+
+Luke:
+I hope this dataset helps you: http://data.opendataportal....
+There are 1950 records, since you need the amount of the courses
+
+jangoo:
+Perfect, that is exactly the information I needed!"	Not discussed	Not discussed	Not discussed
+2475	no	pdf, csv, gif, png, svg	mountainbike paths in land Salzburg, addresses of the kindergartens, hunting statistics	"Hello, anybody there?
+    Hello?
+
+    hi
+    bout done one more moment
+
+Passt, Christian
+
+    xD
+    start ma
+    you begin
+
+Yo. How can I help you?
+    What are you looking for?    
+
+well some data, hard to explain, what do you have to offer
+    (trying to stay in character here )
+
+We have a wide variety of data - lots of data about every single state in Austria, but also about areas like health, culture, traffic and infrastructure
+
+    hit me with some of the variants of state data
+
+tourism, economy, finance, geography .. - Does any of that sound interesting
+    ?
+    Oh, alright 
+
+    what kind of stuff do you have to offer?
+
+Any state that interests you more than others?
+
+    yep, upper austria
+
+Great, let me check
+    So, we have a lot of environmental data, election data, data about public spending, city planning data etc
+    How does that sound?
+
+    anything more specific to certain cities in upper austria?
+    so far nothing sounds to appealing.. maybe culture might also be possible...? not really sure either could fit
+    *too
+
+We have lots of data about Linz, for example. When searching for ""culture"" I get a lot of results for school data
+    Is Linz the city you are most interested in? 
+
+     nope, a lot smaller would be prefarable
+
+Okay, sure
+    Maybe Engerwitzdorf?
+
+    yea that sounds cool
+
+Great. I just found a data set about the most important establishments and institutions in Engerwitzdorf. Does that sound appealing at all? 
+
+    not really, don't you have anything more people related?
+
+Didn't you say you wanted data related to culture?
+    Just kidding, bear with me
+
+    I did... at least i was pretty sure
+    you know, might also be a little shizophrenic, you never know
+
+We have a data set listing all the inhabitants of Engerwitzdorf, as well as data sets with all male and female first names. On top of that we have a list of social institutions like nursery homes and so on.
+
+mhm, names would certainly interest me 
+
+Or you looking for male or female first names?
+
+    either really, gender is now so much what i care about
+    is there anything else this dataset might have to offer?
+    *not so much what i care about
+    bare with me, i think we're getting somewhere, albeit slowly
+
+The data set tells you exactly how many children with a certain names were born in 2011
+    Pretty amazing, huh?
+
+    that would be cool to know more about
+
+Great. Let me send you the links to both the data set with the male and the data set with the female names
+    Ladyies first: https://www.data.gv.at/kata...
+    Aaaaand the gentlemen: https://www.data.gv.at/kata...
+    Ladies* 
+
+    (as I am not supposed to go to the website, I believe we are done as of now, right?
+    or actually, i need some specific data from the data set
+
+What do you need?
+    The number how many times a certain first name was used?
+    The number of times*
+
+    yea, which ones are most used?
+
+Amongst boys it's Alexander, Elias, Felix, Jakob,Robin and Simon. All these names were each used twice. Amongst girls it's Jasmin which was also used twice
+
+thanks, I think thats all i need to know 
+
+Great. While we are at it I thought you could also get me some data
+
+    sure, odp austria always glad to serve
+    how can I help you
+    we have got tons of data sets on different topics
+
+I'm sure you do. But what really interests me is what you have on education
+
+    let me check dear sir
+    actually, not all that much, are you interested in a data set or news ?
+
+You respect me more than my wife does
+
+    well, let us hope she doesn't get jealous
+
+A data set, of course
+
+    perfect
+    in this case, we only have one option, being a mapping of courses and organizations at wu, during different semesters
+    I do hope you are into that kinda stuff?
+
+I think it's fair to say that I have a fetish for stuff like tha
+
+    so, which semester are you interested in? ws/ss?
+    and which year? 14/15/16?
+
+If SS stands for ""summer"" then that's what I'm after
+
+    it sure does
+
+Do you also have data about later years?
+
+    sadly, 16 is the newest one we have
+    2106
+    2016
+
+Oh, that's too bad
+
+one moment 
+
+    actually we do, it just has not been implemented into our categorical search yet
+
+Great, what year is it about?
+
+    2017
+
+You are my hero
+    Can you get me that data set?
+
+    so, anything specific you would like to know ?
+    sure I'll send it over right away
+
+Oh yeah, almost forgot
+
+    http://data.opendataportal....
+
+So the data set contains a list of organisations and what else? 
+
+     we only have course ID's and organization ID's listed, no corresponding names
+
+Okay, nice. Could you give me a ""rough estimate"" of how many courses there were?
+
+one moment 
+
+    less than 1000 courses, but it is hard to evaluate, as some course ID's exist multiple times and some are left out entirely
+    there is also no filtering tool available to remove duplicates
+
+Okay, understood. Thank you very much for trying!
+
+    there is a maximum of 871 courses
+    that is the closest i can get, sadly
+
+Thank you, darling 
+
+It was my pleasure"	Not discussed	Not discussed	Not discussed
