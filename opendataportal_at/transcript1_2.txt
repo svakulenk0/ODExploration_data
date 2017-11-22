@@ -1,0 +1,17 @@
+U>i need to now [[how many courses there were at the summer semester 2017]]
+    can you help me with that?
+
+E>yes of course i will look for that in [[the opendataportal.at]]
+    its also absolutely free
+    do you mean [[the courses from wu]]?
+
+U>yes i need to know how many of them there were
+
+E>okay, give me a second
+
+    in the dataset for courses are [[1000]] records
+
+    oh actually there are [[2576]] [[courses]]
+    sorry
+
+U>thank you for your help

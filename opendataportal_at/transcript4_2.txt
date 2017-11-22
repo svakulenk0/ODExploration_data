@@ -1,0 +1,29 @@
+U>hi
+
+E>Hi
+
+U>what portal did you use?
+
+E>I used Open Data Portal Osterreich(me)
+
+U>what kind of datasets are there?
+
+E>datasets related to [[our University(WU)]], a lot of data from [[Wirtschaftskammer Osterreich]], and a few other datasets , for example from [[MUMOK]], [[Osterreichische Lotterie]] etc.
+
+U>interesting
+    what exactly are there related to [[the WU]]?
+
+E>Mostly the mapping of courses in each different semester
+    and also all campus rooms, all organizations,all course events and so on
+
+U>That might be something important for me. What can you tell me about [[last semester]] for example?
+
+E>you mean [[ss17]]?
+
+U>yes
+
+E>there is a total of [[1950]] records in this dataset, so that means [[1950]] different [[courses]] in [[the last semester]]
+
+U>Great, thats what i am searching for
+
+E>i am glad

@@ -1,0 +1,34 @@
+E>What kind of data would you be interested in?
+    or better asked, what kind of topic is interesting for you?
+
+U>I'm interested in data about Vienna or generally about Austria
+    Does your platform provide some data about this?
+
+E>Yes it does!
+    Would you be interested in the [[Deaths]] in [[vienna]]?
+    or the [[births]]?
+    we got also the [[migrations]] with [[origincountry]] since [[2002]] in [[vienna]]
+
+U>Yes that sounds interesting
+
+E>here you can download this dataset: https://www.data.gv.at/kata...
+
+U>Interesting, lets go for another data set
+    I'm interested for the location Engerwitzdorf
+    Can you provide me with some data sets from his specific location?
+    this*
+
+E>We got the dumpdisposalplaces of Engerwitzdorf!
+    and 137 other datasets which refer to Engerwitzdorf.
+
+U>Maybe also some others? I'm getting father soon and i don't know about how i should name my child..
+
+E>Is it a boy or a girl?
+    Because we got the Names of males and females in Engerwitzdorf.
+
+U>I'll let me surprise
+    So it would be great to get some names for both genders
+
+E>here you can download the datasets for both genders: https://www.data.gv.at/such...
+
+U>Thank you, this will help me a lot :)

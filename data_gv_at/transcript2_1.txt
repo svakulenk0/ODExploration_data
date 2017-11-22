@@ -1,0 +1,33 @@
+U>hello
+    can you tell me something about a [[free]] [[austrian]] [[data portal]]
+
+E>hello
+    yes, there is a portal called [[data.gv.at]]
+    its from [[the austrian government]] and [[completely free]]
+    are you interested in specific data?
+
+U>oh nice, yes I would like to know something about [[playgrounds]]
+
+E>okay, can you be a little bit more specific? in which Bundesland are these [[playgrounds]] you want to know about?
+
+U>[[Oberösterreich]] would be interesting
+    Maybe the ones in [[Linz]]
+
+E>okay ill look into it
+and i have the data about [[playgrounds]] in [[Oberösterreich]]
+
+
+U>oh thats very nice
+    can you tell me about your [[playground]] data set?
+
+E>yes what do you want to know about [[playgrounds]]?
+
+U>where are the most [[playgrounds]] located?
+
+E>in this data set i found there is only the number of [[how many were approved]] in the year [[2016]]
+
+U>yes, that would be also interesting to me
+
+E>in total there were [[45]] [[playgrounds]] [[approved]] in [[2016]] [[the district Wels]] has the highest number with [[15]]
+
+U>really interesting, thank you for your help

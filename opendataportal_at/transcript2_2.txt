@@ -1,0 +1,23 @@
+E>I'm using [[the opendataportal.at]]
+    It's [[absolutely free]] and contains more than [[417]] data sets
+
+U>is there data about [[universities]] in there?
+
+E>it's really nice to use because you can select by [[data format]]
+Yes, we have a lot of data about [[universities]], especially about [[WU]]
+do you want to have some data about [[WU]]?
+
+U>since i am a student at wu i am interested in [[how many courses there are at wu]]
+
+E>from which [[semester]] would you like to have them?
+
+U>i want to have the latest data possible
+
+E>okay, I'll have a look
+    Alright, I found your desired data set about [[SS17]], what do you want to know about it?
+
+U>i want to know the total number of [[courses]] which are listed at the university
+
+E>There have been [[2576]] [[courses]] at [[WU]] in the [[SS17]]
+
+U>ok thank you thats exactly what i was looking for

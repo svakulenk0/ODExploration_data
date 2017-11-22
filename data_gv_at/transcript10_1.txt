@@ -1,0 +1,71 @@
+U>Hey
+    Ich brauche Daten
+    Wie sieht deine Seite aus?
+
+E>Hallo
+
+U>Was für Daten hast du?
+
+E>Du kannst auch gerne fragen
+
+    ok passt.
+
+U>was für daten hast du
+
+E>[[Landes-]] und [[bundesbezogene]] Daten
+
+U>[[Landesbezogen]]
+
+E>Brauchst du etwas über [[öffentliche Einrichtungen]]?
+
+U>Weiß ich nicht - was genau hast du denn über [[öffentliche Einrichtungen]]?
+
+E>Über welches [[Bundesland]] willst du etwas wissen?
+    Ich hab alle [[9]]
+
+U>[[OÖ]]
+
+E>Hier hätt ich was über [[Gebäude]], das [[Klima]], [[Vereine/Organisationen]]. Ist da was für dich dabei?
+
+U>Nein leider
+    was hast du sonst noch für Daten über [[OÖ]]?
+
+E>[[Grundwasser]], [[Forstdienste]], [[Viertelgrenzen]], [[Wahlen]]
+    Ist es was [[politisches]]?
+    oder etwas [[geografisches]]? 
+
+U>[[Geografisch]] ist es nicht
+    eher [[Demografisch]]
+
+E>Was über die [[Bevölkerung]]?
+
+U>ja genau
+    was hast du da alles?
+
+E>Brauchst du hier aktuelle Daten, also aus dem [[Jahr]] [[2017]]?
+
+U>ich weiß nicht von welchem [[Jahr]] ich die Daten brauche
+
+E>Interessieren dich Daten einer [[Volkszählung]]?
+
+U>damit hat es was zu tun aber ich bin mir nicht sicher ob die daten die ich brauche da dabei sind
+
+E>Brauchst du was über [[die Herkunft]], [[Geschlecht]]/[[Alter]]/[[Staatsangehörigkeit]], [[Vornamen]], [[Geburten]] oder [[Sterbefälle]]?
+
+U>was mit [[vornamen]] und [[Geburten]]
+
+E>brauchst Statistik der beliebtesten Vornamen für Neugeborene in Oberösterreich seit 2010
+
+U>Bisschen spezifischer noch
+    Oberösterreich ist bisschen zu viel
+    Hast du noch was genaueres?
+
+E>Beliebteste Vornamen in Linz
+
+U>Hast du alle Gemeinden aus OÖ?
+    ??
+
+E>Vornamen männlich Engerwitzdorf hätt ich noch im Angebot
+
+U>Perfekt!
+    Nehm ich

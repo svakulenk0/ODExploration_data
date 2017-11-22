@@ -1,0 +1,23 @@
+U>Could you tell me a bit about your website? 
+
+E>My website provides data about [[economics]], [[culture]], [[NGO/NPO]] , [[Research]] and [[civil society]]. 
+
+U>I am interestet in [[culture]] 
+
+E>I have a few datasets from [[""mumok""]] if that's interesting for you 
+
+U>sure! Tell me more about it 
+
+E>I could provide you with [[artists]], [[art]], [[exhibitions]] and [[a mapping between art and exhibitions]] 
+
+U>[[artists]] sounds interesting! 
+
+E>Ok, I have a list of [[artists of the whole art collection of mumok]]. I can provide you more information by [[name]], [[city of birth/death]] and [[year of birth/death]]. 
+
+U>sure, who is the [[youngest]] currently and who [[died]] most recently ? 
+
+E>The [[youngest]] are [[Phillipp Timschl]] and [[Anna-Sophie Berger]], both are [[28 years old]]. The most current [[death]] was [[Vito Acconci]], [[Karl Gerstner]], [[Ingeborg Strobl]] and [[Jannis Kounellis]]. All of them [[died]] [[2017]]. 
+
+U>Interesting! Thank you for the Help! 
+
+E>You're welcome!

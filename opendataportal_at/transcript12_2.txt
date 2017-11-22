@@ -1,0 +1,26 @@
+E>I can offer you a dataset from opendataportal.at
+it has the same categories as yours, what do you need?
+
+U>i need [[education]] information
+So [[""Bildung""]] is probably the right category
+
+E>any specific town?
+
+U>[[Vienna]]
+
+E>a specific [[university]]?
+
+U>[[The WU Wien]]
+
+E>Do you ned information about [[their courses]]?
+
+U>Exactly, I need information about [[the amount of listed courses]]
+
+E>of a specific [[semester]]?
+
+U>[[Summer Semester 2017]]
+
+E>I hope this dataset helps you: [[http://data.opendataportal....]]
+There are [[1950]] records, since you need [[the amount of the courses]]
+
+U>Perfect, that is exactly the information I needed!

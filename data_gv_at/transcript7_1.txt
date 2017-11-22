@@ -1,0 +1,28 @@
+E>Hi! How can I help you?
+
+U>What kind of data does your website contain?
+
+E>It is an open Data Source that contains Data about various fields:[[work]], [[culture]], [[education]], [[finances]], [[geography]], [[social stuff]], [[healthcare]], [[population]], [[agriculture]], [[ecology]], [[politics]], [[economics]] in [[Austria]]
+
+What would interest you the most ?
+
+U>Population
+
+E>Okay, is there a specific region or city in austria from which you would like the Dataset( Steiermark, vorarlberg, Wien etc.) ? 
+
+U>I'm interested in the population of upper-austria.
+
+E>Perfect: Now what exactly are you looking for? Citizenship, Age, sex, names, wealth, general development, death rates or birth rates?
+
+U>Names sound interesting
+
+E>Perfect! I opened it as csv just now and would like to provide you with some further information: The dataset contains years, sex, rankings, the name and the number of people that had that name in that particular year
+    It goes from 2015 until 2015
+    is there a specific ranking, name or year that you want me to research for you?               e.g. most/second popular male name in 20XX? 
+   
+U>Is it possible to get the names of specific villages?
+
+E>Unfortunately not
+    It is all AT31
+
+U>Ok well then...that would be all

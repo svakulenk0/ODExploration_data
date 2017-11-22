@@ -1,0 +1,30 @@
+U>which portal do you have and how would you describe their content? wasn't your portal data.gv.at?
+okay so how would you describe their content?
+
+    okay good - regarding a completely different matter, I am interested in [[names of young people]] in [[a communal called engerwitzdorf]]
+    ?
+
+E>i found two different list with man and woman names in engerwitzdorf sorted after ages
+
+U>did you find anything about new names, maybe newborns or so?
+    or is it possible to find out which names are the most popular, in relation to their age?
+
+E>born dates are from 2011
+
+U>okay and what is the most popular name in this category?
+
+E>[[Alexander]] [[2]] [[Elias]] 2 Felix 2 Jakob 2 Robin 2 Simon by men
+    Jasmin 2 Alina by women
+
+U>okay and one last question, how would you describe the content of data.gv.at?
+
+E>the content in data.gv.at are about austria
+    my conent is really local, too
+
+U>is it based on [[csv]] of other [[formats]]?
+
+E>this portal use many [[data formats]]
+
+U>okay good, I think I got everything i needed
+
+E>for example [[csv]], [[png]]

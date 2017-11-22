@@ -1,0 +1,85 @@
+E>Hi
+
+U>What can you offer
+
+E>some datasets
+
+U>nice
+    Do u have categories
+
+E>well yes, I can group the datasets by [[organisation]] or [[format]] 
+
+U>I would need something that is listed
+
+E>and by [[topics]], of course
+
+U>oh
+
+E>do you need some specific [[organisation]]? 
+
+U>no
+
+E>specific [[format]]?
+
+U>no
+
+E>specific [[topic]]? 
+
+U>yes what have you got
+
+E>I will tell you the names of the topics in [[German]], ok?
+
+U>ok
+
+E>[[Arbeit]], [[Bevölkerung]], [[Bildung&Forschung]], [[Finanzen]], [[Geographie]], [[Gesellshaft]], [[Gesungheit]]...
+    Do you need one of there or should I proceed?
+    of these*
+
+U>[[Bildung & Forschung]] sounds good 
+Ok, is it about WU?
+
+U>Yes
+
+E>[[WU Library]]?
+
+U>No
+
+E>[[WU courses]]?
+
+U>Yes
+
+E>I have different [[semesters]]
+    Is it about [[summer semester]]?
+
+U>[[Summer Semester]] would be ideal
+
+E>[[2016]]?
+
+U>No [[2017]]
+
+E>[[Summer semester 2017]]? Unfortunately,i have datasets only up to [[WS2017]]
+Are you sure? 
+
+U>Oh no
+    are you sure
+
+E>Oh, I found something
+    All [[courses]] in [[SS17]]
+
+U>that would be perfect
+    :))
+
+E>So... Should I send a link or what? 
+
+U>what is in that dataset
+
+E>There are all [[courses]] with their [[course id]], [[semester]] and [[name]]
+
+U>How many are there
+
+E>[[1950]] records 
+
+U>Thank you thats it!!!
+
+E>Perfect!!!
+Here's the link [[http://data.opendataportal.at/dataset/all_courses_2017s]]

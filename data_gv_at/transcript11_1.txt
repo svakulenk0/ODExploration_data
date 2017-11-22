@@ -1,0 +1,81 @@
+U>So, what can you offer? 
+
+E>I have a lot of data sets, i could give you categories
+        or categorize them by format 
+
+U>not by format
+
+E>so do you want to hear some categories?
+    
+U>Exactly 
+
+E>I have [[Arbeit]], [[Bevölkerung]], [[Bildung&Forschung]], [[Finanzen]], [[Geographie]], [[Gesellshaft]],       [[Gesundheit]]
+        and more 
+
+U>Let's try [[Bevölkerung]]
+
+E>i can sort by Bundesland
+        would that help 
+
+U>Well it surely will but I need it even more precisely
+Ok, Bundesland is also good 
+
+E>[[Wien]] [[Salzburg]] [[innsbruck]] [[linz]] [[tirol]] [[burenland]] [[vorarlberg]] [[OÖ]] or [[NÖ]]
+
+U>[[OÖ]]
+
+E>OK 
+    Is it about [[money]]
+
+U>No
+
+E>[[education]]
+
+U>No
+
+E>[[family]] related, [[death]] or [[birth]]
+
+U>Yes, [[birth]]
+
+E>i could offer a dataset with all births since 1970
+
+U>No, thanks, that will be too much
+
+E>the most popular first names
+
+U>YES! 
+
+E>Do you want the whole dataset or some information on it
+
+U>Is there only one dataset about first names in OÖ?
+
+E>[[Linz]] is also possible
+
+U>No, I mean OÖ is large, is the dataset about the whole OÖ or some particular cities?
+
+E>I have [[oÖ]] as a whole
+        and [[linz]]
+        and [[engerwitzdorf]]
+
+U>The last one is exaclty what i need
+
+E>[[female]] or [[male]]
+
+U>Both
+
+E>ok
+        some information or just the sets? 
+
+U>Well, if you could describe the datasets, that would be nice
+
+E>it is a [[txt]] file
+
+U>Good
+What are the columns?
+
+E>[[rank]] and [[name]]
+
+U>Fine, send me a link and we're finished
+
+E>OK beep boop sending file: https://www.data.gv.at/kata...
+        https://www.data.gv.at/kata...

@@ -1,0 +1,33 @@
+U>Hello
+
+E>Hi, i would like to present you my new website full of data sets!
+    Are you interested in some specific sort of data set?
+
+U>Nice! Do you have [[comma seperated value]] data?
+
+E>Yes, around [[314]] data sets in this format!
+    Mainly about [[Austrian]] statistics
+
+U>Good, i would like a dataset about [[agriculture]] in [[austria]]
+    i want to measure the average size of [[a agriculture business]] in [[austria]]
+
+E>Ok, just let me take a look at my data sets
+    Sorry, but i don't have informations about this specific topic
+    Are you interested in something other?
+
+U>Maybe you got [[bike and tracking paths]] near [[vienna]]?
+
+E>No sorry, also that i can't provide you
+    Lets make another try, maybe i'll have the next one
+    Are you interested in data about [[the WU]]?
+
+U>Yes!
+
+E>Some specific data? Like [[the whole rooms from the University]]?
+
+U>yes that would be interesting!
+
+E>http://data.opendataportal....
+    there you go
+
+U>Thank you very much!
