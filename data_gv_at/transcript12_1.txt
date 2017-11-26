@@ -1,6 +1,6 @@
-E>I can offer you datasets from data.gv.at
-You have 14 categories to choose from:
-
+count(facet)>E>I can offer you datasets from data.gv.at
+You have [[14]] [[categories]] to choose from:
+list(facet)>E>
 - [[Arbeit]]
 - [[Bevölkerung]]
 - [[Bildung & Forschung]]
@@ -16,46 +16,47 @@ You have 14 categories to choose from:
 - [[Verwaltung & Politik]]
 - [[Wirtschaft & Tourismus]]
 
-Which one do you need information from?
+prompt(keywords)>E>Which one do you need information from?
 
-U>I will take [[""Bevölkerung""]]
+set(keywords)>U>I will take [[""Bevölkerung""]]
 
-E>Alright, do you need information about a specific state or about a specific town?
+list(keywords)>E>Alright, do you need information about a specific [[state]] or about a specific [[town]]?
 
-U>Yes, it will be a town called ""Engerwitzdorf""
+set(keywords)>U>Yes, it will be a town called ""Engerwitzdorf""
 
-E>Ok, so you need information about a town in Upper Austria
+list(keywords)>E>Ok, so you need information about a town in Upper Austria
 Du you need information about age, gender, ""Erwerbsstatus"", ""Wanderungen"", ""Familien"", ""Geburten"" or ""Sterbefälle""?
 
-U>I hope its either in [[Familien]] or [[Geburten]]
+set(keywords)>U>I hope its either in [[Familien]] or [[Geburten]]
 
-E>Ok, I found entries for [[Engerwitzdorf]] in [[family]] data
-Do you need the [[amount of families]] in total, [[the amount of families without children]], or similar?
+bool(data)>E>Ok, I found entries for [[Engerwitzdorf]] in [[family]] data
+list(keywords)>E>Do you need the [[amount of families in total]], [[the amount of families without children]], or similar?
 
-U>Not really an [[amount]], more a statistic about [[the names of the newbornes]]
+set(keywords)>U>Not really an [[amount]], more a [[statistic about the names of the newbornes]]
 
-E>Alright, there's a seperate dataset for this
-So you need the most [[used first name]] for [[Engerwitzdorf]]?
+bool(data)>E>Alright, there's a seperate dataset for this
+list(keywords)>E>So you need the most [[used first name]] for [[Engerwitzdorf]]?
 
-U>correct
+confirm>U>correct
 
-E>[[male]] or [[female]]?
-and for what [[year]]?
+list(keywords)>E>[[male]] or [[female]]?
+prompt(keywords)>E>and for what [[year]]?
 
-U>nothing that exact, i need more of an overview
+confirm>U>nothing that exact, i need more of an overview
 
-E>ok, there are [[two]] datasets published by [[Engerwitzdorf]]
-One for [[male]] and one for [[female]] 
-Both contain the information for the year [[2011]]
+count(datasets)>E>ok, there are [[two]] datasets
+describe(data)>E>published by [[Engerwitzdorf]]
+list(keywords)>E>One for [[male]] and one for [[female]] 
+describe(data)>E>Both contain the information for the year [[2011]]
 
-U>OK i just need the most popular [[names]]
+set(top)>U>OK i just need the most popular [[names]]
 
-E>Starting with the [[female]] dataset, there was only one [[name]] used more than once, which is [[""Jasmin""]]
+top(data)>E>Starting with the [[female]] dataset, there was only one [[name]] used more than once, which is [[""Jasmin""]]
 All other [[names]] in the data set were used exactly [[once]]
 
-U>oke, that was exactly what i needed, thanks!
+success>U>oke, that was exactly what i needed, thanks!
 
-E>For the [[males]], [[6]] [[names]] were used twice: [[Alexander]], [[Elias]], [[Felix]], [[Jakob]], [[Robin]], [[Simon]]
-All other [[names]] were used only once
+top(data)>E>For the [[males]], [[6]] [[names]] were used [[twice]]: [[Alexander]], [[Elias]], [[Felix]], [[Jakob]], [[Robin]], [[Simon]]
+distribution(data)>E>All other [[names]] were used only once
 
-U>Thanks!
+success>U>Thanks!

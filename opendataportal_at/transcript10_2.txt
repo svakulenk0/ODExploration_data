@@ -1,40 +1,40 @@
-U>Was gibt es bei dir alles zu finden?
+question(data)>U>Was gibt es bei dir alles zu finden?
 
-E>Ich hab Sachen über [[Kunst]], [[die WU]], Sachen von der [[Wirtschaftskammer]], [[Verwaltungsdaten]] und noch ein paar [[wirtschaftliche]] Sachen
+list(keywords)>E>Ich hab Sachen über [[Kunst]], [[die WU]], Sachen von der [[Wirtschaftskammer]], [[Verwaltungsdaten]] und noch ein paar [[wirtschaftliche]] Sachen
 
-U>Oh die [[WU]] hört sich super an
+set(keywords)>U>Oh die [[WU]] hört sich super an
 
-E>hab da viel über Kurse
-    Sommer oder Wintersemester?
-    bzw. Winter oder Sommeruni hab ich auch noch
+top(keywords)>E>hab da viel über [[Kurse]]
+list(keywords)>E>[[Sommer]] oder [[Wintersemester]]?
+    bzw. [[Winter]] oder [[Sommeruni]] hab ich auch noch
 
-U>Sommersemester würd mich interessieren
+set(keywords)>U>Sommersemester würd mich interessieren
 
-E>Welches Jahr? Hab alles zwischen 2000 und jetzt
+list(keywords)>E>Welches [[Jahr]]? Hab alles zwischen [[2000]] und [[jetzt]]
 
-U>ok, da würd ich mal 2017 nehmen
+set(keywords)>U>ok, da würd ich mal [[2017]] nehmen
 
-E>bzw. ziemlich viel
-    irgendwas zu einem bestimmten [[Kurs=]]
+count(data)>E>bzw. ziemlich viel
+prompt(keywords)>E>irgendwas zu einem bestimmten [[Kurs=]]
     ?
 
-U>hmm nein eigentlich keinen bestimmten [[kurs]]
+reject()>U>hmm nein eigentlich keinen bestimmten [[kurs]]
 
-E>Okay also eher Generell
+prompt(keywords)>E>Okay also eher Generell
     was von den [[Fakultäten]]?
 
-U>nein. Ich bleib da eher generell, also gesamte [[WU]] und gesamte [[Kurse]]
+reject()>U>nein. Ich bleib da eher generell, also gesamte [[WU]] und gesamte [[Kurse]]
 
-E>Achso ja
+list(keywords)>E>Achso ja
     also ich hab eine Datenbank zu allen [[Kursen]] auf [[der WU]]
     vom [[SS17]]
 
-U>Super. Die ist perfekt.
+success()>U>Super. Die ist perfekt.
 
-E>Nimmst du die?
+verify()>E>Nimmst du die?
 
-U>Ja die nehm ich
+confirm()>U>Ja die nehm ich
 
-E>Perfekt 
+success()>E>Perfekt 
 
-U>Vielen Dank fürs richtige Datenset
+success()>U>Vielen Dank fürs richtige Datenset

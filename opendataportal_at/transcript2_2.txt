@@ -1,23 +1,26 @@
-E>I'm using [[the opendataportal.at]]
-    It's [[absolutely free]] and contains more than [[417]] data sets
+list(keywords)>E>I'm using [[the opendataportal.at]]
+list(keywords)>E>It's [[absolutely free]]
+count(data)>E>and contains more than [[417]] data sets
 
-U>is there data about [[universities]] in there?
+set(keywords)>U>is there data about [[universities]] in there?
 
-E>it's really nice to use because you can select by [[data format]]
-Yes, we have a lot of data about [[universities]], especially about [[WU]]
-do you want to have some data about [[WU]]?
+list(facets)>E>it's really nice to use because you can select by [[data format]]
+bool(data)>E>Yes, we have a lot of data about [[universities]]
+top(data)>E>especially about [[WU]]
+prompt(keywords)>E>do you want to have some data about [[WU]]?
 
-U>since i am a student at wu i am interested in [[how many courses there are at wu]]
+set(keywords)>U>since i am a student at wu i am interested in [[how many courses there are at wu]]
 
-E>from which [[semester]] would you like to have them?
+prompt(keywords)>E>from which [[semester]] would you like to have them?
 
-U>i want to have the latest data possible
+set(sort)>U>i want to have [[the latest data]] possible
 
-E>okay, I'll have a look
-    Alright, I found your desired data set about [[SS17]], what do you want to know about it?
+confirm>E>okay, I'll have a look
+bool(data)>E>Alright, I found your desired data set about [[SS17]],
+prompt(keywords)>E>what do you want to know about it?
 
-U>i want to know the total number of [[courses]] which are listed at the university
+set(keywords)>U>i want to know [[the total number]] of [[courses which are listed at the university]]
 
-E>There have been [[2576]] [[courses]] at [[WU]] in the [[SS17]]
+count(data)>E>There have been [[2576]] [[courses]] at [[WU]] in the [[SS17]]
 
-U>ok thank you thats exactly what i was looking for
+success>U>ok thank you thats exactly what i was looking for

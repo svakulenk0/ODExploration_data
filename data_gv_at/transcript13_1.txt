@@ -1,81 +1,82 @@
-U>Hello, anybody there?
-    Hello?
+greeting>U>Hello, anybody there?
+greeting>U>Hello?
 
-E>hi
-Yo. How can I help you?
-    What are you looking for?    
+greeting>E>hi
+greeting>E>Yo.
+prompt(keywords)>E>Yo.How can I help you?
+prompt(keywords)>E>What are you looking for?
 
-U>well some data, hard to explain, what do you have to offer
+question(data)>U>well some data, hard to explain, what do you have to offer
 
-E>We have a wide variety of data - lots of data about every single state in Austria, but also about areas like [[health]], [[culture]], [[traffic]] and [[infrastructure]]
+list(keywords)>E>We have a wide variety of data - lots of data about [[every single state in Austria]], but also about areas like [[health]], [[culture]], [[traffic]] and [[infrastructure]]
 
-U>hit me with some of the variants of state data
+set(keywords)>U>hit me with some of the variants of [[state]] data
 
-E>[[tourism]], [[economy]], [[finance]], [[geography]] .. - Does any of that sound interesting
+list(keywords)>E>[[tourism]], [[economy]], [[finance]], [[geography]] .. - Does any of that sound interesting
     ?
     Oh, alright 
 
-    what kind of stuff do you have to offer?
+question(data)>U>what kind of stuff do you have to offer?
 
-E>Any state that interests you more than others?
+prompt(keywords)>E>Any [[state]] that interests you more than others?
 
-U>yep, upper austria
+set(keywords)>U>yep, [[upper austria]]
 
-E>Great, let me check
-    So, we have a lot of environmental data, election data, data about public spending, city planning data etc
+confirm>E>Great, let me check
+list(keywords)>E>So, we have a lot of [[environmental data]], [[election data]], [[data about public spending]], [[city planning data]] etc
     How does that sound?
 
-U>anything more specific to certain cities in upper austria?
-    so far nothing sounds to appealing.. maybe culture might also be possible...? not really sure either could fit
+set(keywords)>U>anything more specific to [[certain cities]] in [[upper austria]]?
+    so far nothing sounds to appealing.. maybe [[culture]] might also be possible...? not really sure either could fit
     *too
 
-E>We have lots of data about Linz, for example. When searching for ""culture"" I get a lot of results for school data
+list(keywords)>E>We have lots of data about [[Linz]], for example. When searching for [[""culture""]] I get a lot of results for [[school]] data
     Is [[Linz]] the [[city]] you are most interested in? 
 
-U>nope, [[a lot smaller]] would be prefarable
+reject>U>nope,
+set(keywords)>U>[[a lot smaller]] would be prefarable
 
-E>Okay, sure
+list(keywords)>E>Okay, sure
     Maybe [[Engerwitzdorf]]?
 
-U>yea that sounds cool
+confirm>U>yea that sounds cool
 
-E>Great. I just found a data set about [[the most important establishments and institutions in Engerwitzdorf]]. Does that sound appealing at all? 
+list(keywords)>E>Great. I just found a data set about [[the most important establishments and institutions in Engerwitzdorf]]. Does that sound appealing at all? 
 
-U>not really, don't you have anything more [[people]] related?
+reject>U>not really,
+set(keywords)>U>don't you have anything more [[people]] related?
 
-E>Didn't you say you wanted data related to [[culture]]?
-    Just kidding, bear with me
+list(keywords)>E>Didn't you say you wanted data related to [[culture]]?
+confirm>E>Just kidding, bear with me
 
-U>I did... at least i was pretty sure
+confirm>U>I did... at least i was pretty sure
     you know, might also be a little shizophrenic, you never know
 
-E>We have a data set listing all [[the inhabitants of Engerwitzdorf]], as well as data sets with all [[male and female first names]]. On top of that we have a list of social institutions like nursery homes and so on.
+list(keywords)>E>We have a data set listing all [[the inhabitants of Engerwitzdorf]], as well as data sets with all [[male and female first names]]. On top of that we have [[a list of social institutions]] like [[nursery homes]] and so on.
 
-U>mhm, [[names]] would certainly interest me 
+set(keywords)>U>mhm, [[names]] would certainly interest me 
 
-E>Or you looking for [[male]] or [[female]] [[first names]]?
+list(keywords)>E>Or you looking for [[male]] or [[female]] [[first names]]?
 
-U>either really, gender is not so much what i care about
-    is there anything else this dataset might have to offer?
+set(keywords)>U>either really, gender is not so much what i care about
+question(data)>U>is there anything else this dataset might have to offer?
 
-E>The data set tells you exactly how many children with a certain names were born in 2011
+list(keywords)>E>The data set tells you exactly [[how many children with a certain names were born]] in [[2011]]
     Pretty amazing, huh?
 
-U>that would be cool to know more about
+confirm>U>that would be cool to know more about
 
-E>Great. Let me send you the links to both the data set with the male and the data set with the female names
-    Ladyies first: https://www.data.gv.at/kata...
-    Aaaaand the gentlemen: https://www.data.gv.at/kata...
-    Ladies* 
+link(dataset)>E>Great. Let me send you the links to both the data set with the male and the data set with the female names
+Ladies first: https://www.data.gv.at/kata...
+link(dataset)>E>Aaaaand the gentlemen: https://www.data.gv.at/kata...
 
-U>or actually, i need some specific data from the data set
+question(data)>U>or actually, i need some specific data from the data set
 
-E>What do you need?
-    The number how many times a certain first name was used?
-    The number of times*
+prompt(keywords)>E>What do you need?
+list(keywords)>E>[[The number of times a certain first name was used]]?
 
-U>yea, which ones are most used?
+confirm>U>yea, which ones are most used?
 
-E>Amongst boys it's Alexander, Elias, Felix, Jakob,Robin and Simon. All these names were each used twice. Amongst girls it's Jasmin which was also used twice
+top(data)>E>Amongst [[boys]] it's [[Alexander]], Elias, Felix, Jakob,Robin and Simon. All these [[names]] were each used [[twice]]. Amongst [[girls]] it's [[Jasmin]] which was also used [[twice]]
 
-U>thanks, I think thats all i need to know 
+success>U>thanks, I think thats all i need to know 

@@ -1,68 +1,70 @@
-U>Great. While we are at it I thought you could also get me some data
+question(data)>U>Great. While we are at it I thought you could also get me some data
 
-E>sure, odp austria always glad to serve
-    how can I help you
-    we have got tons of data sets on different topics
+list(keywords)>E>sure, [[odp austria]] always glad to serve
+prompt(keywords)>E>how can I help you
+list(keywords)>E>we have got [[tons of data sets]] on different [[topics]]
 
-U>I'm sure you do. But what really interests me is what you have on [[education]]
+set(keywords)>U>I'm sure you do. But what really interests me is what you have on [[education]]
 
-E>let me check dear sir
-    actually, not all that much, are you interested in a data set or news ?
+list(keywords)>E>let me check dear sir
+    actually, not all that much, are you interested in [[a data set]] or [[news]] ?
 
-U>A data set, of course
+set(keywords)>U>[[A data set]], of course
 
-E>perfect
-    in this case, we only have one option, being a mapping of courses and organizations at wu, during different semesters
-    I do hope you are into that kinda stuff?
+confirm()>E>perfect
+list(keywords)>E>in this case, we only have one option, being a mapping of courses and organizations at wu, during different semesters
+verify()>E>I do hope you are into that kinda stuff?
 
-U>I think it's fair to say that I have a fetish for stuff like tha
+confirm()>U>I think it's fair to say that I have a fetish for stuff like tha
 
-E>so, which semester are you interested in? [[ws]]/[[ss]]?
+list(keywords)>E>so, which [[semester]] are you interested in? [[ws]]/[[ss]]?
     and which year? [[14]]/[[15]]/[[16]]?
 
-U>If SS stands for ""summer"" then that's what I'm after
+set(keywords)>U>If [[SS]] stands for [[""summer""]] then that's what I'm after
 
-E>it sure does
+confirm()>E>it sure does
 
-U>Do you also have data about later years?
+set(keywords)>U>Do you also have data about [[later years]]?
 
-E>sadly, 16 is the newest one we have
-    2016
+bool(data)>E>sadly,
+list(keywords)>E>[[16]] is the newest one we have
+    [[2016]]
 
-U>Oh, that's too bad
+reject()>U>Oh, that's too bad
 
-E>one moment 
+bool(data)>E>one moment 
     actually we do, it just has not been implemented into our categorical search yet
 
-U>Great, what year is it about?
+set(keywords)>U>Great, [[what year]] is it about?
 
-E>2017
+list(keywords)>E>2017
 
-U>You are my hero
-    Can you get me that data set?
+confirm()>U>You are my hero
+Can you get me that data set?
 
-E>so, anything specific you would like to know ?
-    sure I'll send it over right away
+prompt(keywords)>E>so, anything specific you would like to know ?
+confirm()>E>sure I'll send it over right away
 
-U>Oh yeah, almost forgot
+confirm()>U>Oh yeah, almost forgot
 
-E>http://data.opendataportal....
+link(dataset)>E>http://data.opendataportal....
 
-U>So the data set contains a list of organisations and what else? 
+question(data)>U>So the data set contains a list of organisations and what else? 
 
-E>we only have course ID's and organization ID's listed, no corresponding names
+list(keywords)>E>we only have [[course ID's]] and [[organization ID's]] listed, no corresponding [[names]]
 
-U>Okay, nice. Could you give me a ""rough estimate"" of how many courses there were?
+confirm()>U>Okay, nice.
+set(keywords)>U>Could you give me [[a ""rough estimate""]] of [[how many courses]] there were?
 
-E>one moment 
-less than 1000 courses, but it is hard to evaluate, as some course ID's exist multiple times and some are left out entirely
+confirm()>E>one moment 
+count(data)>E>[[less than 1000]] [[courses]], but it is hard to evaluate, as some course ID's exist multiple times and some are left out entirely
     there is also no filtering tool available to remove duplicates
 
-U>Okay, understood. Thank you very much for trying!
+success()>U>Okay, understood. Thank you very much for trying!
 
-E>there is a maximum of 871 courses
+count(data)>E>there is a maximum of [[871]] courses
     that is the closest i can get, sadly
 
-U>Thank you, darling 
+success()>U>Thank you, darling 
 
-E>It was my pleasure
+success()>E>It was my pleasure

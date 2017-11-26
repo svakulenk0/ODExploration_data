@@ -1,85 +1,89 @@
-E>Hi
+greeting()>E>Hi
 
-U>What can you offer
+question(data)>U>What can you offer
 
-E>some datasets
+list(keywords)>E>some [[datasets]]
 
-U>nice
+question(data)>U>nice
     Do u have categories
 
-E>well yes, I can group the datasets by [[organisation]] or [[format]] 
+list(keywords)>E>well yes, I can group the datasets by [[organisation]] or [[format]] 
 
-U>I would need something that is listed
+list(keywords)>U>I would need something that is [[listed]]
 
-E>and by [[topics]], of course
+list(keywords)>E>and by [[topics]], of course
 
-U>oh
+confirm()>U>oh
 
-E>do you need some specific [[organisation]]? 
+list(keywords)>E>do you need some specific [[organisation]]? 
 
-U>no
+reject()>U>no
 
-E>specific [[format]]?
+list(keywords)>E>specific [[format]]?
 
-U>no
+reject()>U>no
 
-E>specific [[topic]]? 
+list(keywords)>E>specific [[topic]]? 
 
-U>yes what have you got
+confirm()>U>yes
+question(data)>U>what have you got
 
-E>I will tell you the names of the topics in [[German]], ok?
+list(keywords)>E>I will tell you the names of the topics in [[German]], ok?
 
-U>ok
+confirm()>U>ok
 
-E>[[Arbeit]], [[Bevölkerung]], [[Bildung&Forschung]], [[Finanzen]], [[Geographie]], [[Gesellshaft]], [[Gesungheit]]...
+list(keywords)>E>[[Arbeit]], [[Bevölkerung]], [[Bildung&Forschung]], [[Finanzen]], [[Geographie]], [[Gesellshaft]], [[Gesungheit]]...
     Do you need one of there or should I proceed?
     of these*
 
-U>[[Bildung & Forschung]] sounds good 
-Ok, is it about WU?
+set(keywords)>U>[[Bildung & Forschung]] sounds good 
 
-U>Yes
+list(keywords)>E>Ok, is it about [[WU]]?
 
-E>[[WU Library]]?
+confirm()>U>Yes
 
-U>No
+list(keywords)>E>[[WU Library]]?
 
-E>[[WU courses]]?
+reject()>U>No
 
-U>Yes
+list(keywords)>E>[[WU courses]]?
 
-E>I have different [[semesters]]
+confirm()>U>Yes
+
+list(keywords)>E>I have different [[semesters]]
     Is it about [[summer semester]]?
 
-U>[[Summer Semester]] would be ideal
+set(keywords)>U>[[Summer Semester]] would be ideal
 
-E>[[2016]]?
+list(keywords)>E>[[2016]]?
 
-U>No [[2017]]
+reject()>U>No
+set(keywords)>U>[[2017]]
 
-E>[[Summer semester 2017]]? Unfortunately,i have datasets only up to [[WS2017]]
-Are you sure? 
+verify()>E>[[Summer semester 2017]]?
+list(keywords)>E>Unfortunately,i have datasets only up to [[WS2017]]
+verify()>E>Are you sure? 
 
-U>Oh no
+verify()>U>Oh no
     are you sure
 
-E>Oh, I found something
-    All [[courses]] in [[SS17]]
+bool(data)>E>Oh, I found something
+list(keywords)>E>[[All courses in SS17]]
 
-U>that would be perfect
+confirm()>U>that would be perfect
     :))
 
-E>So... Should I send a link or what? 
+prompt(link)>E>So... Should I send a link or what? 
 
-U>what is in that dataset
+question(data)>U>what is in that dataset
 
-E>There are all [[courses]] with their [[course id]], [[semester]] and [[name]]
+list(keywords)>E>There are all [[courses]] with their [[course id]], [[semester]] and [[name]]
 
-U>How many are there
+set(keywords)>U>[[How many]] are there
 
-E>[[1950]] records 
+count(data)>E>[[1950]] records 
 
-U>Thank you thats it!!!
+success()>U>Thank you thats it!!!
 
-E>Perfect!!!
-Here's the link [[http://data.opendataportal.at/dataset/all_courses_2017s]]
+success()>E>Perfect!!!
+link(dataset)>E>Here's the link [[http://data.opendataportal.at/dataset/all_courses_2017s]]

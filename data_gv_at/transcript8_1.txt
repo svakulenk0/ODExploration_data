@@ -1,38 +1,39 @@
-E>Hello, do you have any questions about our data portal?
+prompt(keywords)>E>Hello, do you have any questions about our data portal?
 
-U>Hi 
+greeting>U>Hi 
 
-E>Do you have any questions? 
+prompt(keywords)>E>Do you have any questions? 
 
-U>What datasets do you have? 
+describe(data)>U>What datasets do you have? 
 
-E>Ok, we can offer a lot of datasets. There are about 2500 datasets! 
+count(datasets)>E>Ok, we can offer a lot of datasets. There are about 2500 datasets! 
 
-U>Do you have categories? 
+describe(facet)>U>Do you have [[categories]]? 
 
-E>All our datasets are about [[Austria]]. There are sets about [[public services]], [[geography]], [[arts]], [[sports]], [[environment]],...
-So, yes we have 14 categories, which could be used to filter. You will find the set you need!
+list(attributes)>E>All our datasets are about [[Austria]]. There are sets about [[public services]], [[geography]], [[arts]], [[sports]], [[environment]],...
+So, yes we have [[14]] categories, which could be used to filter. You will find the set you need!
 
-U>I guess the dataset I need is in the category public services in upper austria 
+set(keywords)>U>I guess the dataset I need is in the category [[public services]] in [[upper austria]]
 
-E>I can offer a dataset about playgrounds and sports facilities in Linz
-Is that what you need? 
+bool(data)>E>I can offer a dataset about [[playgrounds and sports facilities in Linz]]
+verify>E>Is that what you need? 
 
-U>No 
+reject>U>No 
 
-E>For what specific topic in Upper Austria and Public services are you looking for? 
+prompt(keywords)>E>For what specific topic in Upper Austria and Public services are you looking for? 
 
-U>newborns 
+set(keywords)>U>[[newborns]]
 
-E>Ok, I have a set about newborns in Upper Austria from the federal state. CSV format, last update 09/2017 
+bool(data)>E>Ok, I have a set about [[newborns in Upper Austria]] from the federal state.
+describe(data)>E>[[CSV]] [[format]], [[last update]] [[09/2017]]
 
-U>But I need a dataset for a special town
-The town starts with E 
+set(keywords)>U>But I need a dataset for [[a special town]]
+The town [[starts with E]]
 
-E>Thats no problem.. as city is an attribute you can filter in the file and just take the city you need. 
+describe(data)>E>Thats no problem.. as [[city]] is an attribute you can filter in the file and just take the city you need. 
 
-U>Ok the town in Engerwitzdorf
-Please send me the link 
+set(keywords)>U>Ok the town is [[Engerwitzdorf]]
+prompt(link)>U>Please send me the link 
 
-E>https://www.data.gv.at/kata...
+link(dataset)>E>https://www.data.gv.at/kata...
 Here is the link. I am glad I was able to help you!

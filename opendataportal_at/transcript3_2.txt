@@ -1,28 +1,30 @@
-E>my portal was [[opendataportal.at]] 
+list(keywords)>E>my portal was [[opendataportal.at]] 
 
-U>what was your contant
+question(data)>U>what was your contant
 
-E>my conent is really local, so to speak. Many datasets contain information about [[local businesses]], [[products]], [[administration]] etc.
-    also most of the sets are in [[csv]]
-    I just saw that there are many data sets about [[the WU]] and [[the course organisation]]
+list(keywords)>E>my conent is really local, so to speak. Many datasets contain information about [[local businesses]], [[products]], [[administration]] etc.
+top(data)>E>also most of the sets are in [[csv]]
+top(data)>E>I just saw that there are many data sets about [[the WU]] and [[the course organisation]]
 
-U>oh cool do you think there is a data set about [[our courses in wu]]
+set(keywords)>U>oh cool do you think there is a data set about [[our courses in wu]]
     maybe from [[last semester]]
+    probably, the last one is from [[SS17]]
 
-E>probably, the last one is from [[SS17]]
+set(keywords)>U>i would like to know [[how much courses]] we have in a semester
 
-U>i would be know how much courses we have in a semester
+list(keywords)>E>I don't know whether this is [[the number of the cources]] but in this [[csv]]
+count(data)>E>I found I have [[2577]] [[course_ids]]
 
-E>I don't know whether this is the number of the cources but in this [[csv]] I found Ihave [[2577]] [[course_ids]]
+question(data)>U>oh ok can you describe it more
 
-U>oh ok can you describe it more
-
-E>It essentially is a list with [[two]] columns, one [[course_id]] and one [[org_id]]
+count(data)>E>It essentially is a list with [[two]] columns,
+list(keywords)>E>one [[course_id]] and one [[org_id]]
     [[course_id]] starts with [[4001]] and [[org_id]] with [[3798]]
     there are double entries, so neither of these two is unique
 
-U>it could be the right one
+confirm>U>it could be the right one
 
-E>do you have any questions left?
+prompt(keywords)>E>do you have any questions left?
 
-U>no
+reject>U>no
+success>E>

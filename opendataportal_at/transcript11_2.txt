@@ -1,33 +1,33 @@
-U>Hello
+greeting()>U>Hello
 
-E>Hi, i would like to present you my new website full of data sets!
-    Are you interested in some specific sort of data set?
+greeting()>E>Hi, i would like to present you my new website full of data sets!
+prompt(keywords)>E>Are you interested in some specific sort of data set?
 
-U>Nice! Do you have [[comma seperated value]] data?
+set(keywords)>U>Nice! Do you have [[comma seperated value]] data?
 
-E>Yes, around [[314]] data sets in this format!
-    Mainly about [[Austrian]] statistics
+count(data)>E>Yes, around [[314]] data sets in this format!
+list(keywords)>E>Mainly about [[Austrian]] statistics
 
-U>Good, i would like a dataset about [[agriculture]] in [[austria]]
+set(keywords)>U>Good, i would like a dataset about [[agriculture]] in [[austria]]
     i want to measure the average size of [[a agriculture business]] in [[austria]]
 
-E>Ok, just let me take a look at my data sets
-    Sorry, but i don't have informations about this specific topic
-    Are you interested in something other?
+confirm()>E>Ok, just let me take a look at my data sets
+bool(data)>E>Sorry, but i don't have informations about this specific topic
+prompt(keywords)>E>Are you interested in something other?
 
-U>Maybe you got [[bike and tracking paths]] near [[vienna]]?
+set(keywords)>U>Maybe you got [[bike and tracking paths]] near [[vienna]]?
 
-E>No sorry, also that i can't provide you
-    Lets make another try, maybe i'll have the next one
+bool(data)>E>No sorry, also that i can't provide you
+list(keywords)>E>Lets make another try, maybe i'll have the next one
     Are you interested in data about [[the WU]]?
 
-U>Yes!
+confirm()>U>Yes!
 
-E>Some specific data? Like [[the whole rooms from the University]]?
+list(keywords)>E>Some specific data? Like [[the whole rooms from the University]]?
 
-U>yes that would be interesting!
+confirm()>U>yes that would be interesting!
 
-E>http://data.opendataportal....
+link(dataset)>E>http://data.opendataportal....
     there you go
 
-U>Thank you very much!
+success()>U>Thank you very much!

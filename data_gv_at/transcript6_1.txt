@@ -1,72 +1,73 @@
-U>Hey could you give me brief introduction on what I can find on your webpage
+question(db)>U>Hey could you give me brief introduction on what I can find on your webpage
     hallo?
 
-E>Sure. its a great website, we have a lot of different, and very interesting datasets.
+describe(db)>E>Sure. its a great website, we have a lot of different, and very interesting datasets.
 
-U>Great
+question(datasets)>U>Great
     what kind of datasets do you offer?
 
-E>What types of data are you interested in?
+prompt(keywords)>E>What types of data are you interested in?
     we offer a variety of data on many topics, just tell me what interests you
 
-U>alright
-    do you have data on the population of specific areas?
+set(keywords)>U>alright
+    do you have data on [[the population]] of [[specific areas]]?
 
-E>of course we have.
+bool(datasets)>E>of course we have.
 
-U>great
+feedback>U>great
 
-E>we have a current data sets, as well as the predictions for the future
+list(keywords)>E>we have a [[current]] [[data sets]], as well as [[the predictions for the future]]
 
-U>wow, really?
+feedback>U>wow, really?
 
-E>and the past data aswell
+list(keywords)>E>and [[the past]] data aswell
 
-U>do you have population data on specific regions in austria?
+set(keywords)>U>do you have [[population data]] on [[specific regions in austria]]?
 
-E>yes, we do, what regoiin are you interested in ?
+bool(datasets)>E>yes, we do
+prompt(attributes)>E>what [[region]] are you interested in ?
 
-U>I am actually not quite sure in which area it is
-    but the place I am looking for is callled Engerwitzdorf
+set(keywords)>U>I am actually not quite sure in which area it is
+    but the place I am looking for is callled [[Engerwitzdorf]]
 
-E>sure
+confirm>E>sure
     just let me have a look
     [[Engerwitzdorf]], its in [[upper Austria]]
-    we have a plenty of datasets concerning this [[region]]
+count(datasets)>E>we have [[a plenty of]] datasets concerning this [[region]]
 
-U>great
-    ya what kind of data do you have?
+feedback>U>great
+question(datasets)>U>ya what kind of data do you have?
 
-E>do you wish to recive [[past]] , [[actuall]] or [[predicted]] data
-    we talked about the opopulation statistics before
+list(keywords)>E>do you wish to recive [[past]] , [[actuall]] or [[predicted]] data
+    we talked about [[the population statistics]] before
 
-U>current data
+set(keywords)>U>current data
 
-E>are you still interested in this topic ?
+prompt(keywords)>E>are you still interested in this topic ?
 
-U>yes still interested in this topic but in a specific part of that topic
-    what options do you have?
+confirm>U>yes still interested in this topic but in a specific part of that topic
+prompt(keywords)>U>what options do you have?
 
-E>we have population data concerning Families and demografic data
-    i mean either families or demografic seta
-    which one do you wish to see?
+list(keywords)>E>we have [[population data]] concerning [[Families]] and [[demografic data]]
+    i mean either [[families]] or [[demografic data]]
+prompt(keywords)>E>which one do you wish to see?
 
-U>I think this is actually not what I am looking for
+feedback>U>I think this is actually not what I am looking for
 
-E>what is taht you are looking for then ?
+prompt(keywords)>E>what is that you are looking for then ?
 
-U>I am looking for data concerning new borns in that area
+set(keywords)>U>I am looking for data concerning [[new borns]] [[in that area]]
 
-E>i think i may have something interesting for you
+bool(datasets)>E>i think i may have something interesting for you
 
-U>great
+feedback>U>great
 
-E>yes, i have fond it
+bool(datasets)>E>yes, i have fond it
     there you are, it is a great, clean dataset concerning [[new borns]] in that [[area]]
-    https://www.data.gv.at/kata...
-    is tehre anything more that i can do for you ? 
+link(dataset)>E>https://www.data.gv.at/kata...
+prompt(keywords)>E>is there anything more that i can do for you ? 
 
-U>perfect!
+feedback>U>perfect!
     thanks a lot !!
 
-E>you are welcome
+feedback>E>you are welcome

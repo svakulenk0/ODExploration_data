@@ -1,28 +1,28 @@
-E>Hi?
+greeting()>E>Hi?
 
-U>hello
+greeting()>U>hello
 
-E>[[data.gv.at]] is the [[open data portal]] from [[the austrian government]]
-    it has many different datasets for [[the whole region of austria]]
+list(keywords)>E>[[data.gv.at]] is [[the open data portal]] from [[the austrian government]]
+    it has many different [[datasets]] for [[the whole region of austria]]
 
-U>alright is it free?
+question(data)>U>alright is it [[free]]?
 
-E>yes thats the best thing about it, it is completely free!
-    which datasets are you interested in?
+list(keywords)>E>yes thats the best thing about it, it is [[completely free]]!
+prompt(keywords)>E>which datasets are you interested in?
 
-U>I should find [[the most popular names of newborns in Engerwitzdorf]]
+set(keywords)>U>I should find [[the most popular]] [[names of newborns]] in [[Engerwitzdorf]]
     could you help me with that?
 
-E>yes i can help you with that.
+confirm()>E>yes i can help you with that.
 
-do you want to know the most popular [[names]] of [[male]] or [[female]] [[newborns]]?
+list(keywords)>E>do you want to know [[the most popular]] [[names]] of [[male]] or [[female]] [[newborns]]?
 or both?
 
-U>the most popular [[names]] of both [[genders]]
+set(keywords)>U>the most popular [[names]] of [[both genders]]
 
-E>ok for the [[male]] [[newborns]] for [[the year]] [[2011]] the most popular [[name]] were [[alexander]], [[elias]], [[felix]], [[jakob]], [[robin]] and [[simon]]
+top(keywords)>E>ok for the [[male]] [[newborns]] for [[the year]] [[2011]] the most popular [[name]] were [[alexander]], [[elias]], [[felix]], [[jakob]], [[robin]] and [[simon]]
     with [[2]] entries
     the most popular [[female]] [[name]] for [[a newborn]] was [[jasmin]]
     also from [[the year]] [[2011]] and with a count of [[2]]
 
-U>okay, thank you for your help
+success()>U>okay, thank you for your help

@@ -13,13 +13,45 @@
 
 ## Annotations
 
-Dialog turn separators:
+Annotation template: message_type>speaker_turn>message
+e.g. greeting>E>Hi?
 
-* E> for the expert utterance
-* U> for the user utterance
+We differentiate between 15 different message types (intents and responds), which correspond to the basic  operations available for data exploration.
+
+1. Message types produced by **both** (user and expert) are in range:
+   
+        * greeting(), indicates common start of the conversation, e.g. "hello"
+        * confirm(), explicitly confirms the direction for exploration
+        * verify(), prompts to confirm the direction for exploration or the results
+        * success(), indicates end of the conversation with a successful outcome
+        * prompt(link), suggests/asks for a direct link to the dataset
+
+    utterances and responses produced by **expert**:
+
+        * prompt(keywords), indicates a general information request
+        * list(keywords), indicates available options on different levels (facets, attributes, datasets, columns)
+        * bool(data), reports existance of the requested set of items (datasets/columns/attributes)
+        * top(keywords), reports the top (most frequent) items (rows/attributes)
+        * count(data), reports the count of items (rows/datasets/attributes)
+        * link(dataset), reports the direct link to a dataset
 
 
-[[concept]] mark-up is used to build the templates with the ontology concepts used as variables
+    intents and responses by **user**:
+    
+        * question(data), indicates a general information request, e.g. "what have you got"
+        * set(keywords), indicates the choice of a specific direction for exploration, e.g. "have you got smth on population statistics"
+        * reject(), explicitly rejects the direction for exploration
+        * more(), indicates a request for more items from the same equivalence class
+
+
+
+
+2. Dialog turn separators:
+
+* E for the expert utterance
+* U for the user utterance
+
+3. [[concept]] mark-up is used to build the templates with the ontology concepts used as variables
 
 
 ## License  
