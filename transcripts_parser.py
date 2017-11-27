@@ -12,6 +12,7 @@ Annotation template: message_type>speaker_turn>message
 e.g. greeting>E>Hi?
 
 '''
+import os
 
 SAMPLE_TRANSCRIPT_FILE = 'data_gv_at/transcript1_1.txt'
 # SAMPLE_TRANSCRIPT_FILE = 'opendataportal_at/transcript13_2.txt'
@@ -27,11 +28,14 @@ def parse_transcript(transcript_file):
         for line in file:
             try:
                 intent, turn, message = line.split('>')
+                # show the process template
+                print turn, intent
+                
                 if intent not in OPERATIONS:
-                    # show the process template
-                    print turn, intent
+                   print("Unknown intent" + intent)
             except:
                 if '>' in line:
+                    print("Error parsing line:")
                     print line
 
 
@@ -39,8 +43,17 @@ def test_parse_transcript():
     parse_transcript(SAMPLE_TRANSCRIPT_FILE)
 
 
+def parse_all_transcripts(dirs =['data_gv_at', 'opendataportal_at']):
+    for portal_dir in dirs:
+        for file in os.listdir(portal_dir):
+          if file[-4:] == '.txt':
+            # print file
+            parse_transcript('/'.join([portal_dir, file]))
+            print '\n'
+
+
 def main():
-    test_parse_transcript()
+    parse_all_transcripts()
 
 
 if __name__ == '__main__':
