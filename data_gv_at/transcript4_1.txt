@@ -1,31 +1,31 @@
-question(db)>U>and what about your portal?
+question(data)>U>and what about your portal?
 
-describe(db)>E>My portal was [[data.gv.at]], [[an open data site]] for [[austria]]
+list(keywords)>E>My portal was [[data.gv.at]], [[an open data site]] for [[austria]]
 
-question(datasets)>U>what kind of data can you find there?
+question(data)>U>what kind of data can you find there?
 
-list(attributes)>E>You can search for all kinds of [[datasets]], from [[economics]] to [[the political area]] but also everything regarded to [[the life in austria]] [[education]], [[sports]], [[culture]] etc
+list(keywords)>E>You can search for all kinds of [[datasets]], from [[economics]] to [[the political area]] but also everything regarded to [[the life in austria]] [[education]], [[sports]], [[culture]] etc
 
-question(datasets)>U>what exactly do you mean [[life in austria]]? what is it all about?
+question(data)>U>what exactly do you mean [[life in austria]]? what is it all about?
 
-list(datasets)>E>[[Statistics about birthrates]] for example but also things like [[everyday aspects of life in Austria]], [[[where the kindergartens are]], [[what you can do in the city]]
+list(keywords)>E>[[Statistics about birthrates]] for example but also things like [[everyday aspects of life in Austria]], [[[where the kindergartens are]], [[what you can do in the city]]
     [[Including public transport]] for example
 
 set(keywords)>U>that sounds nice, the topic of [[birtrates]] and kind of things interests me a lot, do you have any information about this in [[my hometown]], in [[Engerwitzdorf]]?
     and also , what other data do you have , related to [[child births]] in [[Engerwitzdorf]]
 
-bool(datasets)>E>Well, I did not find exactly what you search,
+bool(data)>E>Well, I did not find exactly what you search,
 list(keywords)>E>but I can tell you [[statistics about the places where newborn live]] or [[the names they get]]
 
-confirm>U>that sounds all right
+confirm()>U>that sounds all right
 set(keywords)>U>im curious about [[the names]]
-set(top)>U>which is the most popular?
+set(keywords)>U>which is [[the most popular]]?
 
 list(keywords)>E>[[Men]] or [[women]]? Or overall?
 
-set(keywords)>U>overall
-    or both
+set(keywords)>U>[[overall]]
+    or [[both]]
 
-top(data)>E>Well [[girls]] got [[the Jasmin]] most often, and [[boys]] have [[Alexander]], [[Elias]], [[Felix]], [[Jakob]], [[Robin]], [[Simon]] on the first rank
+list(keywords)>E>Well [[girls]] got [[the Jasmin]] most often, and [[boys]] have [[Alexander]], [[Elias]], [[Felix]], [[Jakob]], [[Robin]], [[Simon]] on the first rank
 
-feedback>U>thank you
+success()>U>thank you

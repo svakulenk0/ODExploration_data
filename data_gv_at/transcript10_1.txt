@@ -1,8 +1,8 @@
-greeting>U>Hey
+greeting()>U>Hey
     Ich brauche Daten
     Wie sieht deine Seite aus?
 
-greeting>E>Hallo
+greeting()>E>Hallo
 
 question(data)>U>Was für Daten hast du?
 
@@ -20,15 +20,15 @@ list(keywords)>E>Brauchst du etwas über [[öffentliche Einrichtungen]]?
 
 set(keywords)>U>Weiß ich nicht - was genau hast du denn über [[öffentliche Einrichtungen]]?
 
-prompt(facet)>E>Über welches [[Bundesland]] willst du etwas wissen?
-count(facet)>E>Ich hab alle [[9]]
+prompt(keywords)>E>Über welches [[Bundesland]] willst du etwas wissen?
+count(data)>E>Ich hab alle [[9]]
 
 set(keywords)>U>[[OÖ]]
 
 list(keywords)>E>Hier hätt ich was über [[Gebäude]], das [[Klima]], [[Vereine/Organisationen]]. Ist da was für dich dabei?
 
-reject>U>Nein leider
-more>U>was hast du sonst noch für Daten über [[OÖ]]?
+reject()>U>Nein leider
+more()>U>was hast du sonst noch für Daten über [[OÖ]]?
 
 list(keywords)>E>[[Grundwasser]], [[Forstdienste]], [[Viertelgrenzen]], [[Wahlen]]
     Ist es was [[politisches]]?
@@ -39,33 +39,33 @@ set(keywords)>U>[[Geografisch]] ist es nicht
 
 list(keywords)>E>Was über die [[Bevölkerung]]?
 
-confirm>U>ja genau
+confirm()>U>ja genau
     was hast du da alles?
 
 list(keywords)>E>Brauchst du hier aktuelle Daten, also aus dem [[Jahr]] [[2017]]?
 
-reject>U>ich weiß nicht von welchem [[Jahr]] ich die Daten brauche
+reject()>U>ich weiß nicht von welchem [[Jahr]] ich die Daten brauche
 
 list(keywords)>E>Interessieren dich Daten einer [[Volkszählung]]?
 
-confirm>U>damit hat es was zu tun aber ich bin mir nicht sicher ob die daten die ich brauche da dabei sind
+confirm()>U>damit hat es was zu tun aber ich bin mir nicht sicher ob die daten die ich brauche da dabei sind
 
 list(keywords)>E>Brauchst du was über [[die Herkunft]], [[Geschlecht]]/[[Alter]]/[[Staatsangehörigkeit]], [[Vornamen]], [[Geburten]] oder [[Sterbefälle]]?
 
 set(keywords)>U>was mit [[vornamen]] und [[Geburten]]
 
-list(datasets)>E>brauchst [[Statistik der beliebtesten Vornamen für Neugeborene in Oberösterreich seit 2010]]
+list(keywords)>E>brauchst [[Statistik der beliebtesten Vornamen für Neugeborene in Oberösterreich seit 2010]]
 
-more>U>Bisschen spezifischer noch
+more()>U>Bisschen spezifischer noch
     Oberösterreich ist bisschen zu viel
     Hast du noch was genaueres?
 
-list(datasets)>E>[[Beliebteste Vornamen in Linz]]
+list(keywords)>E>[[Beliebteste Vornamen in Linz]]
 
-more>U>Hast du alle Gemeinden aus OÖ?
+more()>U>Hast du alle Gemeinden aus OÖ?
     ??
 
-list(datasets)>E>[[Vornamen männlich Engerwitzdorf]] hätt ich noch im Angebot
+list(keywords)>E>[[Vornamen männlich Engerwitzdorf]] hätt ich noch im Angebot
 
-confirm>U>Perfekt!
+confirm()>U>Perfekt!
     Nehm ich

@@ -1,34 +1,32 @@
-greeting>U>hello
-question(db)>U>can you tell me something about a [[free]] [[austrian]] [[data portal]]
+greeting()>U>hello
+question(data)>U>can you tell me something about a [[free]] [[austrian]] [[data portal]]
 
-greeting>E>hello
-describe(db)>E>yes, there is a portal called [[data.gv.at]]
+greeting()>E>hello
+list(keywords)>E>yes, there is a portal called [[data.gv.at]]
     its from [[the austrian government]] and [[completely free]]
 prompt(keywords)>E>are you interested in specific data?
 
 set(keywords)>U>oh nice, yes I would like to know something about [[playgrounds]]
 
-prompt(attributes)>E>okay, can you be a little bit more specific? [[in which Bundesland]] are these [[playgrounds]] you want to know about?
+prompt(keywords)>E>okay, can you be a little bit more specific? [[in which Bundesland]] are these [[playgrounds]] you want to know about?
 
-set(attributes)>U>[[Oberösterreich]] would be interesting
+set(keywords)>U>[[Oberösterreich]] would be interesting
     Maybe the ones in [[Linz]]
 
-confirm>E>okay ill look into it
-bool(datasets)>E>and i have the data about [[playgrounds]] in [[Oberösterreich]]
+confirm()>E>okay ill look into it
+bool(data)>E>and i have the data about [[playgrounds]] in [[Oberösterreich]]
 
-question(datasets)>U>oh thats very nice
+question(data)>U>oh thats very nice
     can you tell me about your [[playground data set]]?
 
 prompt(keywords)>E>yes what do you want to know about [[playgrounds]]?
 
-set(top)>U>[[where]] are the most [[playgrounds]]
-set(keywords)>U>[[located]]?
+set(keywords)>U>[[where]] are the most [[playgrounds]] [[located]]?
 
 list(keywords)>E>in this data set i found there is only [[the number of how many were approved]] in [[the year]] [[2016]]
 
-confirm>U>yes, that would be also interesting to me
+confirm()>U>yes, that would be also interesting to me
 
-project(data)>E>in total there were [[45]] [[playgrounds]] [[approved]] in [[2016]]
-top(data)>E>[[the district Wels]] has the highest number with [[15]]
+list(keywords)>E>in total there were [[45]] [[playgrounds]] [[approved]] in [[2016]] [[the district Wels]] has the highest number with [[15]]
 
-feedback>U>really interesting, thank you for your help
+success()>U>really interesting, thank you for your help

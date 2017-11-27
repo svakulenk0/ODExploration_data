@@ -1,30 +1,30 @@
-question(db)>U>which portal do you have and how would you describe their content? wasn't your portal data.gv.at?
+question(data)>U>which portal do you have and how would you describe their content? wasn't your portal data.gv.at?
 okay so how would you describe their content?
 
 set(keywords)>U>okay good - regarding a completely different matter, I am interested in [[names of young people]] in [[a communal called engerwitzdorf]]
     ?
 
-count(datasets)>E>i found [[two]] different list with [[man and woman names]] in [[engerwitzdorf]] sorted after [[ages]]
+count(data)>E>i found [[two]] different list with [[man and woman names]] in [[engerwitzdorf]] sorted after [[ages]]
 
 set(keywords)>U>did you find anything about [[new names]], maybe [[newborns]] or so?
-set(top)>U>or is it possible to find out which names are the most popular, in relation to their age?
+set(keywords)>U>or is it possible to find out which names are the most popular, in relation to [[their age]]?
 
-describe(data)>E>[[born dates]] are from [[2011]]
+list(keywords)>E>[[born dates]] are from [[2011]]
 
-set(top)>U>okay and what is the most popular name in this category?
+set(keywords)>U>okay and what is [[the most popular]] [[name]] in this category?
 
-top(data)>E>[[Alexander]] [[2]] [[Elias]] 2 Felix 2 Jakob 2 Robin 2 Simon by men
+list(keywords)>E>[[Alexander]] [[2]] [[Elias]] 2 Felix 2 Jakob 2 Robin 2 Simon by men
     Jasmin 2 Alina by women
 
-question(db)>U>okay and one last question, how would you describe the content of data.gv.at?
+question(data)>U>okay and one last question, how would you describe the content of data.gv.at?
 
-describe(db)>E>the content in data.gv.at are about austria
-    my conent is really local, too
+list(keywords)>E>the content in [[data.gv.at]] are about [[austria]]
+    my conent is [[really local]], too
 
-question(attributes)>U>is it based on [[csv]] or other [[formats]]?
+question(data)>U>is it based on [[csv]] or other [[formats]]?
 
-count(attributes)>E>this portal use [[many]] [[data formats]]
+count(data)>E>this portal use [[many]] [[data formats]]
 
-feedback>U>okay good, I think I got everything i needed
+success()>U>okay good, I think I got everything i needed
 
-list(attributes)>E>for example [[csv]], [[png]]
+list(keywords)>E>for example [[csv]], [[png]]

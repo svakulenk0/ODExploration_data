@@ -1,15 +1,15 @@
-greeting>E>Hi! How can I help you?
+greeting()>E>Hi! How can I help you?
 
-question(datasets)>U>What kind of data does your website contain?
+question(data)>U>What kind of data does your website contain?
 
-list(attributes)>E>It is an open Data Source that contains Data about various fields:[[work]], [[culture]], [[education]], [[finances]], [[geography]], [[social stuff]], [[healthcare]], [[population]], [[agriculture]], [[ecology]], [[politics]], [[economics]] in [[Austria]]
+list(keywords)>E>It is an open Data Source that contains Data about various fields:[[work]], [[culture]], [[education]], [[finances]], [[geography]], [[social stuff]], [[healthcare]], [[population]], [[agriculture]], [[ecology]], [[politics]], [[economics]] in [[Austria]]
 
-prompt(attributes)>E>What would interest you the most ?
+prompt(keywords)>E>What would interest you the most ?
 
-set(attributes)>U>Population
+set(keywords)>U>[[Population]]
 
-prompt(attributes)>E>Okay, is there [[a specific region]] or [[city]] in austria from which you would like the Dataset(
-list(attributes)>E>[[Steiermark]], [[vorarlberg]], [[Wien]] etc.) ? 
+prompt(keywords)>E>Okay, is there [[a specific region]] or [[city]] in austria from which you would like the Dataset(
+list(keywords)>E>[[Steiermark]], [[vorarlberg]], [[Wien]] etc.) ? 
 
 set(keywords)>U>I'm interested in [[the population]] of [[upper-austria]].
 
@@ -17,7 +17,7 @@ list(keywords)>E>Perfect: Now what exactly are you looking for? [[Citizenship]],
 
 set(keywords)>U>[[Names]] sound interesting
 
-describe(data)>E>Perfect! I opened it as [[csv]] just now and would like to provide you with some further information: The dataset contains [[years]], [[sex]], [[rankings]], [[the name]] and [[the number of people]] that had that [[name]] in that particular [[year]]
+list(keywords)>E>Perfect! I opened it as [[csv]] just now and would like to provide you with some further information: The dataset contains [[years]], [[sex]], [[rankings]], [[the name]] and [[the number of people]] that had that [[name]] in that particular [[year]]
     It goes from [[2015]] until [[2015]]
 prompt(keywords)>E>is there a specific ranking, name or year that you want me to research for you?
 list(keywords)>E>e.g. [[most/second popular]] [[male]] [[name]] in [[20XX]]? 
@@ -25,6 +25,6 @@ list(keywords)>E>e.g. [[most/second popular]] [[male]] [[name]] in [[20XX]]?
 set(keywords)>U>Is it possible to get [[the names]] of [[specific villages]]?
 
 bool(data)>E>Unfortunately not
-    It is all [[AT31]]
+list(keywords)>E>It is all [[AT31]]
 
-feedback>U>Ok well then...that would be all
+success()>U>Ok well then...that would be all

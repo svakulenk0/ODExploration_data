@@ -4,12 +4,12 @@ prompt(keywords)>E>What kind of data would you be interested in?
 set(keywords)>U>I'm interested in data about [[Vienna]] or generally about Austria
     Does your platform provide some data about this?
 
-list(datasets)>E>Yes it does!
-    Would you be interested in the [[Deaths]] in [[vienna]]?
+bool(data)>E>Yes it does!
+list(keywords)>E>Would you be interested in the [[Deaths]] in [[vienna]]?
     or the [[births]]?
     we got also the [[migrations]] with [[origincountry]] since [[2002]] in [[vienna]]
 
-confirm>U>Yes that sounds interesting
+confirm()>U>Yes that sounds interesting
 
 link(dataset)>E>here you can download this dataset: https://www.data.gv.at/kata...
 
@@ -17,8 +17,8 @@ set(keywords)>U>Interesting, lets go for another data set
     I'm interested for [[the location Engerwitzdorf]]
     Can you provide me with some data sets from this specific location?
 
-list(datasets)>E>We got [[the dumpdisposalplaces of Engerwitzdorf]]!
-count(datasets)>E>and 137 other datasets which refer to Engerwitzdorf.
+list(keywords)>E>We got [[the dumpdisposalplaces of Engerwitzdorf]]!
+count(data)>E>and [[137]] other datasets which refer to [[Engerwitzdorf]].
 
 set(keywords)>U>Maybe also some others? I'm getting father soon and i don't know about how i should [[name my child]]..
 
@@ -30,4 +30,4 @@ set(keywords)>U>I'll let me surprise
 
 link(dataset)>E>here you can download the datasets for both genders: https://www.data.gv.at/such...
 
-feedback>U>Thank you, this will help me a lot :)
+success()>U>Thank you, this will help me a lot :)

@@ -1,6 +1,6 @@
-count(facet)>E>I can offer you datasets from data.gv.at
-You have [[14]] [[categories]] to choose from:
-list(facet)>E>
+list(keywords)>E>I can offer you [[datasets]] from [[data.gv.at]]
+count(data)>E>You have [[14]] [[categories]] to choose from:
+list(keywords)>E>
 - [[Arbeit]]
 - [[Bevölkerung]]
 - [[Bildung & Forschung]]
@@ -37,26 +37,26 @@ set(keywords)>U>Not really an [[amount]], more a [[statistic about the names of 
 bool(data)>E>Alright, there's a seperate dataset for this
 list(keywords)>E>So you need the most [[used first name]] for [[Engerwitzdorf]]?
 
-confirm>U>correct
+confirm()>U>correct
 
 list(keywords)>E>[[male]] or [[female]]?
 prompt(keywords)>E>and for what [[year]]?
 
-confirm>U>nothing that exact, i need more of an overview
+confirm()>U>nothing that exact, i need more of an overview
 
-count(datasets)>E>ok, there are [[two]] datasets
-describe(data)>E>published by [[Engerwitzdorf]]
+count(data)>E>ok, there are [[two]] [[datasets]]
+list(keywords)>E>[[published by]] [[Engerwitzdorf]]
 list(keywords)>E>One for [[male]] and one for [[female]] 
-describe(data)>E>Both contain the information for the year [[2011]]
+list(keywords)>E>Both contain the information for the year [[2011]]
 
-set(top)>U>OK i just need the most popular [[names]]
+set(keywords)>U>OK i just need [[the most popular]] [[names]]
 
-top(data)>E>Starting with the [[female]] dataset, there was only one [[name]] used more than once, which is [[""Jasmin""]]
+list(keywords)>E>Starting with the [[female]] dataset, there was only one [[name]] used more than once, which is [[""Jasmin""]]
 All other [[names]] in the data set were used exactly [[once]]
 
-success>U>oke, that was exactly what i needed, thanks!
+success()>U>oke, that was exactly what i needed, thanks!
 
-top(data)>E>For the [[males]], [[6]] [[names]] were used [[twice]]: [[Alexander]], [[Elias]], [[Felix]], [[Jakob]], [[Robin]], [[Simon]]
-distribution(data)>E>All other [[names]] were used only once
+list(keywords)>E>For the [[males]], [[6]] [[names]] were used [[twice]]: [[Alexander]], [[Elias]], [[Felix]], [[Jakob]], [[Robin]], [[Simon]]
+list(keywords)>E>All other [[names]] were used only [[once]]
 
-success>U>Thanks!
+success()>U>Thanks!

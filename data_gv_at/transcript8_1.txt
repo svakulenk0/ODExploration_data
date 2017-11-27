@@ -1,36 +1,36 @@
 prompt(keywords)>E>Hello, do you have any questions about our data portal?
 
-greeting>U>Hi 
+greeting()>U>Hi 
 
 prompt(keywords)>E>Do you have any questions? 
 
-describe(data)>U>What datasets do you have? 
+question(data)>U>What datasets do you have? 
 
-count(datasets)>E>Ok, we can offer a lot of datasets. There are about 2500 datasets! 
+count(data)>E>Ok, we can offer [[a lot of]] [[datasets]]. There are about [[2500]] [[datasets]]! 
 
-describe(facet)>U>Do you have [[categories]]? 
+set(keywords)>U>Do you have [[categories]]? 
 
-list(attributes)>E>All our datasets are about [[Austria]]. There are sets about [[public services]], [[geography]], [[arts]], [[sports]], [[environment]],...
+list(keywords)>E>All our datasets are about [[Austria]]. There are sets about [[public services]], [[geography]], [[arts]], [[sports]], [[environment]],...
 So, yes we have [[14]] categories, which could be used to filter. You will find the set you need!
 
 set(keywords)>U>I guess the dataset I need is in the category [[public services]] in [[upper austria]]
 
 bool(data)>E>I can offer a dataset about [[playgrounds and sports facilities in Linz]]
-verify>E>Is that what you need? 
+verify()>E>Is that what you need? 
 
-reject>U>No 
+reject()>U>No 
 
 prompt(keywords)>E>For what specific topic in Upper Austria and Public services are you looking for? 
 
 set(keywords)>U>[[newborns]]
 
 bool(data)>E>Ok, I have a set about [[newborns in Upper Austria]] from the federal state.
-describe(data)>E>[[CSV]] [[format]], [[last update]] [[09/2017]]
+list(keywords)>E>[[CSV]] [[format]], [[last update]] [[09/2017]]
 
 set(keywords)>U>But I need a dataset for [[a special town]]
 The town [[starts with E]]
 
-describe(data)>E>Thats no problem.. as [[city]] is an attribute you can filter in the file and just take the city you need. 
+list(keywords)>E>Thats no problem.. as [[city]] is [[an attribute]] you can [[filter in the file]] and just take [[the city]] you need. 
 
 set(keywords)>U>Ok the town is [[Engerwitzdorf]]
 prompt(link)>U>Please send me the link 

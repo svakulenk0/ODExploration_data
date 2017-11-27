@@ -1,21 +1,20 @@
-greeting>U>hallo?
+greeting()>U>hallo?
 
-greeting>E>hey
+greeting()>E>hey
 prompt(keywords)>E>now, tell me what youre looking for
 
-set(top)>U>so i should ask you anything about the data set?
-[[popular]]
-set(keywords)>U>[[names]]
+set(keywords)>U>so i should ask you anything about the data set?
+[[popular]] [[names]]
 
-feedback>E>interesting
-ok. go on
+confirm()>E>interesting
+prompt(keywords)>E>ok. go on
 list(keywords)>E>in [[austria]]?
 
-confirm>U>yes
+confirm()>U>yes
 
 prompt(keywords)>E>tell me more
     what kind of [[popular]]
 
-count(attributes)>E>well there are [[a lot of]] [[cities]]
+count(data)>E>well there are [[a lot of]] [[cities]]
 
-confirm>U>yeah i know
+confirm()>U>yeah i know

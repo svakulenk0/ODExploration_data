@@ -3,8 +3,8 @@ list(keywords)>E>my portal was [[opendataportal.at]]
 question(data)>U>what was your contant
 
 list(keywords)>E>my conent is really local, so to speak. Many datasets contain information about [[local businesses]], [[products]], [[administration]] etc.
-top(data)>E>also most of the sets are in [[csv]]
-top(data)>E>I just saw that there are many data sets about [[the WU]] and [[the course organisation]]
+top(keywords)>E>also most of the sets are in [[csv]]
+top(keywords)>E>I just saw that there are many data sets about [[the WU]] and [[the course organisation]]
 
 set(keywords)>U>oh cool do you think there is a data set about [[our courses in wu]]
     maybe from [[last semester]]
@@ -22,9 +22,9 @@ list(keywords)>E>one [[course_id]] and one [[org_id]]
     [[course_id]] starts with [[4001]] and [[org_id]] with [[3798]]
     there are double entries, so neither of these two is unique
 
-confirm>U>it could be the right one
+confirm()>U>it could be the right one
 
 prompt(keywords)>E>do you have any questions left?
 
-reject>U>no
-success>E>
+reject()>U>no
+success()>E>

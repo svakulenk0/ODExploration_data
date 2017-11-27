@@ -8,39 +8,39 @@ list(keywords)>E>so we offer datasets on various [[topics]] but only regarding [
 set(keywords)>U>cool, do you have datasets regarding [[higher education institutes in Vienna]]?
 
 list(keywords)>E>we have data for: [[work]], [[population]], [[education]], [[environment]], etc
-confirm>E>oh yes of course, give me a second
+confirm()>E>oh yes of course, give me a second
 list(keywords)>E>we have data on [[lectures]], [[courses, on the wu]], [[libraries]], etc
 is there anything in there for you?
 list(keywords)>E>also for [[the different semesters]]
 
 set(keywords)>U>oh great, yeah i would be interested in the [[courses]]
 
-confirm>E>[[courses]]?
+confirm()>E>[[courses]]?
 alright just give me a second
 list(keywords)>E>are you interested in a particular [[semester]]?
 unfortunately I think we only have data on [[WU Vienna]]
-verify>E>is that fine?
+verify()>E>is that fine?
 
-confirm>U>actually, yes, [[in Summer semmester 2017]]
+confirm()>U>actually, yes, [[in Summer semmester 2017]]
 yes, [[Wu]] is what im looking for
 
-confirm>E>great
+confirm()>E>great
     1 second
 list(keywords)>E>are you interested in all [[courses]] during [[the ss17]] at [[wu vienna]]?
 
-confirm>U>yes
+confirm()>U>yes
 
 link(dataset)>E>http://data.opendataportal....
     here you go
 
-success>U>Thang you a lot
+success()>U>Thang you a lot
 
-verify>E>is that what you are looking for?
+verify()>E>is that what you are looking for?
 
-confirm>U>yes
+confirm()>U>yes
 
-success>E>great
+success()>E>great
 
-success>U>have a nice afternoon
+success()>U>have a nice afternoon
 
-success>E>yes you too, bye bye
+success()>E>yes you too, bye bye

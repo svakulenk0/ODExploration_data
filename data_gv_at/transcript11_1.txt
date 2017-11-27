@@ -1,53 +1,53 @@
 question(data)>U>So, what can you offer? 
 
-list(facets)>E>I have a lot of data sets, i could give you [[categories]]
+list(keywords)>E>I have a lot of data sets, i could give you [[categories]]
         or categorize them by [[format]]
 
-reject>U>not by [[format]]
+reject()>U>not by [[format]]
 
-list(facets)>E>so do you want to hear some [[categories]]?
+list(keywords)>E>so do you want to hear some [[categories]]?
     
-confirm>U>Exactly 
+confirm()>U>Exactly 
 
-list(facet)>E>I have [[Arbeit]], [[Bevölkerung]], [[Bildung&Forschung]], [[Finanzen]], [[Geographie]], [[Gesellshaft]],       [[Gesundheit]]
+list(keywords)>E>I have [[Arbeit]], [[Bevölkerung]], [[Bildung&Forschung]], [[Finanzen]], [[Geographie]], [[Gesellshaft]],       [[Gesundheit]]
         and more 
 
 set(keywords)>U>Let's try [[Bevölkerung]]
 
-list(facets)>E>i can sort by [[Bundesland]]
-        would that help 
+list(keywords)>E>i can sort by [[Bundesland]]
+verify()>E>would that help 
 
-confirm>U>Well it surely will but I need it even more precisely
+confirm()>U>Well it surely will but I need it even more precisely
 Ok, Bundesland is also good 
 
-list(facet)>E>[[Wien]] [[Salzburg]] [[innsbruck]] [[linz]] [[tirol]] [[burenland]] [[vorarlberg]] [[OÖ]] or [[NÖ]]
+list(keywords)>E>[[Wien]] [[Salzburg]] [[innsbruck]] [[linz]] [[tirol]] [[burenland]] [[vorarlberg]] [[OÖ]] or [[NÖ]]
 
 set(keywords)>U>[[OÖ]]
 
-confirm>E>OK 
+confirm()>E>OK 
 list(keywords)>E>Is it about [[money]]
 
-reject>U>No
+reject()>U>No
 
 list(keywords)>E>[[education]]
 
-reject>U>No
+reject()>U>No
 
 list(keywords)>E>[[family]] related, [[death]] or [[birth]]
 
 set(keywords)>U>Yes, [[birth]]
 
-list(datasets)>E>i could offer a dataset with [[all births since 1970]]
+list(keywords)>E>i could offer a dataset with [[all births since 1970]]
 
-reject>U>No, thanks, that will be too much
+reject()>U>No, thanks, that will be too much
 
-list(datasets)>E>[[the most popular first names]]
+list(keywords)>E>[[the most popular first names]]
 
-confirm>U>YES! 
+confirm()>U>YES! 
 
-prompt(keywords)>E>Do you want the whole dataset or some information on it
+list(keywords)>E>Do you want [[the whole dataset]] or [[some information on it]]
 
-more>U>Is there only one dataset about [[first names]] in [[OÖ]]?
+more()>U>Is there only one dataset about [[first names]] in [[OÖ]]?
 
 list(keywords)>E>[[Linz]] is also possible
 
@@ -63,14 +63,14 @@ list(keywords)>E>[[female]] or [[male]]
 
 set(keywords)>U>Both
 
-confirm>E>ok
+confirm()>E>ok
 list(keywords)>E>[[some information]] or [[just the sets]]? 
 
 set(keywords)>U>Well, if you could [[describe the datasets]], that would be nice
 
-describe(data)>E>it is a [[txt]] file
+list(keywords)>E>it is a [[txt]] file
 
-confirm>U>Good
+confirm()>U>Good
 set(keywords)>U>What are [[the columns]]?
 
 list(keywords)>E>[[rank]] and [[name]]

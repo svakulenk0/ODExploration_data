@@ -1,6 +1,6 @@
-greeting>U>hi
+greeting()>U>hi
 
-greeting>E>Hi
+greeting()>E>Hi
 
 question(data)>U>what portal did you use?
 
@@ -13,17 +13,17 @@ list(keywords)>E>datasets related to [[our University(WU)]], a lot of data from 
 set(keywords)>U>interesting
     what exactly are there related to [[the WU]]?
 
-top(data)>E>Mostly [[the mapping of courses in each different semester]]
+top(keywords)>E>Mostly [[the mapping of courses in each different semester]]
 list(keywords)>E>and also [[all campus rooms]], [[all organizations]],[[all course events]] and so on
 
 set(keywords)>U>That might be something important for me. What can you tell me about [[last semester]] for example?
 
 list(keywords)>E>you mean [[ss17]]?
 
-confirm>U>yes
+confirm()>U>yes
 
 count(data)>E>there is a total of [[1950]] records in this dataset, so that means [[1950]] different [[courses]] in [[the last semester]]
 
-success>U>Great, thats what i am searching for
+success()>U>Great, thats what i am searching for
 
-success>E>i am glad
+success()>E>i am glad
