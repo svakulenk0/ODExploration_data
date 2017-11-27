@@ -53,8 +53,8 @@ def parse_all_transcripts(dirs=DIRS):
 
 
 def produce_single_log(dirs=DIRS):
+    index = 1
     for portal_dir in dirs:
-        index = 1
         for file_name in os.listdir(portal_dir):
             if file_name[-4:] == '.txt':
                 with open('/'.join([portal_dir, file_name])) as file:
