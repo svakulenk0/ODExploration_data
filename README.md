@@ -13,13 +13,13 @@
 
 ## Annotations
 
-The transcripts are manually annotated with the message types (intents/responses) and the speaker identifier (Expert/User). The new lines separators were inserted within the same message to indicate the spans of text with different mesage types.
+The transcripts are manually annotated with the message types (intents/responses) and the speaker identifier (Expert/User). The new lines separators were inserted within the same message to indicate the spans of text with different message types.
 
 
 Annotation template: message_type>speaker_turn>message
 e.g. greeting>E>Hi?
 
-We differentiate between 15 different message types (intents and responds), which correspond to the basic  operations available for data exploration.
+We differentiate between 15 different message types, which correspond to the basic  operations available for data exploration.
 
 1. Message types produced by **both** (user and expert) are in range:
    
