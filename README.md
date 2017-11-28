@@ -13,6 +13,9 @@
 
 ## Annotations
 
+The transcripts are manually annotated with the message types (intents/responses) and the speaker identifier (Expert/User). The new lines separators were inserted within the same message to indicate the spans of text with different mesage types.
+
+
 Annotation template: message_type>speaker_turn>message
 e.g. greeting>E>Hi?
 
