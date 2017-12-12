@@ -56,6 +56,10 @@ We differentiate between 15 different message types, which correspond to the bas
 
 3. [[concept]] mark-up is used to build the templates with the ontology concepts used as variables
 
+Average number of concepts per utterance 5
+
+Maximum number of concepts per utterance 13
+
 
 ## License  
   
