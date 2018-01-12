@@ -1,71 +1,60 @@
 greeting()>U>Hey
-    Ich brauche Daten
-    Wie sieht deine Seite aus?
+question(data)>U>Ich brauche Daten Wie sieht deine Seite aus?
 
 greeting()>E>Hallo
 
 question(data)>U>Was für Daten hast du?
 
-prompt(keywords)>E>Du kannst auch gerne fragen
-
-    ok passt.
+prompt(keywords)>E>Du kannst auch gerne fragen ok passt.
 
 question(data)>U>was für daten hast du
 
-list(keywords)>E>[[Landes-]] und [[bundesbezogene]] Daten
+list(keywords)>E>[[Landes-]]E* und [[bundesbezogene]]E* Daten
 
-set(keywords)>U>[[Landesbezogen]]
+set(keywords)>U>[[Landesbezogen]]E*
 
-list(keywords)>E>Brauchst du etwas über [[öffentliche Einrichtungen]]?
+list(keywords)>E>Brauchst du etwas über [[öffentliche Einrichtungen]]E*?
 
-set(keywords)>U>Weiß ich nicht - was genau hast du denn über [[öffentliche Einrichtungen]]?
+set(keywords)>U>Weiß ich nicht - was genau hast du denn über [[öffentliche Einrichtungen]]E*?
 
-prompt(keywords)>E>Über welches [[Bundesland]] willst du etwas wissen?
-count(data)>E>Ich hab alle [[9]]
+prompt(keywords)>E>Über welches [[Bundesland]]F* willst du etwas wissen?
+count(data)>E>Ich hab alle [[9]]Q*
 
-set(keywords)>U>[[OÖ]]
+set(keywords)>U>[[OÖ]]E*
 
-list(keywords)>E>Hier hätt ich was über [[Gebäude]], das [[Klima]], [[Vereine/Organisationen]]. Ist da was für dich dabei?
+list(keywords)>E>Hier hätt ich was über [[Gebäude]]E*, das [[Klima]]E*, [[Vereine/Organisationen]]E*. Ist da was für dich dabei?
 
 reject()>U>Nein leider
-more()>U>was hast du sonst noch für Daten über [[OÖ]]?
+more()>U>was hast du sonst noch für Daten über [[OÖ]]E*?
 
-list(keywords)>E>[[Grundwasser]], [[Forstdienste]], [[Viertelgrenzen]], [[Wahlen]]
-    Ist es was [[politisches]]?
-    oder etwas [[geografisches]]? 
+list(keywords)>E>[[Grundwasser]]E*, [[Forstdienste]]E*, [[Viertelgrenzen]]E*, [[Wahlen]]E* Ist es was [[politisches]]E*? oder etwas [[geografisches]]E*? 
 
-set(keywords)>U>[[Geografisch]] ist es nicht
-    eher [[Demografisch]]
+set(keywords)>U>[[Geografisch]]E* ist es nicht eher [[Demografisch]]E*
 
-list(keywords)>E>Was über die [[Bevölkerung]]?
+list(keywords)>E>Was über die [[Bevölkerung]]E*?
 
-confirm()>U>ja genau
-    was hast du da alles?
+confirm()>U>ja genau was hast du da alles?
 
-list(keywords)>E>Brauchst du hier aktuelle Daten, also aus dem [[Jahr]] [[2017]]?
+list(keywords)>E>Brauchst du hier aktuelle Daten, also aus dem [[Jahr]]F* [[2017]]E*?
 
-reject()>U>ich weiß nicht von welchem [[Jahr]] ich die Daten brauche
+reject()>U>ich weiß nicht von welchem [[Jahr]]F* ich die Daten brauche
 
-list(keywords)>E>Interessieren dich Daten einer [[Volkszählung]]?
+list(keywords)>E>Interessieren dich Daten einer [[Volkszählung]]E*?
 
 confirm()>U>damit hat es was zu tun aber ich bin mir nicht sicher ob die daten die ich brauche da dabei sind
 
-list(keywords)>E>Brauchst du was über [[die Herkunft]], [[Geschlecht]]/[[Alter]]/[[Staatsangehörigkeit]], [[Vornamen]], [[Geburten]] oder [[Sterbefälle]]?
+list(keywords)>E>Brauchst du was über [[die Herkunft]]E*, [[Geschlecht]]E*/[[Alter]]E*/[[Staatsangehörigkeit]]E*, [[Vornamen]]E*, [[Geburten]]E* oder [[Sterbefälle]]E*?
 
-set(keywords)>U>was mit [[vornamen]] und [[Geburten]]
+set(keywords)>U>was mit [[vornamen]]E* und [[Geburten]]E*
 
-list(keywords)>E>brauchst [[Statistik der beliebtesten Vornamen für Neugeborene in Oberösterreich seit 2010]]
+list(keywords)>E>brauchst [[Statistik der beliebtesten Vornamen für Neugeborene in Oberösterreich seit 2010]]R*
 
-more()>U>Bisschen spezifischer noch
-    Oberösterreich ist bisschen zu viel
-    Hast du noch was genaueres?
+more()>U>Bisschen spezifischer noch Oberösterreich ist bisschen zu viel Hast du noch was genaueres?
 
-list(keywords)>E>[[Beliebteste Vornamen in Linz]]
+list(keywords)>E>[[Beliebteste Vornamen in Linz]]R*
 
-more()>U>Hast du alle Gemeinden aus OÖ?
-    ??
+more()>U>Hast du alle Gemeinden aus OÖ???
 
-list(keywords)>E>[[Vornamen männlich Engerwitzdorf]] hätt ich noch im Angebot
+list(keywords)>E>[[Vornamen männlich Engerwitzdorf]]R* hätt ich noch im Angebot
 
-confirm()>U>Perfekt!
-    Nehm ich
+confirm()>U>Perfekt! Nehm ich
