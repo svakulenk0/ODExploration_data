@@ -47,6 +47,17 @@ We differentiate between 15 different message types, which correspond to the bas
         * more(), indicates a request for more items from the same equivalence class
 
 
+Span codes:
+
+* [[]]H* - greeting;
+* [[]]G* - question about the data availability;
+* [[]]F* - facet option for exploration, e.g. category;
+* [[]]E* - entity option (facet value) for exploration, e.g. finance;
+* [[]]Q* - cardinality of the corresponding item set;
+* [[]]S* - sorting approch;
+* [[]]R* - unique identifier of an item, e.g. title or link to the dataset;
+* [[]]+* - positive feedback;
+* [[]]-* - negative feedback.
 
 
 2. Dialog turn separators:
