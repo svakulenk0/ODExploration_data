@@ -41,23 +41,11 @@ We differentiate between 15 different message types, which correspond to the bas
 
     intents and responses by **user**:
     
-        * question(data), indicates a general information request, e.g. "what have you got"
-        * set(keywords), indicates the choice of a specific direction for exploration, e.g. "have you got smth on population statistics"
+        * question(data), indicates a general information request, e.g. "what data do you have?"
+        * set(keywords), indicates the choice of a specific direction for exploration, e.g. "have you got smth on population statistics?"
         * reject(), explicitly rejects the direction for exploration
         * more(), indicates a request for more items from the same equivalence class
 
-
-Span codes:
-
-* [[]]H* - greeting;
-* [[]]G* - question about the data availability;
-* [[]]F* - facet option for exploration, e.g. category;
-* [[]]E* - entity option (facet value) for exploration, e.g. finance;
-* [[]]Q* - cardinality of the corresponding item set;
-* [[]]S* - sorting approch;
-* [[]]R* - unique identifier of an item, e.g. title or link to the dataset;
-* [[]]+* - positive feedback;
-* [[]]-* - negative feedback.
 
 
 2. Dialog turn separators:
@@ -65,11 +53,22 @@ Span codes:
 * E for the expert utterance
 * U for the user utterance
 
-3. [[concept]] mark-up is used to build the templates with the ontology concepts used as variables
+3. [[]] indicates concept span
 
-Average number of concepts per utterance 5
+Codes for span annotations:
 
-Maximum number of concepts per utterance 13
+* [[]]H* - greeting;
+* [[]]G* - question about the data availability/need;
+* [[]]F* - facet option for exploration, e.g. category;
+* [[]]E* - entity option (facet value) for exploration, e.g. finance;
+* [[]]Q* - cardinality of the corresponding item set;
+* [[]]R* - unique identifier of an item, e.g. title or link to the dataset;
+* [[]]+* - positive feedback;
+* [[]]-* - negative feedback.
+
+Average number of concepts per utterance 2
+
+Maximum number of concepts per utterance 16
 
 
 ## License  
