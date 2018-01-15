@@ -1,28 +1,19 @@
-greeting()>E>Hi?
+greeting()>A>[[Hi?]]H*
 
-greeting()>U>hello
+greeting()>U>[[hello]]H*
 
-list(keywords)>E>[[data.gv.at]] is [[the open data portal]] from [[the austrian government]]
-    it has many different [[datasets]] for [[the whole region of austria]]
+greeting()>A> [[data.gv.at is the open data portal from the austrian government it has many different datasets for the whole region of austria]]H*
 
-question(data)>U>alright is it [[free]]?
+question(data)>U> alright is it [[free]]E* ?
 
-list(keywords)>E>yes thats the best thing about it, it is [[completely free]]!
-prompt(keywords)>E>which datasets are you interested in?
+prompt(keywords)>A> [[yes]]*+ thats the best thing about it, it is [[completely]]Q* [[free]]E* ! [[which datasets are you interested in?]]G*
 
-set(keywords)>U>I should find [[the most popular]] [[names of newborns]] in [[Engerwitzdorf]]
-    could you help me with that?
+set(keywords)>U> I should find [[the most popular names of newborns in Engerwitzdorf]]E* [[could you help me with that?]]G*
 
-confirm()>E>yes i can help you with that.
+list(keywords)>A> [[yes i can help you with that]]+* . do you want to know [[the most popular names of male]]R* or [[female newborns]]R* ? or both?
 
-list(keywords)>E>do you want to know [[the most popular]] [[names]] of [[male]] or [[female]] [[newborns]]?
-or both?
+set(keywords)>U>the most popular names of [[both genders]]+*
 
-set(keywords)>U>the most popular [[names]] of [[both genders]]
-
-top(keywords)>E>ok for the [[male]] [[newborns]] for [[the year]] [[2011]] the most popular [[name]] were [[alexander]], [[elias]], [[felix]], [[jakob]], [[robin]] and [[simon]]
-    with [[2]] entries
-    the most popular [[female]] [[name]] for [[a newborn]] was [[jasmin]]
-    also from [[the year]] [[2011]] and with a count of [[2]]
+top(keywords)>A>ok for the male newborns for the year 2011 the most popular name were alexander, elias, felix, jakob, robin and simon with 2 entries the most popular female name for a newborn was jasmin also from the year 2011 and with a count of 2
 
 success()>U>okay, thank you for your help

@@ -1,62 +1,35 @@
-list(keywords)>E>I can offer you [[datasets]] from [[data.gv.at]]
-count(data)>E>You have [[14]] [[categories]] to choose from:
-list(keywords)>E>
-- [[Arbeit]]
-- [[Bevölkerung]]
-- [[Bildung & Forschung]]
-- [[Finanzen & Rechnungswesen]]
-- [[Geographie & Planung]]
-- [[Gesellschaft & Soziales]]
-- [[Gesundheit]]
-- [[Kunst & Kultur]]
-- [[Land & Forstwirtschaft]]
-- [[Sport & Freizeit]]
-- [[Umwelt]]
-- [[Verkehr]]
-- [[Verwaltung & Politik]]
-- [[Wirtschaft & Tourismus]]
+list(keywords)>A>I can offer you datasets from data.gv.at You have [[14]]Q* [[categories]]F* to choose from:- [[Arbeit]]E* - [[Bevölkerung]]E* - [[Bildung & Forschung]]E* - [[Finanzen & Rechnungswesen]]E* - [[Geographie & Planung]]E* - [[Gesellschaft & Soziales]]E* - [[Gesundheit]]E* - [[Kunst & Kultur]]E* - [[Land & Forstwirtschaft]]E* - [[Sport & Freizeit]]E* - [[Umwelt]]E* - [[Verkehr]]E* - [[Verwaltung & Politik]]E* - [[Wirtschaft & Tourismus]]E* [[Which one do you need information from?]]G*
 
-prompt(keywords)>E>Which one do you need information from?
+set(keywords)>U>I will take [[Bevölkerung]]E*
 
-set(keywords)>U>I will take [[""Bevölkerung""]]
+list(keywords)>A>[[Alright]]+* , [[do you need information about a specific]]G* [[state]]F* or about a specific [[town]]F*?
 
-list(keywords)>E>Alright, do you need information about a specific [[state]] or about a specific [[town]]?
+set(keywords)>U>Yes, it will be a town called [[Engerwitzdorf]]E*
 
-set(keywords)>U>Yes, it will be a town called ""Engerwitzdorf""
+list(keywords)>A>Ok, so you need information about a town in [[Upper Austria]]E* [[Du you need information about]]G* [[age]]E*, [[gender]]E*, [[Erwerbsstatus]]E*, [[Wanderungen]]E*, [[Familien]]E*, [[Geburten]]E* or [[Sterbefälle]]E* ?
 
-list(keywords)>E>Ok, so you need information about a town in Upper Austria
-Du you need information about age, gender, ""Erwerbsstatus"", ""Wanderungen"", ""Familien"", ""Geburten"" or ""Sterbefälle""?
+set(keywords)>U>I hope its either in [[Familien]]E* or [[Geburten]]E*
 
-set(keywords)>U>I hope its either in [[Familien]] or [[Geburten]]
+bool(data)>A>Ok, I found entries for [[Engerwitzdorf]]E* in [[family]]E* data [[Do you need]]G* the [[amount of families in total]]R*, [[the amount of families without children]]R*, or similar?
 
-bool(data)>E>Ok, I found entries for [[Engerwitzdorf]] in [[family]] data
-list(keywords)>E>Do you need the [[amount of families in total]], [[the amount of families without children]], or similar?
+set(keywords)>U>[[Not really]]-* an [[amount]]E*, [[more]]+* a [[statistic about the names of the newbornes]]E*
 
-set(keywords)>U>Not really an [[amount]], more a [[statistic about the names of the newbornes]]
+bool(data)>A>[[Alright]]+*, there's a seperate dataset for this So you need [[the most used first name for Engerwitzdorf]]*R?
 
-bool(data)>E>Alright, there's a seperate dataset for this
-list(keywords)>E>So you need the most [[used first name]] for [[Engerwitzdorf]]?
+confirm()>U>[[correct]]+*
 
-confirm()>U>correct
+list(keywords)>A>[[male]]E* or [[female]]E*? and for what [[year]]F*?
 
-list(keywords)>E>[[male]] or [[female]]?
-prompt(keywords)>E>and for what [[year]]?
+reject()>U>[[nothing that exact, i need more of an overview]]G*
 
-confirm()>U>nothing that exact, i need more of an overview
+count(data)>A>ok, there are [[two]]Q* datasets [[published by]]F* [[Engerwitzdorf]]E* [[Onefor male]]R* and [[one for female]]R* Both contain the information for the [[year]]F* [[2011]]E*
 
-count(data)>E>ok, there are [[two]] [[datasets]]
-list(keywords)>E>[[published by]] [[Engerwitzdorf]]
-list(keywords)>E>One for [[male]] and one for [[female]] 
-list(keywords)>E>Both contain the information for the year [[2011]]
+set(keywords)>U>[[OK]]+* i just need the most popular names
 
-set(keywords)>U>OK i just need [[the most popular]] [[names]]
-
-list(keywords)>E>Starting with the [[female]] dataset, there was only one [[name]] used more than once, which is [[""Jasmin""]]
-All other [[names]] in the data set were used exactly [[once]]
+list(keywords)>A>Starting with the female dataset, there was only one name used more than once, which is ""Jasmin"" All other names in the data set were used exactly once
 
 success()>U>oke, that was exactly what i needed, thanks!
 
-list(keywords)>E>For the [[males]], [[6]] [[names]] were used [[twice]]: [[Alexander]], [[Elias]], [[Felix]], [[Jakob]], [[Robin]], [[Simon]]
-list(keywords)>E>All other [[names]] were used only [[once]]
+list(keywords)>A>For the males, 6 names were used twice: Alexander, Elias, Felix, Jakob, Robin, Simon All other names were used only once
 
 success()>U>Thanks!

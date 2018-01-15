@@ -1,33 +1,23 @@
-prompt(keywords)>E>What kind of data would you be interested in?
-    or better asked, what kind of topic is interesting for you?
+prompt(keywords)>A>[[What kind of data would you be interested in?]]G* or better asked, [[what kind of topic is interesting for you?]]G*
 
-set(keywords)>U>I'm interested in data about [[Vienna]] or generally about Austria
-    Does your platform provide some data about this?
+set(keywords)>U>I'm interested in data about [[Vienna]]E* or generally about [[Austria]]E* [[Does your platform provide some data about this?]]G*
 
-bool(data)>E>Yes it does!
-list(keywords)>E>Would you be interested in the [[Deaths]] in [[vienna]]?
-    or the [[births]]?
-    we got also the [[migrations]] with [[origincountry]] since [[2002]] in [[vienna]]
+list(keywords)>A>[[Yes it does!]]+* Would you be interested in the [[Deaths in vienna]]R* ? or the [[births]]R* ? we got also the [[migrations with origincountry since 2002 in vienna]]R*
 
-confirm()>U>Yes that sounds interesting
+confirm()>U>[[Yes that sounds interesting]]+*
 
-link(dataset)>E>here you can download this dataset: https://www.data.gv.at/kata...
+link(dataset)>A>here you can download this dataset: [[https://www.data.gv.at/kata...]]R*
 
-set(keywords)>U>Interesting, lets go for another data set
-    I'm interested for [[the location Engerwitzdorf]]
-    Can you provide me with some data sets from this specific location?
+set(keywords)>U>[[Interesting]]+* , lets go for another data set I'm interested for the [[location]]F* [[Engerwitzdorf]]E* [[Can you provide me with some data sets from this specific]]G* [[location]]F* ?
 
-list(keywords)>E>We got [[the dumpdisposalplaces of Engerwitzdorf]]!
-count(data)>E>and [[137]] other datasets which refer to [[Engerwitzdorf]].
+list(keywords)>A>We got [[the dumpdisposalplaces of Engerwitzdorf]]R* ! and [[137]]Q* other datasets which refer to [[Engerwitzdorf]]E* .
 
-set(keywords)>U>Maybe also some others? I'm getting father soon and i don't know about how i should [[name my child]]..
+set(keywords)>U>Maybe also some others? I'm getting father soon and i don't know about how i should [[name my child]]E* ..
 
-list(keywords)>E>Is it [[a boy]] or [[a girl]]?
-    Because we got [[the Names of males]] and [[females]] [[in Engerwitzdorf]].
+list(keywords)>A>Is it a boy or a girl? Because we got [[the Names of males]]R* and [[females in Engerwitzdorf]]R* .
 
-set(keywords)>U>I'll let me surprise
-    So it would be great to get some names for [[both genders]]
+set(keywords)>U>I'll let me surprise. So it would be great to get some names for [[both genders]]+*
 
-link(dataset)>E>here you can download the datasets for both genders: https://www.data.gv.at/such...
+link(dataset)>A>here you can download the datasets for both genders: https://www.data.gv.at/such...
 
 success()>U>Thank you, this will help me a lot :)

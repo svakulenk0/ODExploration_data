@@ -1,81 +1,71 @@
-question(data)>U>So, what can you offer? 
+question(data)>U>So, [[what can you offer?]]?*
 
-list(keywords)>E>I have a lot of data sets, i could give you [[categories]]
-        or categorize them by [[format]]
+list(keywords)>A>I have a lot of data sets, i could give you [[categories]]F* or categorize them by [[format]]F*
 
-reject()>U>not by [[format]]
+reject()>U>[[not]]-* by [[format]]F*
 
-list(keywords)>E>so do you want to hear some [[categories]]?
+list(keywords)>A>so do you want to hear some [[categories]]F*?
     
-confirm()>U>Exactly 
+confirm()>U>[[Exactly]]+*
 
-list(keywords)>E>I have [[Arbeit]], [[Bevölkerung]], [[Bildung&Forschung]], [[Finanzen]], [[Geographie]], [[Gesellshaft]],       [[Gesundheit]]
-        and more 
+list(keywords)>A>I have [[Arbeit]]E*, [[Bevölkerung]]E*, [[Bildung&Forschung]]E*, [[Finanzen]]E*, [[Geographie]]E*, [[Gesellshaft]]E*, [[Gesundheit]]E* and more 
 
-set(keywords)>U>Let's try [[Bevölkerung]]
+set(keywords)>U>Let's try [[Bevölkerung]]E*
 
-list(keywords)>E>i can sort by [[Bundesland]]
-verify()>E>would that help 
+list(keywords)>A>i can sort by [[Bundesland]]F* would that help 
 
-confirm()>U>Well it surely will but I need it even more precisely
-Ok, Bundesland is also good 
+confirm()>U>[[Well it surely will]]+* but I need it even more precisely Ok, [[Bundesland]]F* is [[also good]]+*
 
-list(keywords)>E>[[Wien]] [[Salzburg]] [[innsbruck]] [[linz]] [[tirol]] [[burenland]] [[vorarlberg]] [[OÖ]] or [[NÖ]]
+list(keywords)>A>[[Wien]]E* [[Salzburg]]E* [[innsbruck]]E* [[linz]]E* [[tirol]]E* [[burenland]]E* [[vorarlberg]]E* [[OÖ]]E* or [[NÖ]]E*
 
-set(keywords)>U>[[OÖ]]
+set(keywords)>U>[[OÖ]]E*
 
-confirm()>E>OK 
-list(keywords)>E>Is it about [[money]]
+confirm()>A>OK Is it about [[money]]E*
 
-reject()>U>No
+reject()>U>[[No]]-*
 
-list(keywords)>E>[[education]]
+list(keywords)>A>[[education]]E*
 
-reject()>U>No
+reject()>U>[[No]]-*
 
-list(keywords)>E>[[family]] related, [[death]] or [[birth]]
+list(keywords)>A>[[family]]E* related, [[death]]E* or [[birth]]E*
 
-set(keywords)>U>Yes, [[birth]]
+set(keywords)>U>Yes, [[birth]]E*
 
-list(keywords)>E>i could offer a dataset with [[all births since 1970]]
+list(keywords)>A>i could offer a dataset with [[all births since 1970]]R*
 
-reject()>U>No, thanks, that will be too much
+reject()>U>[[No]]-*, thanks, that will be too much
 
-list(keywords)>E>[[the most popular first names]]
+list(keywords)>A>[[the most popular first names]]R*
 
-confirm()>U>YES! 
+confirm()>U>[[YES!]]+*
 
-list(keywords)>E>Do you want [[the whole dataset]] or [[some information on it]]
+list(keywords)>A>Do you want [[the whole dataset]]E* or [[some information on it]]E*
 
-more()>U>Is there only one dataset about [[first names]] in [[OÖ]]?
+more()>U>[[Is there]]G* [[only one]]Q* dataset about [[first names in OÖ]]E*?
 
-list(keywords)>E>[[Linz]] is also possible
+list(keywords)>A>[[Linz]]E* is also possible
 
-set(keywords)>U>No, I mean [[OÖ]] is large, is the dataset about [[the whole OÖ]] or some particular [[cities]]?
+set(keywords)>U>No, I mean [[OÖ]]E* is large, is the dataset about the whole OÖ or some particular [[cities]]F*?
 
-list(keywords)>E>I have [[oÖ]] as a whole
-        and [[linz]]
-        and [[engerwitzdorf]]
+list(keywords)>A>I have [[oÖ]]E* as a whole and [[linz]]E* and [[engerwitzdorf]]E*
 
-set(keywords)>U>The last one is exaclty what i need
+set(keywords)>U>[[The last one]]E* is exaclty what i need
 
-list(keywords)>E>[[female]] or [[male]]
+list(keywords)>A>[[female]]R* or [[male]]R*
 
-set(keywords)>U>Both
+set(keywords)>U>[[Both]]+*
 
-confirm()>E>ok
-list(keywords)>E>[[some information]] or [[just the sets]]? 
+list(keywords)>A>ok some information or just the sets? 
 
-set(keywords)>U>Well, if you could [[describe the datasets]], that would be nice
+set(keywords)>U>Well, if you could describe the datasets, that would be nice
 
-list(keywords)>E>it is a [[txt]] file
+list(keywords)>A>it is a txt file
 
-confirm()>U>Good
-set(keywords)>U>What are [[the columns]]?
+set(keywords)>U>Good What are the columns?
 
-list(keywords)>E>[[rank]] and [[name]]
+list(keywords)>A>rank and name
 
 prompt(link)>U>Fine, send me a link and we're finished
 
-link(dataset)>E>OK beep boop sending file: https://www.data.gv.at/kata...
-        https://www.data.gv.at/kata...
+link(dataset)>A>OK beep boop sending file: https://www.data.gv.at/kata...

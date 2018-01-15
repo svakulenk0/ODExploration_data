@@ -1,28 +1,23 @@
-list(keywords)>E>I can offer you a dataset from [[opendataportal.at]]
-it has the same [[categories]] as yours,
-prompt(keywords)>E>what do you need?
+list(keywords)>A>I can offer you a dataset from opendataportal.at it has the same [[categories]]F* as yours, [[what do you need?]]G*
 
-set(keywords)>U>i need [[education]] information
-So [[""Bildung""]] is probably the right category
+set(keywords)>U>i need [[education]]E* information So [[Bildung]]E* is probably the right [[category]]F*
 
-prompt(keywords)>E>any specific [[town]]?
+prompt(keywords)>A>any specific [[town]]F* ?
 
-set(keywords)>U>[[Vienna]]
+set(keywords)>U>[[Vienna]]E*
 
-prompt(keywords)>E>a specific [[university]]?
+prompt(keywords)>A>a specific [[university]]F* ?
 
-set(keywords)>U>[[The WU Wien]]
+set(keywords)>U>The [[WU Wien]]E*
 
-list(keywords)>E>Do you ned information about [[their courses]]?
+list(keywords)>A>Do you ned information about [[their courses]]E* ?
 
-confirm()>U>Exactly,
-set(keywords)>U>I need information about [[the amount of listed courses]]
+confirm()>U>[[Exactly]]+* , I need information about the [[amount of listed courses]]*E
 
-prompt(keywords)>E>of a specific [[semester]]?
+prompt(keywords)>A>of a specific [[semester]]F* ?
 
-set(keywords)>U>[[Summer Semester 2017]]
+set(keywords)>U>[[Summer Semester 2017]]E*
 
-link(dataset)>E>I hope this dataset helps you: [[http://data.opendataportal....]]
-count(data)>E>There are [[1950]] records, since you need [[the amount of the courses]]
+link(dataset)>A>I hope this dataset helps you: [[http://data.opendataportal....]]R* There are 1950 records, since you need the amount of the courses
 
-success()>U>Perfect, that is exactly the information I needed!
+success()>U>[[Perfect, that is exactly the information I needed!]]+*

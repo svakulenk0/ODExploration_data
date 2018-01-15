@@ -1,82 +1,61 @@
-greeting()>U>Hello, anybody there?
-greeting()>U>Hello?
+greeting()>U>[[Hello]]H* , [[anybody there?]]H* [[Hello?]]H*
 
-greeting()>E>hi
-greeting()>E>Yo.
-prompt(keywords)>E>Yo.How can I help you?
-prompt(keywords)>E>What are you looking for?
+greeting()>A>[[hi]]H* [[Yo]]H* . [[How can I help you?]]G* [[What are you looking for?]]G*
 
-question(data)>U>well some data, hard to explain, what do you have to offer
+question(data)>U>well some data, hard to explain, [[what do you have to offer]]G*
 
-list(keywords)>E>We have a wide variety of data - lots of data about [[every single state in Austria]], but also about areas like [[health]], [[culture]], [[traffic]] and [[infrastructure]]
+list(keywords)>A>We have a wide variety of data - [[lots]]Q* of data about [[every single]]Q* [[state in Austria]]F*, but also about [[areas]]F* like [[health]]E*, [[culture]]E*, [[traffic]]E* and [[infrastructure]]E*
 
-set(keywords)>U>hit me with some of the variants of [[state]] data
+set(keywords)>U>hit me with some of the variants of [[state]]F* data
 
-list(keywords)>E>[[tourism]], [[economy]], [[finance]], [[geography]] .. - Does any of that sound interesting
-    ?
-    Oh, alright 
+list(keywords)>A>[[tourism]]E* , [[economy]]E* , [[finance]]E* , [[geography]]E* .. - D[[oes any of that sound interesting?]]G* Oh, alright 
 
-question(data)>U>what kind of stuff do you have to offer?
+question(data)>U>[[what kind of stuff do you have to offer?]]G*
 
-prompt(keywords)>E>Any [[state]] that interests you more than others?
+prompt(keywords)>A>Any [[state]]F* that interests you more than others?
 
-set(keywords)>U>yep, [[upper austria]]
+set(keywords)>U>yep, [[upper austria]]E*
 
-confirm()>E>Great, let me check
-list(keywords)>E>So, we have a lot of [[environmental data]], [[election data]], [[data about public spending]], [[city planning data]] etc
-    How does that sound?
+list(keywords)>A>Great, let me check So, we have a [[lot]]Q* of [[environmental]]E* data, [[election]]E* data, data about [[public spending]]E*, [[city planning]]E* data etc [[How does that sound?]]G*
 
-set(keywords)>U>anything more specific to [[certain cities]] in [[upper austria]]?
-    so far nothing sounds to appealing.. maybe [[culture]] might also be possible...? not really sure either could fit
-    *too
+set(keywords)>U>anything more specific to certain [[cities]]F* in [[upper austria]]E* ? [[so far nothing sounds to appealing]]-* .. maybe [[culture]]E* might also be possible...? not really sure either could fit too
 
-list(keywords)>E>We have lots of data about [[Linz]], for example. When searching for [[""culture""]] I get a lot of results for [[school]] data
-    Is [[Linz]] the [[city]] you are most interested in? 
+list(keywords)>A>We have lots of data about [[Linz]]E* , for example. When searching for [[culture]]E* I get a lot of results for [[school]]E* data. Is [[Linz]]E* the [[city]]F* you are most interested in? 
 
-reject()>U>nope,
-set(keywords)>U>[[a lot smaller]] would be prefarable
+reject()>U>[[nope]]-* [[a lot smaller]]E* would be prefarable
 
-list(keywords)>E>Okay, sure
-    Maybe [[Engerwitzdorf]]?
+list(keywords)>A>[[Okay, sure]]+* Maybe [[Engerwitzdorf]]E*?
 
-confirm()>U>yea that sounds cool
+confirm()>U>[[yea that sounds cool]]+*
 
-list(keywords)>E>Great. I just found a data set about [[the most important establishments and institutions in Engerwitzdorf]]. Does that sound appealing at all? 
+list(keywords)>A>[[Great]]+* . I just found a data set about [[the most important establishments and institutions in Engerwitzdorf]]R* . [[Does that sound appealing at all?]]G*
 
-reject()>U>not really,
-set(keywords)>U>don't you have anything more [[people]] related?
+reject()>U>[[not really]]-* [[don't you have anything more]]G* [[people]]E* related?
 
-list(keywords)>E>Didn't you say you wanted data related to [[culture]]?
-confirm()>E>Just kidding, bear with me
+list(keywords)>A>Didn't you say you wanted data related to [[culture]]E* ? Just kidding, bear with me
 
-confirm()>U>I did... at least i was pretty sure
-    you know, might also be a little shizophrenic, you never know
+confirm()>U>[[I did]]+* ... at least i was pretty sure you know, might also be a little shizophrenic, you never know
 
-list(keywords)>E>We have a data set listing all [[the inhabitants of Engerwitzdorf]], as well as data sets with all [[male and female first names]]. On top of that we have [[a list of social institutions]] like [[nursery homes]] and so on.
+list(keywords)>A>We have a data set listing all [[the inhabitants of Engerwitzdorf]]R* , as well as data sets with all [[male]]R* and [[female first names]]R* . On top of that we have [[a list of social institutions like nursery homes]]R* and so on.
 
-set(keywords)>U>mhm, [[names]] would certainly interest me 
+set(keywords)>U>mhm, [[names]]E* would certainly interest me 
 
-list(keywords)>E>Or you looking for [[male]] or [[female]] [[first names]]?
+list(keywords)>A>Or you looking for [[male]]R* or [[female first names]]R* ?
 
-set(keywords)>U>either really, gender is not so much what i care about
-question(data)>U>is there anything else this dataset might have to offer?
+set(keywords)>U>[[either really]]+* , gender is not so much what i care about. is there anything else this dataset might have to offer?
 
-list(keywords)>E>The data set tells you exactly [[how many children with a certain names were born]] in [[2011]]
-    Pretty amazing, huh?
+list(keywords)>A>The data set tells you exactly how many children with a certain names were born in 2011 Pretty amazing, huh?
 
 confirm()>U>that would be cool to know more about
 
-link(dataset)>E>Great. Let me send you the links to both the data set with the male and the data set with the female names
-Ladies first: https://www.data.gv.at/kata...
-link(dataset)>E>Aaaaand the gentlemen: https://www.data.gv.at/kata...
+link(dataset)>A>Great . Let me send you the links to both the data set with the male and the data set with the female names Ladies first: https://www.data.gv.at/kata... Aaaaand the gentlemen: https://www.data.gv.at/kata...
 
 question(data)>U>or actually, i need some specific data from the data set
 
-prompt(keywords)>E>What do you need?
-list(keywords)>E>[[The number of times a certain first name was used]]?
+prompt(keywords)>A>What do you need? The number of times a certain first name was used?
 
-confirm()>U>yea, which ones are most used?
+confirm()>U>yea , which ones are most used?
 
-list(keywords)>E>Amongst [[boys]] it's [[Alexander]], Elias, Felix, Jakob,Robin and Simon. All these [[names]] were each used [[twice]]. Amongst [[girls]] it's [[Jasmin]] which was also used [[twice]]
+list(keywords)>A>Amongst boys it's Alexander, Elias, Felix, Jakob, Robin and Simon. All these names were each used twice. Amongst girls it's Jasmin which was also used twice
 
-success()>U>thanks, I think thats all i need to know 
+success()>U>thanks, I think thats all i need to know

@@ -1,16 +1,11 @@
-set(keywords)>U>i need to now [[how many courses there were at the summer semester 2017]]
-    can you help me with that?
+set(keywords)>U>i need to now [[how many courses there were at the summer semester 2017]]E* [[can you help me with that?]]G*
 
-confirm()>E>yes of course i will look for that in [[the opendataportal.at]]
-list(keywords)>E>its also [[absolutely free]]
-list(keywords)>E>do you mean [[the courses from wu]]?
+confirm()>A>yes of course i will look for that in the opendataportal.at its also absolutely free do you mean [[the courses from wu]]R* ?
 
-set(keywords)>U>yes i need to know [[how many of them there were]]
+set(keywords)>U>[[yes]]+* i need to know how many of them there were
 
-confirm()>E>okay, give me a second
+confirm()>A>okay, give me a second
 
-count(data)>E>in the dataset for courses are [[1000]] records
-    oh actually there are [[2576]] [[courses]]
-    sorry
+count(data)>A>in the dataset for courses are 1000 records oh actually there are 2576 courses sorry
 
 success()>U>thank you for your help

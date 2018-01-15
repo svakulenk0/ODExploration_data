@@ -1,30 +1,22 @@
 question(data)>U>which portal do you have and how would you describe their content? wasn't your portal data.gv.at?
-okay so how would you describe their content?
+okay so [[how would you describe their content?]]G* okay good - regarding a completely different matter, I am interested in [[names of young people in a communal called engerwitzdorf]]E* ?
 
-set(keywords)>U>okay good - regarding a completely different matter, I am interested in [[names of young people]] in [[a communal called engerwitzdorf]]
-    ?
+count(data)>A>i found [[two]]Q* different list with [[man]]R* and [[woman names in engerwitzdorf]]R* sorted after ages
 
-count(data)>E>i found [[two]] different list with [[man and woman names]] in [[engerwitzdorf]] sorted after [[ages]]
+set(keywords)>U>did you find anything about new names, maybe newborns or so? or is it possible to find out which names are the most popular, in relation to their age?
 
-set(keywords)>U>did you find anything about [[new names]], maybe [[newborns]] or so?
-set(keywords)>U>or is it possible to find out which names are the most popular, in relation to [[their age]]?
+list(keywords)>A>born dates are from 2011
 
-list(keywords)>E>[[born dates]] are from [[2011]]
+set(keywords)>U>okay and what is the most popular name in this category?
 
-set(keywords)>U>okay and what is [[the most popular]] [[name]] in this category?
+list(keywords)>A>Alexander 2 Elias 2 Felix 2 Jakob 2 Robin 2 Simon by men Jasmin 2 Alina by women
 
-list(keywords)>E>[[Alexander]] [[2]] [[Elias]] 2 Felix 2 Jakob 2 Robin 2 Simon by men
-    Jasmin 2 Alina by women
+question(data)>U>okay and one last question, [[how would you describe the content of data.gv.at?]]G*
 
-question(data)>U>okay and one last question, how would you describe the content of data.gv.at?
+list(keywords)>A>the content in data.gv.at are about [[austria]]E* my conent is really local, too
 
-list(keywords)>E>the content in [[data.gv.at]] are about [[austria]]
-    my conent is [[really local]], too
+question(data)>U>is it based on [[csv]]E* or other [[formats]]F* ?
 
-question(data)>U>is it based on [[csv]] or other [[formats]]?
+count(data)>A>this portal use [[many]]Q* [[data formats]]F* for example [[csv]]E*, [[png]]E*
 
-count(data)>E>this portal use [[many]] [[data formats]]
-
-success()>U>okay good, I think I got everything i needed
-
-list(keywords)>E>for example [[csv]], [[png]]
+success()>U>[[okay good, I think I got everything i needed]]+*

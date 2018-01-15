@@ -1,19 +1,10 @@
-greeting()>E>how are you ? ^^
+set(keywords)>U>I had always wanted to knor [[how many courses at wu]]E* ?
 
-greeting()>U>little in a hurry
+list(keywords)>E>maybe somehing like [[the wu lehveranstalungsverzeichnis]]R* where you can look at all courses, but also in specific at which semester to take which course
 
-prompt(keywords)>E>just ask
+success()>U>[[yeah]]+*
 
-set(keywords)>U>I had always wanted to knor
-    [[how many courses at wu]]?
-
-list(keywords)>E>maybe somehing like [[the wu lehveranstalungsverzeichnis]]
-    where you can look at [[all courses]], but also in specific [[at which semester to take which course]]
-
-success()>U>yeah
-
-success()>E>yes!
-well great
+success()>E>yes! well great
 
 success()>U>thank a lot
 

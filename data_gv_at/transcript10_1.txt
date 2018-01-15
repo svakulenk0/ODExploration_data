@@ -1,60 +1,57 @@
-greeting()>U>Hey
-question(data)>U>Ich brauche Daten Wie sieht deine Seite aus?
+question(data)>U>[[Hey]]H*. [[Ich brauche Daten Wie sieht deine Seite aus?]]G*
 
-greeting()>E>Hallo
+greeting()>A>[[Hallo]]H*
 
-question(data)>U>Was für Daten hast du?
+question(data)>U>[[Was für Daten hast du?]]G*
 
-prompt(keywords)>E>Du kannst auch gerne fragen ok passt.
+prompt(keywords)>A>[[Du kannst auch gerne fragen]]G* ok passt.
 
-question(data)>U>was für daten hast du
+question(data)>U>[[was für daten hast du]]G*
 
-list(keywords)>E>[[Landes-]]E* und [[bundesbezogene]]E* Daten
+list(keywords)>A>[[Landes-]]E* und [[bundesbezogene]]E* Daten
 
 set(keywords)>U>[[Landesbezogen]]E*
 
-list(keywords)>E>Brauchst du etwas über [[öffentliche Einrichtungen]]E*?
+list(keywords)>A>Brauchst du etwas über [[öffentliche Einrichtungen]]E*?
 
 set(keywords)>U>Weiß ich nicht - was genau hast du denn über [[öffentliche Einrichtungen]]E*?
 
-prompt(keywords)>E>Über welches [[Bundesland]]F* willst du etwas wissen?
-count(data)>E>Ich hab alle [[9]]Q*
+prompt(keywords)>A>Über welches [[Bundesland]]F* willst du etwas wissen? Ich hab alle [[9]]Q*
 
 set(keywords)>U>[[OÖ]]E*
 
-list(keywords)>E>Hier hätt ich was über [[Gebäude]]E*, das [[Klima]]E*, [[Vereine/Organisationen]]E*. Ist da was für dich dabei?
+list(keywords)>A>Hier hätt ich was über [[Gebäude]]E*, das [[Klima]]E*, [[Vereine/Organisationen]]E*. Ist da was für dich dabei?
 
-reject()>U>Nein leider
-more()>U>was hast du sonst noch für Daten über [[OÖ]]E*?
+reject()>U>[[Nein leider.]]-* [[was hast du sonst noch für Daten]]G* über [[OÖ]]E*?
 
-list(keywords)>E>[[Grundwasser]]E*, [[Forstdienste]]E*, [[Viertelgrenzen]]E*, [[Wahlen]]E* Ist es was [[politisches]]E*? oder etwas [[geografisches]]E*? 
+list(keywords)>A>[[Grundwasser]]E*, [[Forstdienste]]E*, [[Viertelgrenzen]]E*, [[Wahlen]]E* Ist es was [[politisches]]E*? oder etwas [[geografisches]]E*? 
 
 set(keywords)>U>[[Geografisch]]E* ist es nicht eher [[Demografisch]]E*
 
-list(keywords)>E>Was über die [[Bevölkerung]]E*?
+list(keywords)>A>Was über die [[Bevölkerung]]E*?
 
-confirm()>U>ja genau was hast du da alles?
+confirm()>U>[[ja genau]]+* [[was hast du da alles?]]G*
 
-list(keywords)>E>Brauchst du hier aktuelle Daten, also aus dem [[Jahr]]F* [[2017]]E*?
+list(keywords)>A>Brauchst du hier aktuelle Daten, also aus dem [[Jahr]]F* [[2017]]E*?
 
-reject()>U>ich weiß nicht von welchem [[Jahr]]F* ich die Daten brauche
+reject()>U>[[ich weiß nicht]]-* von welchem [[Jahr]]F* ich die Daten brauche
 
-list(keywords)>E>Interessieren dich Daten einer [[Volkszählung]]E*?
+list(keywords)>A>[[Interessieren dich Daten]]G* einer [[Volkszählung]]E*?
 
-confirm()>U>damit hat es was zu tun aber ich bin mir nicht sicher ob die daten die ich brauche da dabei sind
+confirm()>U>[[damit hat es was zu tun]]+* aber ich bin mir nicht sicher ob die daten die ich brauche da dabei sind
 
-list(keywords)>E>Brauchst du was über [[die Herkunft]]E*, [[Geschlecht]]E*/[[Alter]]E*/[[Staatsangehörigkeit]]E*, [[Vornamen]]E*, [[Geburten]]E* oder [[Sterbefälle]]E*?
+list(keywords)>A>Brauchst du was über [[die Herkunft]]E*, [[Geschlecht]]E*/[[Alter]]E*/[[Staatsangehörigkeit]]E*, [[Vornamen]]E*, [[Geburten]]E* oder [[Sterbefälle]]E*?
 
 set(keywords)>U>was mit [[vornamen]]E* und [[Geburten]]E*
 
-list(keywords)>E>brauchst [[Statistik der beliebtesten Vornamen für Neugeborene in Oberösterreich seit 2010]]R*
+list(keywords)>A>brauchst [[Statistik der beliebtesten Vornamen für Neugeborene in Oberösterreich seit 2010]]R*
 
-more()>U>Bisschen spezifischer noch Oberösterreich ist bisschen zu viel Hast du noch was genaueres?
+more()>U>Bisschen spezifischer noch Oberösterreich ist bisschen zu viel [[Hast du noch was genaueres?]]G*
 
-list(keywords)>E>[[Beliebteste Vornamen in Linz]]R*
+list(keywords)>A>[[Beliebteste Vornamen in Linz]]R*
 
-more()>U>Hast du alle Gemeinden aus OÖ???
+more()>U>Hast du alle [[Gemeinden]]F* aus OÖ???
 
-list(keywords)>E>[[Vornamen männlich Engerwitzdorf]]R* hätt ich noch im Angebot
+list(keywords)>A>[[Vornamen männlich Engerwitzdorf]]R* hätt ich noch im Angebot
 
-confirm()>U>Perfekt! Nehm ich
+confirm()>U>[[Perfekt!]]+* Nehm ich

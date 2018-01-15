@@ -1,46 +1,33 @@
-prompt(keywords)>E>do you want to know something about my website?
+prompt(keywords)>A>do you want to know something about my website?
 
-question(data)>U>sure, i would love to
-    what kind of website is it?
+question(data)>U>sure, i would love to. [[what kind of website is it?]]G*
 
-list(keywords)>E>so we offer datasets on various [[topics]] but only regarding [[austria]]
+list(keywords)>A>so we offer datasets on various [[topics]]F* but only regarding [[austria]]E* we have data for: [[work]]E* , [[population]]E* , [[education]]E* , [[environment]]E* , etc
 
-set(keywords)>U>cool, do you have datasets regarding [[higher education institutes in Vienna]]?
+set(keywords)>U>cool, do you have datasets regarding [[higher education institutes in Vienna]]E* ?
 
-list(keywords)>E>we have data for: [[work]], [[population]], [[education]], [[environment]], etc
-confirm()>E>oh yes of course, give me a second
-list(keywords)>E>we have data on [[lectures]], [[courses, on the wu]], [[libraries]], etc
-is there anything in there for you?
-list(keywords)>E>also for [[the different semesters]]
+confirm()>A>oh yes of course, give me a second. we have data on [[lectures]]E* , [[courses, on the wu]]E* , [[libraries]]E* , etc is there anything in there for you? also for the different [[semesters]]F*
 
-set(keywords)>U>oh great, yeah i would be interested in the [[courses]]
+set(keywords)>U>oh great, yeah i would be interested in the [[courses]]E*
 
-confirm()>E>[[courses]]?
-alright just give me a second
-list(keywords)>E>are you interested in a particular [[semester]]?
-unfortunately I think we only have data on [[WU Vienna]]
-verify()>E>is that fine?
+confirm()>A>[[courses]]E* ? alright just give me a second. are you interested in a particular [[semester]]F* ? unfortunately I think we only have data on [[WU Vienna]]E* [[is that fine?]]G*
 
-confirm()>U>actually, yes, [[in Summer semmester 2017]]
-yes, [[Wu]] is what im looking for
+confirm()>U>[[actually, yes]]+* , [[in Summer semmester 2017]]E* yes, [[Wu]]E* is what im looking for
 
-confirm()>E>great
-    1 second
-list(keywords)>E>are you interested in all [[courses]] during [[the ss17]] at [[wu vienna]]?
+confirm()>A>great 1 second are you interested in [[all courses during the ss17 at wu vienna]]R* ?
 
-confirm()>U>yes
+confirm()>U>[[yes]]+*
 
-link(dataset)>E>http://data.opendataportal....
-    here you go
+link(dataset)>A>[[http://data.opendataportal....]]R* here you go
 
 success()>U>Thang you a lot
 
-verify()>E>is that what you are looking for?
+verify()>A>is that what you are looking for?
 
 confirm()>U>yes
 
-success()>E>great
+success()>A>great
 
 success()>U>have a nice afternoon
 
-success()>E>yes you too, bye bye
+success()>A>yes you too, bye bye

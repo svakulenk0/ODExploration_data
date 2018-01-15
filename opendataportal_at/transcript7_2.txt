@@ -1,24 +1,23 @@
-question(data)>U>Could you tell me a bit about your website? 
+question(data)>U>[[Could you tell me a bit about your website?]]G*
 
-list(keywords)>E>My website provides data about [[economics]], [[culture]], [[NGO/NPO]] , [[Research]] and [[civil society]]. 
+list(keywords)>A>My website provides data about [[economics]]E* , [[culture]]E* , [[NGO/NPO]]E* , [[Research]]E*  and [[civil society]]E* . 
 
-set(keywords)>U>I am interestet in [[culture]] 
+set(keywords)>U>I am interestet in [[culture]]E*
 
-list(keywords)>E>I have a few datasets from [[""mumok""]] if that's interesting for you 
+list(keywords)>A>I have a few datasets from [[mumok]]E* if that's interesting for you 
 
-confirm()>U>sure! Tell me more about it 
+confirm()>U>[[sure! Tell me more about it]]+*
 
-list(keywords)>E>I could provide you with [[artists]], [[art]], [[exhibitions]] and [[a mapping between art and exhibitions]] 
+list(keywords)>A>I could provide you with [[artists]]E* , [[art]]E* , [[exhibitions]]E* and [[a mapping between art and exhibitions]]E*
 
-set(keywords)>U>[[artists]] sounds interesting! 
+set(keywords)>U>[[artists]]E* sounds interesting!
 
-list(keywords)>E>Ok, I have a list of [[artists of the whole art collection of mumok]]. I can provide you more information by [[name]], [[city of birth/death]] and [[year of birth/death]]. 
+list(keywords)>A>Ok, I have a [[list of artists of the whole art collection of mumok]]R* . I can provide you more information by name, city of birth/death and year of birth/death. 
 
-confirm()>U>sure,
-set(keywords)>U>[[who is the youngest currently]] and [[who died most recently]] ? 
+confirm()>U>[[sure]]+* , who is the youngest currently and who died most recently? 
 
-list(keywords)>E>The [[youngest]] are [[Phillipp Timschl]] and [[Anna-Sophie Berger]], both are [[28 years old]]. The most current [[death]] was [[Vito Acconci]], [[Karl Gerstner]], [[Ingeborg Strobl]] and [[Jannis Kounellis]]. All of them [[died]] [[2017]]. 
+list(keywords)>A>The youngest are Phillipp Timschl and Anna-Sophie Berger, both are 28 years old. The most current death was Vito Acconci, Karl Gerstner, Ingeborg Strobl and Jannis Kounellis. All of them died 2017. 
 
 success()>U>Interesting! Thank you for the Help! 
 
-success()>E>You're welcome!
+success()>A>You're welcome!

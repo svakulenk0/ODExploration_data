@@ -1,31 +1,25 @@
-question(data)>U>and what about your portal?
+question(data)>U>and [[what about your portal?]]G*
 
-list(keywords)>E>My portal was [[data.gv.at]], [[an open data site]] for [[austria]]
+list(keywords)>A>[[My portal was data.gv.at, an open data site for austria]]H*
 
-question(data)>U>what kind of data can you find there?
+question(data)>U>[[what kind of data can you find there?]]G*
 
-list(keywords)>E>You can search for all kinds of [[datasets]], from [[economics]] to [[the political area]] but also everything regarded to [[the life in austria]] [[education]], [[sports]], [[culture]] etc
+list(keywords)>A>You can search for all kinds of datasets, from [[economics]]E* to the [[political]]E* [[area]]F* but also everything regarded to [[the life in austria]]E* [[education]]E*, [[sports]]E*, [[culture]]E* etc
 
-question(data)>U>what exactly do you mean [[life in austria]]? what is it all about?
+question(data)>U>what exactly do you mean [[life in austria]]E* ? what is it all about?
 
-list(keywords)>E>[[Statistics about birthrates]] for example but also things like [[everyday aspects of life in Austria]], [[[where the kindergartens are]], [[what you can do in the city]]
-    [[Including public transport]] for example
+list(keywords)>A>[[Statistics about birthrates]]E* for example but also things like [[everyday aspects of life in Austria]]E* , [[[where the kindergartens are]]E* , [[what you can do in the city]]E* Including [[public transport]]E* for example
 
-set(keywords)>U>that sounds nice, the topic of [[birtrates]] and kind of things interests me a lot, do you have any information about this in [[my hometown]], in [[Engerwitzdorf]]?
-    and also , what other data do you have , related to [[child births]] in [[Engerwitzdorf]]
+set(keywords)>U>[[that sounds nice]]+* , the topic of [[birtrates]]E* and kind of things interests me a lot, do you have any information about this in my hometown, in [[Engerwitzdorf]]E* ? and also , what other data do you have , related to [[child births]]E* in [[Engerwitzdorf]]E*
 
-bool(data)>E>Well, I did not find exactly what you search,
-list(keywords)>E>but I can tell you [[statistics about the places where newborn live]] or [[the names they get]]
+bool(data)>A>Well, I did not find exactly what you search, but I can tell you [[statistics about the places where newborn live]]R* or [[the names they get]]R*
 
-confirm()>U>that sounds all right
-set(keywords)>U>im curious about [[the names]]
-set(keywords)>U>which is [[the most popular]]?
+set(keywords)>U>[[that sounds all right]]+* . im curious about [[the names]]R* which is the most popular?
 
-list(keywords)>E>[[Men]] or [[women]]? Or overall?
+list(keywords)>A>Men or women? Or overall?
 
-set(keywords)>U>[[overall]]
-    or [[both]]
+set(keywords)>U>overall or both
 
-list(keywords)>E>Well [[girls]] got [[the Jasmin]] most often, and [[boys]] have [[Alexander]], [[Elias]], [[Felix]], [[Jakob]], [[Robin]], [[Simon]] on the first rank
+list(keywords)>A>Well girls got the Jasmin most often, and boys have Alexander, Elias, Felix, Jakob, Robin, Simon on the first rank
 
 success()>U>thank you

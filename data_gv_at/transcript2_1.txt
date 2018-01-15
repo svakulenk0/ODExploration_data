@@ -1,32 +1,25 @@
-greeting()>U>hello
-question(data)>U>can you tell me something about a [[free]] [[austrian]] [[data portal]]
+greeting()>U>[[hello]]H* [[can you tell me something about a free austrian data portal]]G*
 
-greeting()>E>hello
-list(keywords)>E>yes, there is a portal called [[data.gv.at]]
-    its from [[the austrian government]] and [[completely free]]
-prompt(keywords)>E>are you interested in specific data?
+greeting()>A>[[hello]]H* [[yes]]+* , [[there is a portal called data.gv.at its from the austrian government and completely free]]H* . [[are you interested in specific data?]]G*
 
-set(keywords)>U>oh nice, yes I would like to know something about [[playgrounds]]
+set(keywords)>U>oh nice, [[yes]]+* I would like to know something about [[playgrounds]]E*
 
-prompt(keywords)>E>okay, can you be a little bit more specific? [[in which Bundesland]] are these [[playgrounds]] you want to know about?
+prompt(keywords)>A>[[okay]]+* , can you be a little bit more specific? in which [[Bundesland]]F* are these [[playgrounds]]E* you want to know about?
 
-set(keywords)>U>[[Oberösterreich]] would be interesting
-    Maybe the ones in [[Linz]]
+set(keywords)>U>[[Oberösterreich]]E* would be interesting Maybe the ones in [[Linz]]E*
 
-confirm()>E>okay ill look into it
-bool(data)>E>and i have the data about [[playgrounds]] in [[Oberösterreich]]
+confirm()>A>[[okay ill look into it]]+* . and i [[have the data about playgrounds in Oberösterreich]]*R
 
-question(data)>U>oh thats very nice
-    can you tell me about your [[playground data set]]?
+question(data)>U>[[oh thats very nice]]+* . can you tell me about your playground data set?
 
-prompt(keywords)>E>yes what do you want to know about [[playgrounds]]?
+prompt(keywords)>A>yes what do you want to know about playgrounds?
 
-set(keywords)>U>[[where]] are the most [[playgrounds]] [[located]]?
+set(keywords)>U>where are the most playgrounds located?
 
-list(keywords)>E>in this data set i found there is only [[the number of how many were approved]] in [[the year]] [[2016]]
+list(keywords)>A>in this data set i found there is only the number of how many were approved in the year 2016
 
 confirm()>U>yes, that would be also interesting to me
 
-list(keywords)>E>in total there were [[45]] [[playgrounds]] [[approved]] in [[2016]] [[the district Wels]] has the highest number with [[15]]
+list(keywords)>A>in total there were 45 playgrounds approved in 2016 the district Wels has the highest number with 15
 
 success()>U>really interesting, thank you for your help

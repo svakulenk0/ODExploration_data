@@ -1,39 +1,33 @@
-prompt(keywords)>E>Hello, do you have any questions about our data portal?
+prompt(keywords)>A>[[Hello]]H* , [[do you have any questions about our data portal?]]G*
 
-greeting()>U>Hi 
+greeting()>U>[[Hi]]H*
 
-prompt(keywords)>E>Do you have any questions? 
+prompt(keywords)>A>[[Do you have any questions?]]G*
 
-question(data)>U>What datasets do you have? 
+question(data)>U>[[What datasets do you have?]]G*
 
-count(data)>E>Ok, we can offer [[a lot of]] [[datasets]]. There are about [[2500]] [[datasets]]! 
+count(data)>A>Ok, we can offer a lot of datasets. There are about [[2500]]Q* datasets! 
 
-set(keywords)>U>Do you have [[categories]]? 
+set(keywords)>U>Do you have [[categories]]F* ? 
 
-list(keywords)>E>All our datasets are about [[Austria]]. There are sets about [[public services]], [[geography]], [[arts]], [[sports]], [[environment]],...
-So, yes we have [[14]] categories, which could be used to filter. You will find the set you need!
+list(keywords)>A>All our datasets are about [[Austria]]E* . There are sets about [[public services]]E* , [[geography]]E* , [[arts]]E* , [[sports]]E* , [[environment]]E* ,... So, yes we have [[14]]Q* [[categories]]F* , which could be used to filter. You will find the set you need!
 
-set(keywords)>U>I guess the dataset I need is in the category [[public services]] in [[upper austria]]
+set(keywords)>U>I guess the dataset I need is in the [[category]]F* [[public services]]E* in [[upper austria]]E*
 
-bool(data)>E>I can offer a dataset about [[playgrounds and sports facilities in Linz]]
-verify()>E>Is that what you need? 
+bool(data)>A>I can offer a dataset about [[playgrounds and sports facilities in Linz]]R* [[Is that what you need?]]G*
 
-reject()>U>No 
+reject()>U>[[No]]-*
 
-prompt(keywords)>E>For what specific topic in Upper Austria and Public services are you looking for? 
+prompt(keywords)>A>For what specific [[topic]]F* in [[Upper Austria]]E* and [[Public services]]E* are you looking for? 
 
-set(keywords)>U>[[newborns]]
+set(keywords)>U>[[newborns]]E*
 
-bool(data)>E>Ok, I have a set about [[newborns in Upper Austria]] from the federal state.
-list(keywords)>E>[[CSV]] [[format]], [[last update]] [[09/2017]]
+bool(data)>A>[[Ok]]+* , I have a set about [[newborns in Upper Austria from the federal state]]R* . [[CSV]]E* [[format]]F* , [[last update]]F* [[09/2017]]E*
 
-set(keywords)>U>But I need a dataset for [[a special town]]
-The town [[starts with E]]
+set(keywords)>U>But I need a dataset for a special [[town]]F* The town [[starts with E]]E*
 
-list(keywords)>E>Thats no problem.. as [[city]] is [[an attribute]] you can [[filter in the file]] and just take [[the city]] you need. 
+list(keywords)>A>Thats no problem.. as city is an attribute you can filter in the file and just take the city you need. 
 
-set(keywords)>U>Ok the town is [[Engerwitzdorf]]
-prompt(link)>U>Please send me the link 
+set(keywords)>U>Ok the town is Engerwitzdorf Please send me the link 
 
-link(dataset)>E>https://www.data.gv.at/kata...
-Here is the link. I am glad I was able to help you!
+link(dataset)>A>https://www.data.gv.at/kata... Here is the link. I am glad I was able to help you!

@@ -1,30 +1,25 @@
-greeting()>E>Hi! How can I help you?
+greeting()>A>[[Hi!]]H* [[How can I help you?]]G*
 
-question(data)>U>What kind of data does your website contain?
+question(data)>U>[[What kind of data does your website contain?]]G*
 
-list(keywords)>E>It is an open Data Source that contains Data about various fields:[[work]], [[culture]], [[education]], [[finances]], [[geography]], [[social stuff]], [[healthcare]], [[population]], [[agriculture]], [[ecology]], [[politics]], [[economics]] in [[Austria]]
+list(keywords)>A>It is an open Data Source that contains Data about various [[fields]]F* :[[work]]E* , [[culture]]E* , [[education]]E* , [[finances]]E* , [[geography]]E* , [[social stuff]]E* , [[healthcare]]E* , [[population]]E* , [[agriculture]]E* , [[ecology]]E* , [[politics]]E* , [[economics]]E*  in [[Austria]]E*
 
-prompt(keywords)>E>What would interest you the most ?
+prompt(keywords)>A>[[What would interest you the most?]]G*
 
-set(keywords)>U>[[Population]]
+set(keywords)>U>[[Population]]E*
 
-prompt(keywords)>E>Okay, is there [[a specific region]] or [[city]] in austria from which you would like the Dataset(
-list(keywords)>E>[[Steiermark]], [[vorarlberg]], [[Wien]] etc.) ? 
+prompt(keywords)>A>[[Okay]]+* , is there a specific [[region]]F* or [[city]]F* in [[austria]]E* from which you would like the Dataset( [[Steiermark]]E*, [[vorarlberg]]E*, [[Wien]]E* etc.) ? 
 
-set(keywords)>U>I'm interested in [[the population]] of [[upper-austria]].
+set(keywords)>U>I'm interested in the [[population]]E* of [[upper-austria]]E* .
 
-list(keywords)>E>Perfect: Now what exactly are you looking for? [[Citizenship]], [[Age]], [[sex]], [[names]], [[wealth]], [[general development]], [[death rates]] or [[birth rates]]?
+list(keywords)>A>[[Perfect]]+* : [[Now what exactly are you looking for?]]G* [[Citizenship]]E* , [[Age]]E* , [[sex]]E* , [[names]]E* , [[wealth]]E* , [[general development]]E* , [[death rates]]E* or [[birth rates]]E* ?
 
-set(keywords)>U>[[Names]] sound interesting
+set(keywords)>U>[[Names]]E* sound interesting
 
-list(keywords)>E>Perfect! I opened it as [[csv]] just now and would like to provide you with some further information: The dataset contains [[years]], [[sex]], [[rankings]], [[the name]] and [[the number of people]] that had that [[name]] in that particular [[year]]
-    It goes from [[2015]] until [[2015]]
-prompt(keywords)>E>is there a specific ranking, name or year that you want me to research for you?
-list(keywords)>E>e.g. [[most/second popular]] [[male]] [[name]] in [[20XX]]? 
+list(keywords)>A>[[Perfect]]+* ! I opened it as [[csv]]E* just now and would like to provide you with some further information: The [[dataset]]R* contains years, sex, rankings, the name and the number of people that had that name in that particular year It goes from 2015 until 2015 is there a specific ranking, name or year that you want me to research for you? e.g. most/second popular male name in 20XX? 
    
-set(keywords)>U>Is it possible to get [[the names]] of [[specific villages]]?
+set(keywords)>U>Is it possible to get the names of specific villages?
 
-bool(data)>E>Unfortunately not
-list(keywords)>E>It is all [[AT31]]
+bool(data)>A>Unfortunately not It is all AT31
 
 success()>U>Ok well then...that would be all

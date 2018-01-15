@@ -1,33 +1,26 @@
-greeting()>U>Hello
+greeting()>U>[[Hello]]H*
 
-greeting()>E>Hi, i would like to present you my new website full of data sets!
-prompt(keywords)>E>Are you interested in some specific sort of data set?
+greeting()>A>[[Hi]]H* , i would like to present you my new website full of data sets! [[Are you interested in some specific sort of data set?]]G*
 
-set(keywords)>U>Nice! Do you have [[comma seperated value]] data?
+set(keywords)>U>[[Nice]]+* ! Do you have [[comma seperated value]]E* data?
 
-count(data)>E>Yes, around [[314]] data sets in this format!
-list(keywords)>E>Mainly about [[Austrian]] statistics
+count(data)>A>Yes, around [[314]]Q* data sets in [[this format]]E* ! [[Mainly]]Q* about [[Austrian statistics]]E*
 
-set(keywords)>U>Good, i would like a dataset about [[agriculture]] in [[austria]]
-    i want to measure the average size of [[a agriculture business]] in [[austria]]
+set(keywords)>U>[[Good]]+* , i would like a dataset about [[agriculture in austria]]E* i want to measure the average size of a agriculture business in austria
 
-confirm()>E>Ok, just let me take a look at my data sets
-bool(data)>E>Sorry, but i don't have informations about this specific topic
-prompt(keywords)>E>Are you interested in something other?
+confirm()>A>Ok, just let me take a look at my data sets [[Sorry]]-* , but [[i don't have informations about this specific topic]]Q* [[Are you interested in something other?]]G*
 
-set(keywords)>U>Maybe you got [[bike and tracking paths]] near [[vienna]]?
+set(keywords)>U>Maybe you got [[bike and tracking paths near vienna]]E* ?
 
-bool(data)>E>No sorry, also that i can't provide you
-list(keywords)>E>Lets make another try, maybe i'll have the next one
-    Are you interested in data about [[the WU]]?
+bool(data)>A>[[No sorry]]-* , also that i can't provide you Lets make another try, maybe i'll have the next one Are you interested in data about the [[WU]]E* ?
 
-confirm()>U>Yes!
+confirm()>U>[[Yes]]+* !
 
-list(keywords)>E>Some specific data? Like [[the whole rooms from the University]]?
+list(keywords)>A>Some specific data? Like [[the whole rooms from the University]]R* ?
 
-confirm()>U>yes that would be interesting!
+confirm()>U>[[yes that would be interesting]]+* !
 
-link(dataset)>E>http://data.opendataportal....
+link(dataset)>A>http://data.opendataportal....
     there you go
 
 success()>U>Thank you very much!

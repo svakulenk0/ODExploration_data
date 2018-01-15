@@ -1,29 +1,23 @@
-greeting()>U>hi
+greeting()>U>[[hi]]H*
 
-greeting()>E>Hi
+greeting()>A>[[Hi]]H*
 
-question(data)>U>what portal did you use?
+question(data)>U>[[what kind of datasets are there?]]G*
 
-list(keywords)>E>I used [[Open Data Portal Osterreich]]
+list(keywords)>A>datasets related to [[our University(WU)]]E* , a lot of data from [[Wirtschaftskammer Osterreich]]E* , and a few other datasets, for example from [[MUMOK]]E* , [[Osterreichische Lotterie]]E* etc.
 
-question(data)>U>what kind of datasets are there?
+set(keywords)>U>interesting. what exactly are there related to the [[WU]]E* ?
 
-list(keywords)>E>datasets related to [[our University(WU)]], a lot of data from [[Wirtschaftskammer Osterreich]], and a few other datasets , for example from [[MUMOK]], [[Osterreichische Lotterie]] etc.
+top(keywords)>A>Mostly [[the mapping of courses]]E* in each different [[semester]]F* and also [[all campus rooms]]E* , [[all organizations]]E* ,[[all course events]]E* and so on
 
-set(keywords)>U>interesting
-    what exactly are there related to [[the WU]]?
+set(keywords)>U>That might be something important for me. What can you tell me about [[last semester]]E* for example?
 
-top(keywords)>E>Mostly [[the mapping of courses in each different semester]]
-list(keywords)>E>and also [[all campus rooms]], [[all organizations]],[[all course events]] and so on
+list(keywords)>A>you mean [[ss17]]E* ?
 
-set(keywords)>U>That might be something important for me. What can you tell me about [[last semester]] for example?
+confirm()>U>[[yes]]+*
 
-list(keywords)>E>you mean [[ss17]]?
-
-confirm()>U>yes
-
-count(data)>E>there is a total of [[1950]] records in this dataset, so that means [[1950]] different [[courses]] in [[the last semester]]
+count(data)>A>there is a total of 1950 records in [[this dataset]]R*, so that means 1950 different courses in the last semester
 
 success()>U>Great, thats what i am searching for
 
-success()>E>i am glad
+success()>A>i am glad

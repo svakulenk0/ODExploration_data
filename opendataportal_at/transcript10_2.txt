@@ -1,40 +1,33 @@
-question(data)>U>Was gibt es bei dir alles zu finden?
+question(data)>U>[[Was gibt es bei dir alles zu finden?]]G*
 
-list(keywords)>E>Ich hab Sachen über [[Kunst]], [[die WU]], Sachen von der [[Wirtschaftskammer]], [[Verwaltungsdaten]] und noch ein paar [[wirtschaftliche]] Sachen
+list(keywords)>A>Ich hab Sachen über [[Kunst]]E*, die [[WU]]E*, Sachen von der [[Wirtschaftskammer]]E*, [[Verwaltungsdaten]]E* und noch ein paar [[wirtschaftliche]]E* Sachen
 
-set(keywords)>U>Oh die [[WU]] hört sich super an
+set(keywords)>U>Oh die [[WU]]E* hört sich super an
 
-top(keywords)>E>hab da viel über [[Kurse]]
-list(keywords)>E>[[Sommer]] oder [[Wintersemester]]?
-    bzw. [[Winter]] oder [[Sommeruni]] hab ich auch noch
+top(keywords)>A>hab da viel über [[Kurse]]E* [[Sommer]]E* oder [[Wintersemester]]E* ? bzw. [[Winter]]E* oder [[Sommeruni]]E* hab ich auch noch
 
-set(keywords)>U>Sommersemester würd mich interessieren
+set(keywords)>U>[[Sommersemester]]E* würd mich interessieren
 
-list(keywords)>E>Welches [[Jahr]]? Hab alles zwischen [[2000]] und [[jetzt]]
+list(keywords)>A>Welches [[Jahr]]F* ? Hab [[alles]]Q* zwischen [[2000]]E* und [[jetzt]]E*
 
-set(keywords)>U>ok, da würd ich mal [[2017]] nehmen
+set(keywords)>U>ok, da würd ich mal [[2017]]E* nehmen
 
-count(data)>E>bzw. ziemlich viel
-prompt(keywords)>E>irgendwas zu einem bestimmten [[Kurs=]]
-    ?
+count(data)>A>bzw. ziemlich viel irgendwas zu einem bestimmten [[Kurs]]F* ?
 
-reject()>U>hmm nein eigentlich keinen bestimmten [[kurs]]
+reject()>U>hmm [[nein eigentlich]]-* keinen bestimmten [[kurs]]EF*
 
-prompt(keywords)>E>Okay also eher Generell
-    was von den [[Fakultäten]]?
+prompt(keywords)>A>Okay also eher Generell was von den [[Fakultäten]]F* ?
 
-reject()>U>nein. Ich bleib da eher generell, also gesamte [[WU]] und gesamte [[Kurse]]
+reject()>U>[[nein]]-* . Ich bleib da eher generell, also gesamte WU und gesamte Kurse
 
-list(keywords)>E>Achso ja
-    also ich hab eine Datenbank zu allen [[Kursen]] auf [[der WU]]
-    vom [[SS17]]
+list(keywords)>A>Achso ja also ich hab eine Datenbank zu [[allen Kursen auf der WU vom SS17]]R*
 
-success()>U>Super. Die ist perfekt.
+success()>U>[[Super. Die ist perfekt]]+* .
 
-verify()>E>Nimmst du die?
+verify()>A>Nimmst du die?
 
 confirm()>U>Ja die nehm ich
 
-success()>E>Perfekt 
+success()>A>Perfekt 
 
 success()>U>Vielen Dank fürs richtige Datenset

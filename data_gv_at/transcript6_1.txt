@@ -1,73 +1,55 @@
-question(data)>U>Hey could you give me brief introduction on what I can find on your webpage
-    hallo?
+question(data)>U>[[Hey]]H* [[could you give me brief introduction on what I can find on your webpage]]G* [[hallo?]]H*
 
-list(keywords)>E>Sure. its a great website, we have a lot of different, and very interesting datasets.
+list(keywords)>A>[[Sure]]+* . its a great website, we have a lot of different, and very interesting datasets.
 
-question(data)>U>Great
-    what kind of datasets do you offer?
+question(data)>U>[[Great]]+* [[what kind of datasets do you offer?]]G*
 
-prompt(keywords)>E>What types of data are you interested in?
-    we offer a variety of data on many topics, just tell me what interests you
+prompt(keywords)>A>[[What types of data are you interested in?]]G* we offer a variety of data on many topics, just tell me what interests you
 
-set(keywords)>U>alright
-    do you have data on [[the population]] of [[specific areas]]?
+set(keywords)>U>[[alright]]+* do you have data on the [[population]]E* of specific [[areas]]F* ?
 
-bool(data)>E>of course we have.
+bool(data)>A>[[of course we have]]+* .
 
-confirm()>U>great
+confirm()>U>[[great]]*+
 
-list(keywords)>E>we have a [[current]] [[data sets]], as well as [[the predictions for the future]]
+list(keywords)>A>we have a [[current]]E* data sets, as well as [[the predictions for the future]]E*
 
-confirm()>U>wow, really?
+confirm()>U>[[wow, really?]]+*
 
-list(keywords)>E>and [[the past]] data aswell
+list(keywords)>A>and [[the past]]E* data aswell
 
-set(keywords)>U>do you have [[population data]] on [[specific regions in austria]]?
+set(keywords)>U>do you have [[population]]E* data on specific [[regions in austria]]F*?
 
-bool(data)>E>yes, we do
-prompt(keywords)>E>what [[region]] are you interested in ?
+prompt(keywords)>A>yes, we do. what [[region]]F* are you interested in ?
 
-set(keywords)>U>I am actually not quite sure in which area it is
-    but the place I am looking for is callled [[Engerwitzdorf]]
+set(keywords)>U>I am actually not quite sure in which area it is but the place I am looking for is callled [[Engerwitzdorf]]E*
 
-confirm()>E>sure
-    just let me have a look
-    [[Engerwitzdorf]], its in [[upper Austria]]
-count(data)>E>we have [[a plenty of]] datasets concerning this [[region]]
+confirm()>A>[[sure]]+* just let me have a look [[Engerwitzdorf]]E* , its in [[upper Austria]]E* we have [[a plenty of]]Q* datasets concerning this [[region]]F*
 
-confirm()>U>great
-question(data)>U>ya what kind of data do you have?
+question(data)>U>[[great]]+* . ya [[what kind of data do you have?]]G*
 
-list(keywords)>E>do you wish to recive [[past]] , [[actuall]] or [[predicted]] data
-    we talked about [[the population statistics]] before
+list(keywords)>A>do you wish to recive [[past]]E* , [[actuall]]E* or [[predicted]]E* data we talked about the [[population statistics]]E* before
 
-set(keywords)>U>current data
+set(keywords)>U>[[current]]E* data
 
-prompt(keywords)>E>are you still interested in this topic ?
+prompt(keywords)>A>[[are you still interested in this topic ?]]G*
 
-confirm()>U>yes still interested in this topic but in a specific part of that topic
-prompt(keywords)>U>what options do you have?
+confirm()>U>[[yes]]+* still interested in this topic but in a specific part of that topic [[what options do you have?]]G*
 
-list(keywords)>E>we have [[population data]] concerning [[Families]] and [[demografic data]]
-    i mean either [[families]] or [[demografic data]]
-prompt(keywords)>E>which one do you wish to see?
+list(keywords)>A>we have [[population data]]E* concerning [[Families]]E* and [[demografic data]]E* i mean either [[families]]E* or [[demografic data]]E* [[which one do you wish to see?]]G*
 
-reject()>U>I think this is actually not what I am looking for
+reject()>U>[[I think this is actually not what I am looking for]]-*
 
-prompt(keywords)>E>what is that you are looking for then ?
+prompt(keywords)>A>[[what is that you are looking for then ?]]G*
 
-set(keywords)>U>I am looking for data concerning [[new borns]] [[in that area]]
+set(keywords)>U>I am looking for data concerning [[new borns]]E* [[in that area]]E*
 
-bool(data)>E>i think i may have something interesting for you
+bool(data)>A>[[i think i may have something interesting for you]]+*
 
-confirm()>U>great
+confirm()>U>[[great]]+*
 
-bool(data)>E>yes, i have fond it
-    there you are, it is a great, clean dataset concerning [[new borns]] in that [[area]]
-link(dataset)>E>https://www.data.gv.at/kata...
-prompt(keywords)>E>is there anything more that i can do for you ? 
+bool(data)>A>[[yes]]+* , i have fond it there you are, it is a great, clean dataset concerning [[new borns]]E* in [[that area]]E* [[https://www.data.gv.at/kata...]]R* [[is there anything more that i can do for you ?]]G*
 
-success()>U>perfect!
-    thanks a lot !!
+success()>U>[[perfect! thanks a lot !!]]+*
 
-success()>E>you are welcome
+success()>A>you are welcome

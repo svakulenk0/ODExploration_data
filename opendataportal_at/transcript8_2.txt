@@ -1,19 +1,15 @@
-greeting()>E>Hello 
+greeting()>A>[[Hello]]H*
 
-greeting()>U>Hi 
+greeting()>U>[[Hi]]H*
 
-prompt(keywords)>E>What are you interested in? 
+prompt(keywords)>A>[[What are you interested in?]]G* My website provides [[417]]Q* datasets
 
-set(keywords)>U>Can you offer a dataset about [[transport services]] 
+set(keywords)>U>Can you offer a dataset about [[transport services]]E*
 
-count(data)>E>My website provides [[417]] datasets 
-list(keywords)>E>Positions of SCO2T? 
+count(data)>A>[[Positions of SCO2T]]R* ? 
 
-question(data)>U>thats not much.. I think you won't have what I am looking for.. 
-What is [[SCO2T]]? 
-set(keywords)>U>I need a set about [[public transport in Vienna]] 
+question(data)>U>thats not much.. I think you won't have what I am looking for..  What is SCO2T? I need a set about [[public transport in Vienna]]E*
 
-link(dataset)>E>http://data.opendataportal.at/dataset/bedarfsverkehre-in-osterreich
-count(data)>E>That's [[the only]] dataset I can offer in this category 
+link(dataset)>A>[[http://data.opendataportal.at/dataset/bedarfsverkehre-in-osterreich]]R* That's [[the only]]Q* dataset I can offer in this category
 
 success()>U>Guess thats it
