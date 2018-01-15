@@ -28,7 +28,7 @@ OPERATIONS = ['greeting()', 'set(keywords)', 'prompt(keywords)',
 def parse_transcript(transcript_file, search_intent=None, max_n_vars=None):
     # parse concept type annotations
     concept_type = re.compile(']](.\*)')
-    
+    vars_counts = []
     with open(transcript_file) as file:
         for line in file:
             try:
@@ -37,14 +37,17 @@ def parse_transcript(transcript_file, search_intent=None, max_n_vars=None):
                     if intent == search_intent:
                         print message.strip()
                 elif max_n_vars:
-                        vars_count = message.count("[[")
                         types = re.findall(concept_type, message)
-                        if types:
-                            print turn, intent, message.strip(), types, vars_count
-                        else:
-                            print turn, intent, message.strip()
-                        if vars_count > max_n_vars:
-                            max_n_vars = vars_count
+                        concepts = [ctype.strip('*') for ctype in types if ctype not in ['H*', 'G*', '+*', '-*']]
+                        if concepts and turn == 'A':
+                            vars_count = len(concepts)
+                            vars_counts.append(vars_count)
+                            print turn, message.strip()
+                            print concepts, vars_count
+                            print '\n'
+                            # print turn, intent, message.strip(), types, vars_count
+                        # else:
+                        #     print turn, intent, message.strip()
                 else:
                     # show the process template
                     print turn, intent
@@ -55,7 +58,7 @@ def parse_transcript(transcript_file, search_intent=None, max_n_vars=None):
                 if '>' in line:
                     print("Error parsing line:")
                     print line
-    return max_n_vars
+    return vars_counts
 
 
 def test_parse_transcript():
@@ -89,9 +92,10 @@ def count_vars(dirs=DIRS):
         for file in os.listdir(portal_dir):
             if file[-4:] == '.txt':
                 # print file
-                n_vars.append(parse_transcript('/'.join([portal_dir, file]), max_n_vars=1))
+                n_vars.extend(parse_transcript('/'.join([portal_dir, file]), max_n_vars=1))
                 print "\n"
     print "\n"
+    # print n_vars
     print "Average number of variables per utterance", reduce(lambda x, y: x + y, n_vars) / len(n_vars)
     print "Maximum number of variables per utterance", max(n_vars)
 
