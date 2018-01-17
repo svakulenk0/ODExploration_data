@@ -14,7 +14,7 @@ set(keywords)>U>ok, da würd ich mal [[2017]]E* nehmen
 
 count(data)>A>bzw. ziemlich viel irgendwas zu einem bestimmten [[Kurs]]F* ?
 
-reject()>U>hmm [[nein eigentlich]]-* keinen bestimmten [[kurs]]EF*
+reject()>U>hmm [[nein eigentlich]]-* keinen bestimmten [[kurs]]F*
 
 prompt(keywords)>A>Okay also eher Generell was von den [[Fakultäten]]F* ?
 
