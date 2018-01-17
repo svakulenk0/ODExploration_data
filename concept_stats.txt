@@ -1,0 +1,637 @@
+A [[Hi!]]H* [[How can I help you?]]G*
+U [[What kind of data does your website contain?]]G*
+A It is an open Data Source that contains Data about various [[fields]]F* :[[work]]E* , [[culture]]E* , [[education]]E* , [[finances]]E* , [[geography]]E* , [[social stuff]]E* , [[healthcare]]E* , [[population]]E* , [[agriculture]]E* , [[ecology]]E* , [[politics]]E* , [[economics]]E*  in [[Austria]]E* [[What would interest you the most?]]G*
+Variables: 14
+U [[Population]]E*
+A [[Okay]]+* , is there a specific [[region]]F* or [[city]]F* in [[austria]]E* from which you would like the Dataset( [[Steiermark]]E*, [[vorarlberg]]E*, [[Wien]]E* etc.) ?
+Variables: 6
+U I'm interested in the [[population]]E* of [[upper-austria]]E* .
+A [[Perfect]]+* : [[Now what exactly are you looking for?]]G* [[Citizenship]]E* , [[Age]]E* , [[sex]]E* , [[names]]E* , [[wealth]]E* , [[general development]]E* , [[death rates]]E* or [[birth rates]]E* ?
+Variables: 8
+U [[Names]]E* sound interesting
+A [[Perfect]]+* ! I opened it as [[csv]]E* just now and would like to provide you with some further information: The [[dataset]]R* contains years, sex, rankings, the name and the number of people that had that name in that particular year It goes from 2015 until 2015 is there a specific ranking, name or year that you want me to research for you? e.g. most/second popular male name in 20XX?
+Variables: 2
+U Is it possible to get the names of specific villages?
+A Unfortunately not It is all AT31
+U Ok well then...that would be all
+Number of turns: 4
+
+
+A [[What kind of data would you be interested in?]]G* or better asked, [[what kind of topic is interesting for you?]]G*
+U I'm interested in data about [[Vienna]]E* or generally about [[Austria]]E* [[Does your platform provide some data about this?]]G*
+A [[Yes it does!]]+* Would you be interested in the [[Deaths in vienna]]R* ? or the [[births]]R* ? we got also the [[migrations with origincountry since 2002 in vienna]]R*
+Variables: 3
+U [[Yes that sounds interesting]]+*
+A here you can download this dataset: [[https://www.data.gv.at/kata...]]R*
+Variables: 1
+U [[Interesting]]+* , lets go for another data set I'm interested for the [[location]]F* [[Engerwitzdorf]]E* [[Can you provide me with some data sets from this specific]]G* [[location]]F* ?
+A We got [[the dumpdisposalplaces of Engerwitzdorf]]R* ! and [[137]]Q* other datasets which refer to [[Engerwitzdorf]]E* .
+Variables: 3
+U Maybe also some others? I'm getting father soon and i don't know about how i should [[name my child]]E* ..
+A Is it a boy or a girl? Because we got [[the Names of males]]R* and [[females in Engerwitzdorf]]R* .
+Variables: 2
+U I'll let me surprise. So it would be great to get some names for [[both genders]]+*
+A here you can download the datasets for both genders: https://www.data.gv.at/such...
+U Thank you, this will help me a lot :)
+Number of turns: 4
+
+
+A [[Hi?]]H*
+U [[hello]]H*
+A [[data.gv.at is the open data portal from the austrian government it has many different datasets for the whole region of austria]]H*
+U alright is it [[free]]E* ?
+A [[yes]]*+ thats the best thing about it, it is [[completely]]Q* [[free]]E* ! [[which datasets are you interested in?]]G*
+Variables: 2
+U I should find [[the most popular names of newborns in Engerwitzdorf]]E* [[could you help me with that?]]G*
+A [[yes i can help you with that]]+* . do you want to know [[the most popular names of male]]R* or [[female newborns]]R* ? or both?
+Variables: 2
+U the most popular names of [[both genders]]+*
+A ok for the male newborns for the year 2011 the most popular name were alexander, elias, felix, jakob, robin and simon with 2 entries the most popular female name for a newborn was jasmin also from the year 2011 and with a count of 2
+U okay, thank you for your help
+Number of turns: 2
+
+
+U which portal do you have and how would you describe their content? wasn't your portal data.gv.at? okay so [[how would you describe their content?]]G* okay good - regarding a completely different matter, I am interested in [[names of young people in a communal called engerwitzdorf]]E* ?
+A i found [[two]]Q* different list with [[man]]R* and [[woman names in engerwitzdorf]]R* sorted after ages
+Variables: 3
+U did you find anything about new names, maybe newborns or so? or is it possible to find out which names are the most popular, in relation to their age?
+A born dates are from 2011
+U okay and what is the most popular name in this category?
+A Alexander 2 Elias 2 Felix 2 Jakob 2 Robin 2 Simon by men Jasmin 2 Alina by women
+U okay and one last question, [[how would you describe the content of data.gv.at?]]G*
+A the content in data.gv.at are about [[austria]]E* my conent is really local, too
+Variables: 1
+U is it based on [[csv]]E* or other [[formats]]F* ?
+A this portal use [[many]]Q* [[data formats]]F* for example [[csv]]E*, [[png]]E*
+Variables: 4
+U [[okay good, I think I got everything i needed]]+*
+Number of turns: 3
+
+
+U and [[what about your portal?]]G*
+A [[My portal was data.gv.at, an open data site for austria]]H*
+U [[what kind of data can you find there?]]G*
+A You can search for all kinds of datasets, from [[economics]]E* to the [[political]]E* [[area]]F* but also everything regarded to [[the life in austria]]E* [[education]]E*, [[sports]]E*, [[culture]]E* etc
+Variables: 7
+U what exactly do you mean [[life in austria]]E* ? what is it all about?
+A [[Statistics about birthrates]]E* for example but also things like [[everyday aspects of life in Austria]]E* , [[[where the kindergartens are]]E* , [[what you can do in the city]]E* Including [[public transport]]E* for example
+Variables: 5
+U [[that sounds nice]]+* , the topic of [[birtrates]]E* and kind of things interests me a lot, do you have any information about this in my hometown, in [[Engerwitzdorf]]E* ? and also , what other data do you have , related to [[child births]]E* in [[Engerwitzdorf]]E*
+A Well, I did not find exactly what you search, but I can tell you [[statistics about the places where newborn live]]R* or [[the names they get]]R*
+Variables: 2
+U [[that sounds all right]]+* . im curious about [[the names]]R* which is the most popular?
+A Men or women? Or overall?
+U overall or both
+A Well girls got the Jasmin most often, and boys have Alexander, Elias, Felix, Jakob, Robin, Simon on the first rank
+U thank you
+Number of turns: 3
+
+
+U [[Hey]]H* [[could you give me brief introduction on what I can find on your webpage]]G* [[hallo?]]H*
+A [[Sure]]+* . its a great website, we have a lot of different, and very interesting datasets.
+U [[Great]]+* [[what kind of datasets do you offer?]]G*
+A [[What types of data are you interested in?]]G* we offer a variety of data on many topics, just tell me what interests you
+U [[alright]]+* do you have data on the [[population]]E* of specific [[areas]]F* ?
+A [[of course we have]]+* .
+U [[great]]*+
+A we have a [[current]]E* data sets, as well as [[the predictions for the future]]E*
+Variables: 2
+U [[wow, really?]]+*
+A and [[the past]]E* data aswell
+Variables: 1
+U do you have [[population]]E* data on specific [[regions in austria]]F*?
+A yes, we do. what [[region]]F* are you interested in ?
+Variables: 1
+U I am actually not quite sure in which area it is but the place I am looking for is callled [[Engerwitzdorf]]E*
+A [[sure]]+* just let me have a look [[Engerwitzdorf]]E* , its in [[upper Austria]]E* we have [[a plenty of]]Q* datasets concerning this [[region]]F*
+Variables: 4
+U [[great]]+* . ya [[what kind of data do you have?]]G*
+A do you wish to recive [[past]]E* , [[actuall]]E* or [[predicted]]E* data we talked about the [[population statistics]]E* before
+Variables: 4
+U [[current]]E* data
+A [[are you still interested in this topic ?]]G*
+U [[yes]]+* still interested in this topic but in a specific part of that topic [[what options do you have?]]G*
+A we have [[population data]]E* concerning [[Families]]E* and [[demografic data]]E* i mean either [[families]]E* or [[demografic data]]E* [[which one do you wish to see?]]G*
+Variables: 5
+U [[I think this is actually not what I am looking for]]-*
+A [[what is that you are looking for then ?]]G*
+U I am looking for data concerning [[new borns]]E* [[in that area]]E*
+A [[i think i may have something interesting for you]]+*
+U [[great]]+*
+A [[yes]]+* , i have fond it there you are, it is a great, clean dataset concerning [[new borns]]E* in [[that area]]E* [[https://www.data.gv.at/kata...]]R* [[is there anything more that i can do for you ?]]G*
+Variables: 3
+U [[perfect! thanks a lot !!]]+*
+A you are welcome
+Number of turns: 7
+
+
+U [[hello]]H* [[can you tell me something about a free austrian data portal]]G*
+A [[hello]]H* [[yes]]+* , [[there is a portal called data.gv.at its from the austrian government and completely free]]H* . [[are you interested in specific data?]]G*
+U oh nice, [[yes]]+* I would like to know something about [[playgrounds]]E*
+A [[okay]]+* , can you be a little bit more specific? in which [[Bundesland]]F* are these [[playgrounds]]E* you want to know about?
+Variables: 2
+U [[Oberösterreich]]E* would be interesting Maybe the ones in [[Linz]]E*
+A [[okay ill look into it]]+* . and i [[have the data about playgrounds in Oberösterreich]]*R
+U [[oh thats very nice]]+* . can you tell me about your playground data set?
+A yes what do you want to know about playgrounds?
+U where are the most playgrounds located?
+A in this data set i found there is only the number of how many were approved in the year 2016
+U yes, that would be also interesting to me
+A in total there were 45 playgrounds approved in 2016 the district Wels has the highest number with 15
+U really interesting, thank you for your help
+Number of turns: 1
+
+
+A I can offer you datasets from data.gv.at You have [[14]]Q* [[categories]]F* to choose from:- [[Arbeit]]E* - [[Bevölkerung]]E* - [[Bildung & Forschung]]E* - [[Finanzen & Rechnungswesen]]E* - [[Geographie & Planung]]E* - [[Gesellschaft & Soziales]]E* - [[Gesundheit]]E* - [[Kunst & Kultur]]E* - [[Land & Forstwirtschaft]]E* - [[Sport & Freizeit]]E* - [[Umwelt]]E* - [[Verkehr]]E* - [[Verwaltung & Politik]]E* - [[Wirtschaft & Tourismus]]E* [[Which one do you need information from?]]G*
+Variables: 16
+U I will take [[Bevölkerung]]E*
+A [[Alright]]+* , [[do you need information about a specific]]G* [[state]]F* or about a specific [[town]]F*?
+Variables: 2
+U Yes, it will be a town called [[Engerwitzdorf]]E*
+A Ok, so you need information about a town in [[Upper Austria]]E* [[Du you need information about]]G* [[age]]E*, [[gender]]E*, [[Erwerbsstatus]]E*, [[Wanderungen]]E*, [[Familien]]E*, [[Geburten]]E* or [[Sterbefälle]]E* ?
+Variables: 8
+U I hope its either in [[Familien]]E* or [[Geburten]]E*
+A Ok, I found entries for [[Engerwitzdorf]]E* in [[family]]E* data [[Do you need]]G* the [[amount of families in total]]R*, [[the amount of families without children]]R*, or similar?
+Variables: 4
+U [[Not really]]-* an [[amount]]E*, [[more]]+* a [[statistic about the names of the newbornes]]E*
+A [[Alright]]+*, there's a seperate dataset for this So you need [[the most used first name for Engerwitzdorf]]*R?
+U [[correct]]+*
+A [[male]]E* or [[female]]E*? and for what [[year]]F*?
+Variables: 3
+U [[nothing that exact, i need more of an overview]]G*
+A ok, there are [[two]]Q* datasets [[published by]]F* [[Engerwitzdorf]]E* [[Onefor male]]R* and [[one for female]]R* Both contain the information for the [[year]]F* [[2011]]E*
+Variables: 7
+U [[OK]]+* i just need the most popular names
+A Starting with the female dataset, there was only one name used more than once, which is ""Jasmin"" All other names in the data set were used exactly once
+U oke, that was exactly what i needed, thanks!
+A For the males, 6 names were used twice: Alexander, Elias, Felix, Jakob, Robin, Simon All other names were used only once
+U Thanks!
+Number of turns: 6
+
+
+A [[Hello]]H* , [[do you have any questions about our data portal?]]G*
+U [[Hi]]H*
+A [[Do you have any questions?]]G*
+U [[What datasets do you have?]]G*
+A Ok, we can offer a lot of datasets. There are about [[2500]]Q* datasets!
+Variables: 1
+U Do you have [[categories]]F* ?
+A All our datasets are about [[Austria]]E* . There are sets about [[public services]]E* , [[geography]]E* , [[arts]]E* , [[sports]]E* , [[environment]]E* ,... So, yes we have [[14]]Q* [[categories]]F* , which could be used to filter. You will find the set you need!
+Variables: 8
+U I guess the dataset I need is in the [[category]]F* [[public services]]E* in [[upper austria]]E*
+A I can offer a dataset about [[playgrounds and sports facilities in Linz]]R* [[Is that what you need?]]G*
+Variables: 1
+U [[No]]-*
+A For what specific [[topic]]F* in [[Upper Austria]]E* and [[Public services]]E* are you looking for?
+Variables: 3
+U [[newborns]]E*
+A [[Ok]]+* , I have a set about [[newborns in Upper Austria from the federal state]]R* . [[CSV]]E* [[format]]F* , [[last update]]F* [[09/2017]]E*
+Variables: 5
+U But I need a dataset for a special [[town]]F* The town [[starts with E]]E*
+A Thats no problem.. as city is an attribute you can filter in the file and just take the city you need.
+U Ok the town is Engerwitzdorf Please send me the link
+A https://www.data.gv.at/kata... Here is the link. I am glad I was able to help you!
+Number of turns: 5
+
+
+U [[Hey]]H*. [[Ich brauche Daten Wie sieht deine Seite aus?]]G*
+A [[Hallo]]H*
+U [[Was für Daten hast du?]]G*
+A [[Du kannst auch gerne fragen]]G* ok passt.
+U [[was für daten hast du]]G*
+A [[Landes-]]E* und [[bundesbezogene]]E* Daten
+Variables: 2
+U [[Landesbezogen]]E*
+A Brauchst du etwas über [[öffentliche Einrichtungen]]E*?
+Variables: 1
+U Weiß ich nicht - was genau hast du denn über [[öffentliche Einrichtungen]]E*?
+A Über welches [[Bundesland]]F* willst du etwas wissen? Ich hab alle [[9]]Q*
+Variables: 2
+U [[OÖ]]E*
+A Hier hätt ich was über [[Gebäude]]E*, das [[Klima]]E*, [[Vereine/Organisationen]]E*. Ist da was für dich dabei?
+Variables: 3
+U [[Nein leider.]]-* [[was hast du sonst noch für Daten]]G* über [[OÖ]]E*?
+A [[Grundwasser]]E*, [[Forstdienste]]E*, [[Viertelgrenzen]]E*, [[Wahlen]]E* Ist es was [[politisches]]E*? oder etwas [[geografisches]]E*?
+Variables: 6
+U [[Geografisch]]E* ist es nicht eher [[Demografisch]]E*
+A Was über die [[Bevölkerung]]E*?
+Variables: 1
+U [[ja genau]]+* [[was hast du da alles?]]G*
+A Brauchst du hier aktuelle Daten, also aus dem [[Jahr]]F* [[2017]]E*?
+Variables: 2
+U [[ich weiß nicht]]-* von welchem [[Jahr]]F* ich die Daten brauche
+A [[Interessieren dich Daten]]G* einer [[Volkszählung]]E*?
+Variables: 1
+U [[damit hat es was zu tun]]+* aber ich bin mir nicht sicher ob die daten die ich brauche da dabei sind
+A Brauchst du was über [[die Herkunft]]E*, [[Geschlecht]]E*/[[Alter]]E*/[[Staatsangehörigkeit]]E*, [[Vornamen]]E*, [[Geburten]]E* oder [[Sterbefälle]]E*?
+Variables: 7
+U was mit [[vornamen]]E* und [[Geburten]]E*
+A brauchst [[Statistik der beliebtesten Vornamen für Neugeborene in Oberösterreich seit 2010]]R*
+Variables: 1
+U Bisschen spezifischer noch Oberösterreich ist bisschen zu viel [[Hast du noch was genaueres?]]G*
+A [[Beliebteste Vornamen in Linz]]R*
+Variables: 1
+U Hast du alle [[Gemeinden]]F* aus OÖ???
+A [[Vornamen männlich Engerwitzdorf]]R* hätt ich noch im Angebot
+Variables: 1
+U [[Perfekt!]]+* Nehm ich
+Number of turns: 12
+
+
+U So, [[what can you offer?]]?*
+A I have a lot of data sets, i could give you [[categories]]F* or categorize them by [[format]]F*
+Variables: 2
+U [[not]]-* by [[format]]F*
+A so do you want to hear some [[categories]]F*?
+Variables: 1
+U [[Exactly]]+*
+A I have [[Arbeit]]E*, [[Bevölkerung]]E*, [[Bildung&Forschung]]E*, [[Finanzen]]E*, [[Geographie]]E*, [[Gesellshaft]]E*, [[Gesundheit]]E* and more
+Variables: 7
+U Let's try [[Bevölkerung]]E*
+A i can sort by [[Bundesland]]F* would that help
+Variables: 1
+U [[Well it surely will]]+* but I need it even more precisely Ok, [[Bundesland]]F* is [[also good]]+*
+A [[Wien]]E* [[Salzburg]]E* [[innsbruck]]E* [[linz]]E* [[tirol]]E* [[burenland]]E* [[vorarlberg]]E* [[OÖ]]E* or [[NÖ]]E*
+Variables: 9
+U [[OÖ]]E*
+A OK Is it about [[money]]E*
+Variables: 1
+U [[No]]-*
+A [[education]]E*
+Variables: 1
+U [[No]]-*
+A [[family]]E* related, [[death]]E* or [[birth]]E*
+Variables: 3
+U Yes, [[birth]]E*
+A i could offer a dataset with [[all births since 1970]]R*
+Variables: 1
+U [[No]]-*, thanks, that will be too much
+A [[the most popular first names]]R*
+Variables: 1
+U [[YES!]]+*
+A Do you want [[the whole dataset]]E* or [[some information on it]]E*
+Variables: 2
+U [[Is there]]G* [[only one]]Q* dataset about [[first names in OÖ]]E*?
+A [[Linz]]E* is also possible
+Variables: 1
+U No, I mean [[OÖ]]E* is large, is the dataset about the whole OÖ or some particular [[cities]]F*?
+A I have [[oÖ]]E* as a whole and [[linz]]E* and [[engerwitzdorf]]E*
+Variables: 3
+U [[The last one]]E* is exaclty what i need
+A [[female]]R* or [[male]]R*
+Variables: 2
+U [[Both]]+*
+A ok some information or just the sets?
+U Well, if you could describe the datasets, that would be nice
+A it is a txt file
+U Good What are the columns?
+A rank and name
+U Fine, send me a link and we're finished
+A OK beep boop sending file: https://www.data.gv.at/kata...
+Number of turns: 14
+
+
+U [[hallo?]]H*
+A [[hey]]H* [[now, tell me what youre looking for]]G*
+U so i should ask you anything about the data set? [[popular names]]E*
+A interesting. [[ok]]+* . go on. in [[austria]]E* ?
+Variables: 1
+U [[yes]]+*
+A tell me more what kind of popular well there are a lot of [[cities]]F*
+Variables: 1
+U yeah i know
+Number of turns: 2
+
+
+U [[Hello]]H* , [[anybody there?]]H* [[Hello?]]H*
+A [[hi]]H* [[Yo]]H* . [[How can I help you?]]G* [[What are you looking for?]]G*
+U well some data, hard to explain, [[what do you have to offer]]G*
+A We have a wide variety of data - [[lots]]Q* of data about [[every single]]Q* [[state in Austria]]F*, but also about [[areas]]F* like [[health]]E*, [[culture]]E*, [[traffic]]E* and [[infrastructure]]E*
+Variables: 8
+U hit me with some of the variants of [[state]]F* data
+A [[tourism]]E* , [[economy]]E* , [[finance]]E* , [[geography]]E* .. - D[[oes any of that sound interesting?]]G* Oh, alright
+Variables: 4
+U [[what kind of stuff do you have to offer?]]G*
+A Any [[state]]F* that interests you more than others?
+Variables: 1
+U yep, [[upper austria]]E*
+A Great, let me check So, we have a [[lot]]Q* of [[environmental]]E* data, [[election]]E* data, data about [[public spending]]E*, [[city planning]]E* data etc [[How does that sound?]]G*
+Variables: 5
+U anything more specific to certain [[cities]]F* in [[upper austria]]E* ? [[so far nothing sounds to appealing]]-* .. maybe [[culture]]E* might also be possible...? not really sure either could fit too
+A We have lots of data about [[Linz]]E* , for example. When searching for [[culture]]E* I get a lot of results for [[school]]E* data. Is [[Linz]]E* the [[city]]F* you are most interested in?
+Variables: 5
+U [[nope]]-* [[a lot smaller]]E* would be prefarable
+A [[Okay, sure]]+* Maybe [[Engerwitzdorf]]E*?
+Variables: 1
+U [[yea that sounds cool]]+*
+A [[Great]]+* . I just found a data set about [[the most important establishments and institutions in Engerwitzdorf]]R* . [[Does that sound appealing at all?]]G*
+Variables: 1
+U [[not really]]-* [[don't you have anything more]]G* [[people]]E* related?
+A Didn't you say you wanted data related to [[culture]]E* ? Just kidding, bear with me
+Variables: 1
+U [[I did]]+* ... at least i was pretty sure you know, might also be a little shizophrenic, you never know
+A We have a data set listing all [[the inhabitants of Engerwitzdorf]]R* , as well as data sets with all [[male]]R* and [[female first names]]R* . On top of that we have [[a list of social institutions like nursery homes]]R* and so on.
+Variables: 4
+U mhm, [[names]]E* would certainly interest me
+A Or you looking for [[male]]R* or [[female first names]]R* ?
+Variables: 2
+U [[either really]]+* , gender is not so much what i care about. is there anything else this dataset might have to offer?
+A The data set tells you exactly how many children with a certain names were born in 2011 Pretty amazing, huh?
+U that would be cool to know more about
+A Great . Let me send you the links to both the data set with the male and the data set with the female names Ladies first: https://www.data.gv.at/kata... Aaaaand the gentlemen: https://www.data.gv.at/kata...
+U or actually, i need some specific data from the data set
+A What do you need? The number of times a certain first name was used?
+U yea , which ones are most used?
+A Amongst boys it's Alexander, Elias, Felix, Jakob, Robin and Simon. All these names were each used twice. Amongst girls it's Jasmin which was also used twice
+U thanks, I think thats all i need to know
+Number of turns: 10
+
+
+A do you want to know something about my website?
+U sure, i would love to. [[what kind of website is it?]]G*
+A so we offer datasets on various [[topics]]F* but only regarding [[austria]]E* we have data for: [[work]]E* , [[population]]E* , [[education]]E* , [[environment]]E* , etc
+Variables: 6
+U cool, do you have datasets regarding [[higher education institutes in Vienna]]E* ?
+A oh yes of course, give me a second. we have data on [[lectures]]E* , [[courses, on the wu]]E* , [[libraries]]E* , etc is there anything in there for you? also for the different [[semesters]]F*
+Variables: 4
+U oh great, yeah i would be interested in the [[courses]]E*
+A [[courses]]E* ? alright just give me a second. are you interested in a particular [[semester]]F* ? unfortunately I think we only have data on [[WU Vienna]]E* [[is that fine?]]G*
+Variables: 3
+U [[actually, yes]]+* , [[in Summer semmester 2017]]E* yes, [[Wu]]E* is what im looking for
+A great 1 second are you interested in [[all courses during the ss17 at wu vienna]]R* ?
+Variables: 1
+U [[yes]]+*
+A [[http://data.opendataportal....]]R* here you go
+Variables: 1
+U Thang you a lot
+A is that what you are looking for?
+U yes
+A great
+U have a nice afternoon
+A yes you too, bye bye
+Number of turns: 5
+
+
+U [[Could you tell me a bit about your website?]]G*
+A My website provides data about [[economics]]E* , [[culture]]E* , [[NGO/NPO]]E* , [[Research]]E*  and [[civil society]]E* .
+Variables: 5
+U I am interestet in [[culture]]E*
+A I have a few datasets from [[mumok]]E* if that's interesting for you
+Variables: 1
+U [[sure! Tell me more about it]]+*
+A I could provide you with [[artists]]E* , [[art]]E* , [[exhibitions]]E* and [[a mapping between art and exhibitions]]E*
+Variables: 4
+U [[artists]]E* sounds interesting!
+A Ok, I have a [[list of artists of the whole art collection of mumok]]R* . I can provide you more information by name, city of birth/death and year of birth/death.
+Variables: 1
+U [[sure]]+* , who is the youngest currently and who died most recently?
+A The youngest are Phillipp Timschl and Anna-Sophie Berger, both are 28 years old. The most current death was Vito Acconci, Karl Gerstner, Ingeborg Strobl and Jannis Kounellis. All of them died 2017.
+U Interesting! Thank you for the Help!
+A You're welcome!
+Number of turns: 4
+
+
+A [[my portal was opendataportal.at]]H*
+U [[what was your contant]]G*
+A my conent is really local, so to speak. Many datasets contain information about [[local businesses]]E* , [[products]]E* , [[administration]]E* etc. also most of the sets are in [[csv]]E* I just saw that there are many data sets about the [[WU]]E* and [[the course organisation]]E*
+Variables: 6
+U oh cool do you think there is a data set about [[our courses in wu]]E* maybe from [[last semester]]E* probably, the last one is from [[SS17]]E* i would like to know [[how much courses we have in a semester]]E*
+A I don't know whether this is the number of the cources but in this [[csv]]E* I found I have [[2577 course_ids]]R*
+Variables: 2
+U oh [[ok]]+* can you describe it more
+A It essentially is a list with two columns, one course_id and one org_id course_id starts with 4001 and org_id with 3798 there are double entries, so neither of these two is unique
+U it could be the right one
+A do you have any questions left?
+U no
+Number of turns: 2
+
+
+U i need to now [[how many courses there were at the summer semester 2017]]E* [[can you help me with that?]]G*
+A yes of course i will look for that in the opendataportal.at its also absolutely free do you mean [[the courses from wu]]R* ?
+Variables: 1
+U [[yes]]+* i need to know how many of them there were
+A okay, give me a second
+A in the dataset for courses are 1000 records oh actually there are 2576 courses sorry
+U thank you for your help
+Number of turns: 1
+
+
+A [[Hi]]H*
+U [[What can you offer]]G* Do u have [[categories]]F*
+A well yes, I can group the datasets by [[organisation]]F* or [[format]]F* and by [[topics]]F*, of course. do you need some specific [[organisation]]F* ?
+Variables: 4
+U [[no]]-*
+A specific [[format]]F* ?
+Variables: 1
+U [[no]]-*
+A specific [[topic]]F* ?
+Variables: 1
+U [[yes]]+* [[what have you got]]G*
+A [[Arbeit]]E* , [[Bevölkerung]]E* , [[Bildung&Forschung]]E* , [[Finanzen]]E* , [[Geographie]]E* , [[Gesellshaft]]E* , [[Gesungheit]]E* ...[[Do you need one of these or should I proceed?]]G*
+Variables: 7
+U [[Bildung & Forschung]]E* sounds good
+A Ok, is it about [[WU]]E* ?
+Variables: 1
+U [[Yes]]+*
+A [[WU Library]]E* ?
+Variables: 1
+U [[No]]-*
+A [[WU courses]]E* ?
+Variables: 1
+U [[Yes]]+*
+A I have different [[semesters]]F* Is it about [[summer semester]]E* ?
+Variables: 2
+U [[Summer Semester]]E* would be ideal
+A [[2016]]E* ?
+Variables: 1
+U [[No]]-* [[2017]]E*
+A [[Summer semester 2017]]E* ? [[Unfortunately]]-+ ,i have datasets only up to [[WS2017]] [[Are you sure?]]G*
+Variables: 1
+U [[Oh no]]-* [[are you sure]]G*
+A Oh, I found something [[All courses in SS17]]R*
+Variables: 1
+U [[that would be perfect :))]]+*
+A So... Should I send a link or what?
+U what is in that dataset
+A There are all courses with their course id, semester and name
+U How many are there
+A 1950 records
+U Thank you thats it!!!
+A Perfect!!! Here's the link http://data.opendataportal.at/dataset/all_courses_2017s
+Number of turns: 11
+
+
+U [[hi]]H*
+A [[Hi]]H*
+U [[what kind of datasets are there?]]G*
+A datasets related to [[our University(WU)]]E* , a lot of data from [[Wirtschaftskammer Osterreich]]E* , and a few other datasets, for example from [[MUMOK]]E* , [[Osterreichische Lotterie]]E* etc.
+Variables: 4
+U interesting. what exactly are there related to the [[WU]]E* ?
+A Mostly [[the mapping of courses]]E* in each different [[semester]]F* and also [[all campus rooms]]E* , [[all organizations]]E* ,[[all course events]]E* and so on
+Variables: 5
+U That might be something important for me. What can you tell me about [[last semester]]E* for example?
+A you mean [[ss17]]E* ?
+Variables: 1
+U [[yes]]+*
+A there is a total of 1950 records in [[this dataset]]R*, so that means 1950 different courses in the last semester
+Variables: 1
+U Great, thats what i am searching for
+A i am glad
+Number of turns: 4
+
+
+A I'm using the opendataportal.at It's absolutely free and contains more than [[417]]Q* data sets. it's really nice to use because you can select by [[data format]]F*
+Variables: 2
+U is there data about [[universities]]E* in there?
+A Yes, we have a lot of data about [[universities]]E* especially about [[WU]]E* do you want to have some data about WU?
+Variables: 2
+U since i am a student at wu i am interested in [[how many courses there are at wu]]E*
+A from which [[semester]]F* would you like to have them?
+Variables: 1
+U i want to have [[the latest data]]E* possible
+A okay, I'll have a look. Alright, I found your [[desired data set]]R* about [[SS17]]E* , what do you want to know about it?
+Variables: 2
+U i want to know the total number of courses which are listed at the university
+A There have been 2576 courses at WU in the SS17
+U ok thank you thats exactly what i was looking for
+Number of turns: 4
+
+
+A [[Hello]]H*
+U [[Hi]]H*
+A [[What are you interested in?]]G* My website provides [[417]]Q* datasets
+Variables: 1
+U Can you offer a dataset about [[transport services]]E*
+A [[Positions of SCO2T]]R* ?
+Variables: 1
+U thats not much.. I think you won't have what I am looking for..  What is SCO2T? I need a set about [[public transport in Vienna]]E*
+A [[http://data.opendataportal.at/dataset/bedarfsverkehre-in-osterreich]]R* That's [[the only]]Q* dataset I can offer in this category
+Variables: 2
+U Guess thats it
+Number of turns: 3
+
+
+U [[Was gibt es bei dir alles zu finden?]]G*
+A Ich hab Sachen über [[Kunst]]E*, die [[WU]]E*, Sachen von der [[Wirtschaftskammer]]E*, [[Verwaltungsdaten]]E* und noch ein paar [[wirtschaftliche]]E* Sachen
+Variables: 5
+U Oh die [[WU]]E* hört sich super an
+A hab da viel über [[Kurse]]E* [[Sommer]]E* oder [[Wintersemester]]E* ? bzw. [[Winter]]E* oder [[Sommeruni]]E* hab ich auch noch
+Variables: 5
+U [[Sommersemester]]E* würd mich interessieren
+A Welches [[Jahr]]F* ? Hab [[alles]]Q* zwischen [[2000]]E* und [[jetzt]]E*
+Variables: 4
+U ok, da würd ich mal [[2017]]E* nehmen
+A bzw. ziemlich viel irgendwas zu einem bestimmten [[Kurs]]F* ?
+Variables: 1
+U hmm [[nein eigentlich]]-* keinen bestimmten [[kurs]]F*
+A Okay also eher Generell was von den [[Fakultäten]]F* ?
+Variables: 1
+U [[nein]]-* . Ich bleib da eher generell, also gesamte WU und gesamte Kurse
+A Achso ja also ich hab eine Datenbank zu [[allen Kursen auf der WU vom SS17]]R*
+Variables: 1
+U [[Super. Die ist perfekt]]+* .
+A Nimmst du die?
+U Ja die nehm ich
+A Perfekt
+U Vielen Dank fürs richtige Datenset
+Number of turns: 6
+
+
+A I can offer you a dataset from opendataportal.at it has the same [[categories]]F* as yours, [[what do you need?]]G*
+Variables: 1
+U i need [[education]]E* information So [[Bildung]]E* is probably the right [[category]]F*
+A any specific [[town]]F* ?
+Variables: 1
+U [[Vienna]]E*
+A a specific [[university]]F* ?
+Variables: 1
+U The [[WU Wien]]E*
+A Do you ned information about [[their courses]]E* ?
+Variables: 1
+U [[Exactly]]+* , I need information about the [[amount of listed courses]]*E
+A of a specific [[semester]]F* ?
+Variables: 1
+U [[Summer Semester 2017]]E*
+A I hope this dataset helps you: [[http://data.opendataportal....]]R* There are 1950 records, since you need the amount of the courses
+Variables: 1
+U [[Perfect, that is exactly the information I needed!]]+*
+Number of turns: 6
+
+
+U Great. While we are at it [[I thought you could also get me some data]]G*
+A sure, odp austria always glad to serve. [[how can I help you]]G* . we have got [[tons]]Q* of data sets on different [[topics]]F*
+Variables: 2
+U I'm sure you do. But what really interests me is what you have on [[education]]E*
+A let me check dear sir. actually, not all that much, are you interested in a [[data set]]E* or [[news]]E* ?
+Variables: 2
+U A [[data set]]E*, of course
+A [[perfect]]+* . in this case, we only have one option, being a [[mapping of courses and organizations at wu]]E* , during different [[semesters]]F* . I do hope you are into that kinda stuff?
+Variables: 2
+U [[I think it's fair to say that I have a fetish for stuff like tha]]+*
+A so, which [[semester]]F* are you interested in? [[ws]]E* /[[ss]]E* ? and which [[year]]F* ? [[14]]E* /[[15]]E* /[[16]]E* ?
+Variables: 7
+U If [[SS]]E* stands for ""summer"" then that's what I'm after
+A [[it sure does]]+*
+U Do you also have data about [[later years]]F* ?
+A sadly, [[16]]E* is the newest one we have 2016
+Variables: 1
+U [[Oh, that's too bad]]-*
+A one moment [[actually we do]]+* , it just has not been implemented into our categorical search yet
+U Great, what [[year]]F* is it about?
+A [[2017]]E*
+Variables: 1
+U [[You are my hero]]+* Can you get me that data set?
+A so, anything specific you would like to know ? sure I'll send it over right away [[http://data.opendataportal....]]R*
+Variables: 1
+U So the data set contains a list of organisations and what else?
+A we only have course ID's and organization ID's listed, no corresponding names
+U Okay, nice. Could you give me a ""rough estimate"" of how many courses there were?
+A one moment less than 1000 courses, but it is hard to evaluate, as some course ID's exist multiple times and some are left out entirely there is also no filtering tool available to remove duplicates
+U Okay, understood. Thank you very much for trying!
+A there is a maximum of 871 courses that is the closest i can get, sadly
+U Thank you, darling
+A It was my pleasure
+Number of turns: 7
+
+
+U [[Hello]]H*
+A [[Hi]]H* , i would like to present you my new website full of data sets! [[Are you interested in some specific sort of data set?]]G*
+U [[Nice]]+* ! Do you have [[comma seperated value]]E* data?
+A Yes, around [[314]]Q* data sets in [[this format]]E* ! [[Mainly]]Q* about [[Austrian statistics]]E*
+Variables: 4
+U [[Good]]+* , i would like a dataset about [[agriculture in austria]]E* i want to measure the average size of a agriculture business in austria
+A Ok, just let me take a look at my data sets [[Sorry]]-* , but [[i don't have informations about this specific topic]]Q* [[Are you interested in something other?]]G*
+Variables: 1
+U Maybe you got [[bike and tracking paths near vienna]]E* ?
+A [[No sorry]]-* , also that i can't provide you Lets make another try, maybe i'll have the next one Are you interested in data about the [[WU]]E* ?
+Variables: 1
+U [[Yes]]+* !
+A Some specific data? Like [[the whole rooms from the University]]R* ?
+Variables: 1
+U [[yes that would be interesting]]+* !
+A http://data.opendataportal....
+U Thank you very much!
+Number of turns: 4
+
+
+U I had always wanted to knor [[how many courses at wu]]E* ?
+A maybe somehing like [[the wu lehveranstalungsverzeichnis]]R* where you can look at all courses, but also in specific at which semester to take which course
+Variables: 1
+U [[yeah]]+*
+A yes! well great
+U thank a lot
+A nice talk
+Number of turns: 1
+
+
+
+
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 9, 14, 16]
+Average number of variables per utterance 2
+Maximum number of variables per utterance 16
+[1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 6, 6, 6, 7, 7, 10, 11, 12, 14]
+[4, 4, 2, 3, 3, 7, 1, 6, 5, 12, 14, 2, 10, 5, 4, 2, 1, 11, 4, 4, 3, 6, 6, 7, 4, 1]
+Average number of turns per dialog 5
+Minimum number of turns per dialog 1
+Maximum number of turns per dialog 14
+[Finished in 0.8s]
