@@ -8,7 +8,7 @@ set(keywords)>U>oh cool do you think there is a data set about [[our courses in 
 
 list(keywords)>A>I don't know whether this is the number of the cources but in this [[csv]]E* I found I have [[2577 course_ids]]R*
 
-question(data)>U>oh ok can you describe it more
+question(data)>U>oh [[ok]]+* can you describe it more
 
 count(data)>A>It essentially is a list with two columns, one course_id and one org_id course_id starts with 4001 and org_id with 3798 there are double entries, so neither of these two is unique
 

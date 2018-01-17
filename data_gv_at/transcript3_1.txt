@@ -1,5 +1,4 @@
-question(data)>U>which portal do you have and how would you describe their content? wasn't your portal data.gv.at?
-okay so [[how would you describe their content?]]G* okay good - regarding a completely different matter, I am interested in [[names of young people in a communal called engerwitzdorf]]E* ?
+question(data)>U>which portal do you have and how would you describe their content? wasn't your portal data.gv.at? okay so [[how would you describe their content?]]G* okay good - regarding a completely different matter, I am interested in [[names of young people in a communal called engerwitzdorf]]E* ?
 
 count(data)>A>i found [[two]]Q* different list with [[man]]R* and [[woman names in engerwitzdorf]]R* sorted after ages
 

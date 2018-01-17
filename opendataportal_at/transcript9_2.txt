@@ -1,11 +1,11 @@
 set(keywords)>U>I had always wanted to knor [[how many courses at wu]]E* ?
 
-list(keywords)>E>maybe somehing like [[the wu lehveranstalungsverzeichnis]]R* where you can look at all courses, but also in specific at which semester to take which course
+list(keywords)>A>maybe somehing like [[the wu lehveranstalungsverzeichnis]]R* where you can look at all courses, but also in specific at which semester to take which course
 
 success()>U>[[yeah]]+*
 
-success()>E>yes! well great
+success()>A>yes! well great
 
 success()>U>thank a lot
 
-success()>E>nice talk
+success()>A>nice talk

@@ -2,9 +2,7 @@ greeting()>A>[[Hi!]]H* [[How can I help you?]]G*
 
 question(data)>U>[[What kind of data does your website contain?]]G*
 
-list(keywords)>A>It is an open Data Source that contains Data about various [[fields]]F* :[[work]]E* , [[culture]]E* , [[education]]E* , [[finances]]E* , [[geography]]E* , [[social stuff]]E* , [[healthcare]]E* , [[population]]E* , [[agriculture]]E* , [[ecology]]E* , [[politics]]E* , [[economics]]E*  in [[Austria]]E*
-
-prompt(keywords)>A>[[What would interest you the most?]]G*
+list(keywords)>A>It is an open Data Source that contains Data about various [[fields]]F* :[[work]]E* , [[culture]]E* , [[education]]E* , [[finances]]E* , [[geography]]E* , [[social stuff]]E* , [[healthcare]]E* , [[population]]E* , [[agriculture]]E* , [[ecology]]E* , [[politics]]E* , [[economics]]E*  in [[Austria]]E* [[What would interest you the most?]]G*
 
 set(keywords)>U>[[Population]]E*
 
