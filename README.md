@@ -13,15 +13,15 @@
 
 ## Annotations
 
-The transcripts are manually annotated with the message types (intents/responses) and the speaker identifier (Expert/User). The new lines separators were inserted within the same message to indicate the spans of text with different message types.
+The transcripts are manually annotated with the dialog act types (intents/responses) and the speaker identifier (agent/User). The new lines separators were inserted within the same message to indicate the spans of text with different message types.
 
 
 Annotation template: message_type>speaker_turn>message
 e.g. greeting>E>Hi?
 
-We differentiate between 15 different message types, which correspond to the basic  operations available for data exploration.
+We differentiate between 15 different dialog act types, which correspond to the basic  operations available for data exploration.
 
-1. Message types produced by **both** (user and expert) are in range:
+1. Dialog acts used by **both** Seeker and Intermediary:
    
         * greeting(), indicates common start of the conversation, e.g. "hello"
         * confirm(), explicitly confirms the direction for exploration
@@ -29,17 +29,17 @@ We differentiate between 15 different message types, which correspond to the bas
         * success(), indicates end of the conversation with a successful outcome
         * prompt(link), suggests/asks for a direct link to the dataset
 
-    utterances and responses produced by **expert**:
+    Dialog acts of an **Intermediary**:
 
         * prompt(keywords), indicates a general information request
-        * list(keywords), indicates available options on different levels (facets, attributes, datasets, columns)
+        * list(keywords), indicates available options on different levels (attributes, items)
         * bool(data), reports existance of the requested set of items (datasets/columns/attributes)
         * top(keywords), reports the top (most frequent) items (rows/attributes)
         * count(data), reports the count of items (rows/datasets/attributes)
         * link(dataset), reports the direct link to a dataset
 
 
-    intents and responses by **user**:
+    Dialog acts of a **Seeker**:
     
         * question(data), indicates a general information request, e.g. "what data do you have?"
         * set(keywords), indicates the choice of a specific direction for exploration, e.g. "have you got smth on population statistics?"
@@ -50,7 +50,7 @@ We differentiate between 15 different message types, which correspond to the bas
 
 2. Dialog turn separators:
 
-* E for the expert utterance
+* A for the agent utterance
 * U for the user utterance
 
 3. [[]] indicates concept span
@@ -59,7 +59,7 @@ Codes for span annotations:
 
 * [[]]H* - greeting;
 * [[]]G* - question about the data availability/need;
-* [[]]F* - facet option for exploration, e.g. category;
+* [[]]F* - attribute (facet) as a selection option for the next exploration direction, e.g. category;
 * [[]]E* - entity option (facet value) for exploration, e.g. finance;
 * [[]]Q* - cardinality of the corresponding item set;
 * [[]]R* - unique identifier of an item, e.g. title or link to the dataset;
@@ -69,6 +69,11 @@ Codes for span annotations:
 Average number of concepts per utterance 2
 
 Maximum number of concepts per utterance 16
+
+
+## Process models
+
+Produced with ProM: Inductive Visual Miner and Declarative model?
 
 
 ## License  
