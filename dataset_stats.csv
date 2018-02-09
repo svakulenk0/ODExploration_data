@@ -1,0 +1,21 @@
+Transcripts,26,,,
+Utterances,416,,,
+Dialog act types,15,,,
+,,,,
+,,,,
+Dialog act,Occurrences ,Description,Example,Role
+list(keywords) ,102 (24.5%),suggest available options for an exploration direction,I can group the datasets by organisation or format and by topics,I
+set(keywords) ,85 (20.4%),choose an exploration direction,have you got smth on population statistics?,S
+confirm() ,51 (12.3%),confirm an exploration direction,that would be perfect,"S, I"
+success() ,36 (8.7%),indicates reaching an information goal,Thank you very much!,"S, I"
+question(data) ,31 (7.5%),indicates a general information need,what data do you have?,S
+prompt(keywords) ,26 (6.3%),request to specify the information goal,Any state that interests you more than others?,I
+reject() ,19 (4.6%),reject an exploration direction,I think this is actually not what I am looking for,S
+greeting() ,19 (4.6%),common start of the conversation,hello,"S, I"
+bool(data) ,13 (3.1%),confirm or reject the requested subset is in the information model,"yes, we have data about this year",I
+count(data) ,13 (3.1%),report the size of a subset,There are 314 datasets in this format,I
+link(dataset) ,9 (2.2%),report link to a dataset,there you go: http://data.opendataportal.…,I
+verify() ,4 (1.0%),prompts to confirm an exploration direction,is that what you are looking for?,"S, I"
+more() ,3 (0.7%),request to continue in the same exploration direction,Is there only one dataset about first names?,S
+top(keywords) ,3 (0.7%),report a subset of the most frequent concepts,the most popular female name for a newborn was jasmin,I
+prompt(link) ,2 (0.5%),suggest or request the link to a dataset,send me a link and we're finished,"S, I"
