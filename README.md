@@ -8,7 +8,7 @@
 * [opendataportal.at](https://www.opendataportal.at) (13 conversations)
 
 
-16 conversations included elements of exploration with listing of available categories, dataset samples, facets, etc., while other 10 were purely search-based interactions focused on addressing specific questions directly.
+16 conversations included elements of exploration with listing of available categories, dataset samples, facets, etc., while other 10 were purely search-based interactions focused on addressing specific questions directly. 24 conversation transcripts as samples with a successful interacion outcome, i.e. resulting in satisfied information need and positive user feedback, 2 - unsuccessful interacion outcome.
 
 
 ## Annotations
