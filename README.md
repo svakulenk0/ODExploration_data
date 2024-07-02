@@ -79,3 +79,21 @@ Produced with ProM: Inductive Visual Miner and Declarative model?
 ## License  
   
 All work in this repository is under the [MIT license](LICENSE)
+
+## Acknowledgement  
+
+If you find this work useful, feel free to cite us:
+
+```
+@article{DBLP:journals/corr/abs-2012-03704,
+  author       = {Svitlana Vakulenko and
+                  Vadim Savenkov and
+                  Maarten de Rijke},
+  title        = {Conversational Browsing},
+  journal      = {CoRR},
+  volume       = {abs/2012.03704},
+  year         = {2020},
+  url          = {https://arxiv.org/abs/2012.03704},
+}
+
+```
